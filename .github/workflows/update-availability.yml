@@ -29,23 +29,28 @@ jobs:
       - name: Consultar quarterbacks y lesiones
         run: python build_nfl_availability_v3.py
 
-      - name: Publicar disponibilidad
+      - name: Verificar vigencia de los datos
+        run: python check_nfl_availability.py
+
+      - name: Publicar disponibilidad y calidad
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/nfl_availability.json
+          git add data/nfl_availability.json data/availability_quality.json
           if ! git diff --cached --quiet; then
-            git commit -m "Actualizar disponibilidad NFL"
+            git commit -m "Actualizar disponibilidad y calidad NFL"
             git pull --rebase
             git push
           else
             echo "Sin cambios"
           fi
 
-      - name: Guardar resultado de prueba
+      - name: Guardar resultados
         uses: actions/upload-artifact@v4
         with:
           name: nfl-availability
-          path: data/nfl_availability.json
+          path: |
+            data/nfl_availability.json
+            data/availability_quality.json
           if-no-files-found: error
           retention-days: 7
