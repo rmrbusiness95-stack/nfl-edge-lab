@@ -1,4 +1,3 @@
-
 name: Actualizar datos NFL
 
 on:
@@ -12,27 +11,27 @@ permissions:
 jobs:
   actualizar:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 25
 
     steps:
       - name: Descargar repositorio
         uses: actions/checkout@v4
 
-      - name: Comprobar datos NFLverse
-        run: |
-          python - <<'PY'
-          import csv
-          import io
-          import urllib.request
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
 
-          url = "https://github.com/nflverse/nfldata/raw/refs/heads/master/data/games.csv"
+      - name: Instalar dependencias
+        run: python -m pip install pandas pyarrow requests
 
-          with urllib.request.urlopen(url, timeout=60) as response:
-              data = response.read()
+      - name: Calcular estadisticas NFL
+        run: python build_nfl_stats.py
 
-          rows = list(csv.DictReader(io.StringIO(data.decode("utf-8-sig"))))
-
-          print("Partidos descargados:", len(rows))
-          print("Columnas:", list(rows[0].keys()))
-          print("Descarga completada correctamente.")
-          PY
+      - name: Conservar resultados
+        uses: actions/upload-artifact@v4
+        with:
+          name: nfl-team-week-stats
+          path: data/team_week_stats.json
+          if-no-files-found: error
+          retention-days: 14
