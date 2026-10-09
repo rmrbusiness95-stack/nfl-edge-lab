@@ -1,0 +1,27 @@
+
+name: Auditar datos NFL
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  auditoria:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Revisar datos historicos
+        run: python audit_nfl_data.py
+
+      - name: Guardar informe
+        uses: actions/upload-artifact@v4
+        with:
+          name: informe-calidad-nfl
+          path: data/quality_report.json
+          if-no-files-found: error
