@@ -1,3 +1,4 @@
+
 name: Actualizar datos NFL
 
 on:
@@ -6,7 +7,7 @@ on:
     - cron: '0 12 * * 1'
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   actualizar:
@@ -28,7 +29,19 @@ jobs:
       - name: Calcular estadisticas NFL
         run: python build_nfl_stats.py
 
-      - name: Conservar resultados
+      - name: Publicar estadisticas
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/team_week_stats.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Actualizar estadisticas NFL"
+            git push
+          else
+            echo "Sin cambios"
+          fi
+
+      - name: Guardar copia de resultados
         uses: actions/upload-artifact@v4
         with:
           name: nfl-team-week-stats
