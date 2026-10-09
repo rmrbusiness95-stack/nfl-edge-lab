@@ -27,7 +27,7 @@ jobs:
         run: python -m pip install nflreadpy
 
       - name: Consultar quarterbacks y lesiones
-        run: python build_nfl_availability.py
+        run: python build_nfl_availability_v2.py
 
       - name: Guardar resultado de prueba
         uses: actions/upload-artifact@v4
