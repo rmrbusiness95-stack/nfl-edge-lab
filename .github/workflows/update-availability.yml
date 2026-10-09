@@ -1,0 +1,38 @@
+
+name: Actualizar quarterbacks y lesiones
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 14,20 * * *'
+
+permissions:
+  contents: read
+
+jobs:
+  disponibilidad:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: python -m pip install nflreadpy
+
+      - name: Consultar quarterbacks y lesiones
+        run: python build_nfl_availability.py
+
+      - name: Guardar resultado de prueba
+        uses: actions/upload-artifact@v4
+        with:
+          name: nfl-availability
+          path: data/nfl_availability.json
+          if-no-files-found: error
+          retention-days: 7
