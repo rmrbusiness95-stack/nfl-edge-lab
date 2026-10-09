@@ -1,0 +1,38 @@
+
+name: Actualizar datos NFL
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 12 * * 1'
+
+permissions:
+  contents: read
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Comprobar datos NFLverse
+        run: |
+          python - <<'PY'
+          import csv
+          import io
+          import urllib.request
+
+          url = "https://github.com/nflverse/nfldata/raw/refs/heads/master/data/games.csv"
+
+          with urllib.request.urlopen(url, timeout=60) as response:
+              data = response.read()
+
+          rows = list(csv.DictReader(io.StringIO(data.decode("utf-8-sig"))))
+
+          print("Partidos descargados:", len(rows))
+          print("Columnas:", list(rows[0].keys()))
+          print("Descarga completada correctamente.")
+          PY
