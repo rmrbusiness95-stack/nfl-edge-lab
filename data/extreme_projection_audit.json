@@ -1,0 +1,248 @@
+{
+  "generated_at_utc": "2026-10-10T16:29:58.462459+00:00",
+  "evaluation_years": [
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "model": "same ridge feature-generation and alpha as build_nfl_model.py; retrained on prior years for each year",
+  "yearly_training_games": {
+    "2022": 3296,
+    "2023": 3503,
+    "2024": 3711,
+    "2025": 3919
+  },
+  "evaluated_games": 831,
+  "thresholds_absolute_projected_margin": {
+    "0": {
+      "n": 831,
+      "margin_mae": 9.946,
+      "margin_mean_signed_error": -0.272,
+      "mean_predicted_abs_margin": 4.69,
+      "mean_actual_margin_in_predicted_direction": 4.732,
+      "prediction_direction_correct_rate": 0.6438,
+      "actual_win_by_10_or_more_rate": 0.3165,
+      "overstates_realized_directional_margin_by_points": -0.042
+    },
+    "7": {
+      "n": 201,
+      "margin_mae": 10.424,
+      "margin_mean_signed_error": -1.115,
+      "mean_predicted_abs_margin": 9.838,
+      "mean_actual_margin_in_predicted_direction": 9.801,
+      "prediction_direction_correct_rate": 0.7711,
+      "actual_win_by_10_or_more_rate": 0.4627,
+      "overstates_realized_directional_margin_by_points": 0.037
+    },
+    "10": {
+      "n": 76,
+      "margin_mae": 10.721,
+      "margin_mean_signed_error": -0.574,
+      "mean_predicted_abs_margin": 12.446,
+      "mean_actual_margin_in_predicted_direction": 12.434,
+      "prediction_direction_correct_rate": 0.8158,
+      "actual_win_by_10_or_more_rate": 0.5395,
+      "overstates_realized_directional_margin_by_points": 0.012
+    },
+    "14": {
+      "n": 16,
+      "margin_mae": 11.891,
+      "margin_mean_signed_error": 1.347,
+      "mean_predicted_abs_margin": 15.679,
+      "mean_actual_margin_in_predicted_direction": 11.812,
+      "prediction_direction_correct_rate": 0.8125,
+      "actual_win_by_10_or_more_rate": 0.4375,
+      "overstates_realized_directional_margin_by_points": 3.867
+    }
+  },
+  "yearly_thresholds": {
+    "2022": {
+      "0": {
+        "n": 207,
+        "margin_mae": 9.147,
+        "margin_mean_signed_error": -0.47,
+        "mean_predicted_abs_margin": 4.135,
+        "mean_actual_margin_in_predicted_direction": 3.754,
+        "prediction_direction_correct_rate": 0.6473,
+        "actual_win_by_10_or_more_rate": 0.2754,
+        "overstates_realized_directional_margin_by_points": 0.381
+      },
+      "7": {
+        "n": 37,
+        "margin_mae": 10.597,
+        "margin_mean_signed_error": -0.353,
+        "mean_predicted_abs_margin": 9.348,
+        "mean_actual_margin_in_predicted_direction": 9.135,
+        "prediction_direction_correct_rate": 0.8108,
+        "actual_win_by_10_or_more_rate": 0.4865,
+        "overstates_realized_directional_margin_by_points": 0.213
+      },
+      "10": {
+        "n": 14,
+        "margin_mae": 9.372,
+        "margin_mean_signed_error": 0.087,
+        "mean_predicted_abs_margin": 11.821,
+        "mean_actual_margin_in_predicted_direction": 10.929,
+        "prediction_direction_correct_rate": 0.8571,
+        "actual_win_by_10_or_more_rate": 0.5714,
+        "overstates_realized_directional_margin_by_points": 0.892
+      },
+      "14": {
+        "n": 2,
+        "margin_mae": 10.655,
+        "margin_mean_signed_error": 0.403,
+        "mean_predicted_abs_margin": 14.903,
+        "mean_actual_margin_in_predicted_direction": 14.5,
+        "prediction_direction_correct_rate": 1.0,
+        "actual_win_by_10_or_more_rate": 0.5,
+        "overstates_realized_directional_margin_by_points": 0.403
+      }
+    },
+    "2023": {
+      "0": {
+        "n": 208,
+        "margin_mae": 10.332,
+        "margin_mean_signed_error": -1.005,
+        "mean_predicted_abs_margin": 4.776,
+        "mean_actual_margin_in_predicted_direction": 4.216,
+        "prediction_direction_correct_rate": 0.5913,
+        "actual_win_by_10_or_more_rate": 0.3077,
+        "overstates_realized_directional_margin_by_points": 0.56
+      },
+      "7": {
+        "n": 53,
+        "margin_mae": 10.209,
+        "margin_mean_signed_error": 0.91,
+        "mean_predicted_abs_margin": 10.215,
+        "mean_actual_margin_in_predicted_direction": 7.17,
+        "prediction_direction_correct_rate": 0.6415,
+        "actual_win_by_10_or_more_rate": 0.434,
+        "overstates_realized_directional_margin_by_points": 3.045
+      },
+      "10": {
+        "n": 23,
+        "margin_mae": 10.309,
+        "margin_mean_signed_error": 2.072,
+        "mean_predicted_abs_margin": 12.595,
+        "mean_actual_margin_in_predicted_direction": 8.174,
+        "prediction_direction_correct_rate": 0.6522,
+        "actual_win_by_10_or_more_rate": 0.5217,
+        "overstates_realized_directional_margin_by_points": 4.421
+      },
+      "14": {
+        "n": 4,
+        "margin_mae": 13.724,
+        "margin_mean_signed_error": 4.6,
+        "mean_predicted_abs_margin": 16.474,
+        "mean_actual_margin_in_predicted_direction": 2.75,
+        "prediction_direction_correct_rate": 0.5,
+        "actual_win_by_10_or_more_rate": 0.25,
+        "overstates_realized_directional_margin_by_points": 13.724
+      }
+    },
+    "2024": {
+      "0": {
+        "n": 208,
+        "margin_mae": 9.955,
+        "margin_mean_signed_error": -0.065,
+        "mean_predicted_abs_margin": 5.106,
+        "mean_actual_margin_in_predicted_direction": 6.538,
+        "prediction_direction_correct_rate": 0.6923,
+        "actual_win_by_10_or_more_rate": 0.3558,
+        "overstates_realized_directional_margin_by_points": -1.432
+      },
+      "7": {
+        "n": 59,
+        "margin_mae": 9.985,
+        "margin_mean_signed_error": -1.483,
+        "mean_predicted_abs_margin": 9.743,
+        "mean_actual_margin_in_predicted_direction": 11.492,
+        "prediction_direction_correct_rate": 0.8475,
+        "actual_win_by_10_or_more_rate": 0.4407,
+        "overstates_realized_directional_margin_by_points": -1.748
+      },
+      "10": {
+        "n": 18,
+        "margin_mae": 12.356,
+        "margin_mean_signed_error": -2.253,
+        "mean_predicted_abs_margin": 13.136,
+        "mean_actual_margin_in_predicted_direction": 15.389,
+        "prediction_direction_correct_rate": 0.8889,
+        "actual_win_by_10_or_more_rate": 0.5,
+        "overstates_realized_directional_margin_by_points": -2.253
+      },
+      "14": {
+        "n": 6,
+        "margin_mae": 14.373,
+        "margin_mean_signed_error": -1.564,
+        "mean_predicted_abs_margin": 15.27,
+        "mean_actual_margin_in_predicted_direction": 16.833,
+        "prediction_direction_correct_rate": 0.8333,
+        "actual_win_by_10_or_more_rate": 0.5,
+        "overstates_realized_directional_margin_by_points": -1.564
+      }
+    },
+    "2025": {
+      "0": {
+        "n": 208,
+        "margin_mae": 10.347,
+        "margin_mean_signed_error": 0.453,
+        "mean_predicted_abs_margin": 4.74,
+        "mean_actual_margin_in_predicted_direction": 4.413,
+        "prediction_direction_correct_rate": 0.6442,
+        "actual_win_by_10_or_more_rate": 0.3269,
+        "overstates_realized_directional_margin_by_points": 0.326
+      },
+      "7": {
+        "n": 52,
+        "margin_mae": 11.018,
+        "margin_mean_signed_error": -3.303,
+        "mean_predicted_abs_margin": 9.909,
+        "mean_actual_margin_in_predicted_direction": 11.038,
+        "prediction_direction_correct_rate": 0.7885,
+        "actual_win_by_10_or_more_rate": 0.5,
+        "overstates_realized_directional_margin_by_points": -1.13
+      },
+      "10": {
+        "n": 21,
+        "margin_mae": 10.668,
+        "margin_mean_signed_error": -2.473,
+        "mean_predicted_abs_margin": 12.109,
+        "mean_actual_margin_in_predicted_direction": 15.571,
+        "prediction_direction_correct_rate": 0.9048,
+        "actual_win_by_10_or_more_rate": 0.5714,
+        "overstates_realized_directional_margin_by_points": -3.463
+      },
+      "14": {
+        "n": 4,
+        "margin_mae": 6.95,
+        "margin_mean_signed_error": 2.93,
+        "mean_predicted_abs_margin": 15.887,
+        "mean_actual_margin_in_predicted_direction": 12.0,
+        "prediction_direction_correct_rate": 1.0,
+        "actual_win_by_10_or_more_rate": 0.5,
+        "overstates_realized_directional_margin_by_points": 3.887
+      }
+    }
+  },
+  "example_2026_phi_jax": {
+    "game_id": "2026_05_PHI_JAX",
+    "home_margin_projection": 14.64,
+    "evaluation_status": "prospective_unscored"
+  },
+  "live_market_lines_used": false,
+  "historical_market_lines_used": false,
+  "qb_availability_adjusted": false,
+  "ready_for_betting": false,
+  "model_modified": false,
+  "approved_picks": [],
+  "warnings": [
+    "Los años 2022-2025 son evaluaciones retrospectivas ya examinadas durante el proyecto, no holdouts independientes.",
+    "Se evalúa la magnitud extrema absoluta de nuestro margen, NO una discrepancia frente a la línea del casino.",
+    "El margen proyectado para Jacksonville en 2026 no se incluye como partido jugado.",
+    "Una precisión de signo no equivale a cubrir spreads ni implica retorno positivo.",
+    "No ajusta por QB, lesiones, viaje internacional o diferencias de fuerza específica de rivales más allá de las variables existentes.",
+    "No optimizar umbrales con este mismo conjunto para luego afirmar validación independiente."
+  ]
+}
