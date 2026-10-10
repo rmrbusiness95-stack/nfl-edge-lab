@@ -1,0 +1,35 @@
+{
+  "generated_at_utc": "2026-10-10T17:56:30.121976+00:00",
+  "source": "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv",
+  "snapshots": [
+    {
+      "snapshot_file": "data/prediction_snapshots/2026-10-10/5a3d0a028cf87b2bcf04.json",
+      "archived_at_utc": "2026-10-10T01:02:01.131520+00:00",
+      "model_generated_at_utc": "2026-10-10T00:06:08.522809+00:00",
+      "odds_generated_at_utc": "2026-10-10T00:00:18.139663+00:00",
+      "settled_games": [],
+      "pending_games": 26,
+      "invalid_time_games": 0
+    },
+    {
+      "snapshot_file": "data/prediction_snapshots/2026-10-10/8a41560c9973c9fc37e2.json",
+      "archived_at_utc": "2026-10-10T01:30:55.914916+00:00",
+      "model_generated_at_utc": "2026-10-10T01:30:55.340986+00:00",
+      "odds_generated_at_utc": "2026-10-10T01:30:55.811312+00:00",
+      "settled_games": [],
+      "pending_games": 26,
+      "invalid_time_games": 0
+    }
+  ],
+  "snapshot_count": 2,
+  "settled_snapshot_game_records": 0,
+  "approved_picks": [],
+  "notes": [
+    "El informe es retrospectivo sobre pronosticos archivados; no demuestra EV o ROI.",
+    "El mismo encuentro puede aparecer en varias capturas, que NO son partidos independientes.",
+    "Las cuotas de cada casa se conservan como se registraron, no como cierre.",
+    "No se infiere que una discrepancia del modelo represente una apuesta realizada.",
+    "Partidos con menos de 24 horas desde kickoff o sin marcador disponible permanecen pendientes.",
+    "Marcadores segun calendario nflverse; discrepancias deben verificarse externamente."
+  ]
+}
