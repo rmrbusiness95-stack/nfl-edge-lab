@@ -1,0 +1,93 @@
+{
+  "generated_at_utc": "2026-10-10T20:43:44.444160+00:00",
+  "market_source": "nflverse nfldata games.csv closing lines",
+  "market_data_are_closing": true,
+  "can_assume_bettable_before_kickoff": false,
+  "evaluation_years": [
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "margin": {
+    "by_year": {
+      "2022": {
+        "games": 207,
+        "train_games": 3296,
+        "market_mae": 8.8865,
+        "market_plus_stats_mae": 8.9167,
+        "improvement_positive_is_better": -0.0303
+      },
+      "2023": {
+        "games": 208,
+        "train_games": 3503,
+        "market_mae": 9.488,
+        "market_plus_stats_mae": 9.6164,
+        "improvement_positive_is_better": -0.1284
+      },
+      "2024": {
+        "games": 208,
+        "train_games": 3711,
+        "market_mae": 9.2885,
+        "market_plus_stats_mae": 9.2699,
+        "improvement_positive_is_better": 0.0186
+      },
+      "2025": {
+        "games": 208,
+        "train_games": 3919,
+        "market_mae": 9.9928,
+        "market_plus_stats_mae": 10.0035,
+        "improvement_positive_is_better": -0.0107
+      }
+    },
+    "evaluated_games": 831,
+    "market_mae": 9.4146,
+    "market_plus_stats_mae": 9.4523,
+    "improvement_positive_is_better": -0.0377
+  },
+  "total": {
+    "by_year": {
+      "2022": {
+        "games": 207,
+        "train_games": 3296,
+        "market_mae": 10.256,
+        "market_plus_stats_mae": 10.2835,
+        "improvement_positive_is_better": -0.0275
+      },
+      "2023": {
+        "games": 208,
+        "train_games": 3503,
+        "market_mae": 10.4062,
+        "market_plus_stats_mae": 10.5071,
+        "improvement_positive_is_better": -0.1009
+      },
+      "2024": {
+        "games": 208,
+        "train_games": 3711,
+        "market_mae": 9.7837,
+        "market_plus_stats_mae": 9.7687,
+        "improvement_positive_is_better": 0.0149
+      },
+      "2025": {
+        "games": 208,
+        "train_games": 3919,
+        "market_mae": 10.0817,
+        "market_plus_stats_mae": 10.0986,
+        "improvement_positive_is_better": -0.0169
+      }
+    },
+    "evaluated_games": 831,
+    "market_mae": 10.1318,
+    "market_plus_stats_mae": 10.1643,
+    "improvement_positive_is_better": -0.0326
+  },
+  "model_modified": false,
+  "approved_picks": [],
+  "warnings": [
+    "Auditoria retrospectiva: los cierres NO prueban disponibilidad previa para apostar.",
+    "2022-2025 ya fueron revisados y NO son un holdout intacto.",
+    "Sin validacion de EV, retorno, momios disponibles ni ventaja real.",
+    "La regresion solo puede modificar el residuo de la linea de cierre; no hay ajustes por QB o lesion.",
+    "No modificar el modelo principal ni convertir estas diferencias en picks."
+  ]
+}
