@@ -1,0 +1,53 @@
+
+name: Estudiar modelo con referencia de mercado NFL
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  estudio:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: python -m pip install numpy pandas requests
+
+      - name: Comparar modelos con mercado
+        run: python study_market_anchor.py
+
+      - name: Comprobar archivo
+        run: test -s data/market_anchor_study.json
+
+      - name: Guardar estudio en GitHub
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/market_anchor_study.json
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Evaluar modelo con referencia de mercado"
+            git push
+          else
+            echo "Sin cambios nuevos"
+          fi
+
+      - name: Guardar respaldo
+        uses: actions/upload-artifact@v4
+        with:
+          name: nfl-market-anchor-study
+          path: data/market_anchor_study.json
+          if-no-files-found: error
+          retention-days: 30
