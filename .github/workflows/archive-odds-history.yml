@@ -1,0 +1,45 @@
+
+name: Archivar historial de cuotas NFL
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  historial:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Archivar ultima consulta de cuotas
+        run: python archive_nfl_odds_history.py
+
+      - name: Guardar historial en GitHub
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/odds_history/
+          if ! git diff --cached --quiet; then
+            git commit -m "Archivar historial de cuotas NFL"
+            git push
+          else
+            echo "Consulta ya archivada"
+          fi
+
+      - name: Guardar respaldo
+        uses: actions/upload-artifact@v4
+        with:
+          name: nfl-odds-history
+          path: data/odds_history/
+          if-no-files-found: error
+          retention-days: 30
