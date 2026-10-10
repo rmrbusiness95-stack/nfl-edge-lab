@@ -1,0 +1,3393 @@
+{
+  "season": 2026,
+  "week": 5,
+  "source": "NFL.com official injury report",
+  "source_url": "https://www.nfl.com/injuries/league/2026/reg5",
+  "collected_at_utc": "2026-10-10T03:00:44.141081+00:00",
+  "coverage": {
+    "html_tables": 30,
+    "matched_teams": 30,
+    "player_rows": 357,
+    "designations": {
+      "Out": 90,
+      "Questionable": 78,
+      "Doubtful": 4
+    }
+  },
+  "teams": {
+    "TB": {
+      "nickname": "Buccaneers",
+      "players": [
+        {
+          "player": "Rueben Bain Jr.",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "SirVocea Dennis",
+          "position": "LB",
+          "injury": "Ankle, Foot",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Ko Kieft",
+          "position": "TE",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Baker Mayfield",
+          "position": "QB",
+          "injury": "Thumb",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Chase McLaughlin",
+          "position": "K",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Benjamin Morrison",
+          "position": "CB",
+          "injury": "Quadricep",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Anthony Nelson",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Josiah Trotter",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Antoine Winfield Jr.",
+          "position": "S",
+          "injury": "Rib",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        }
+      ]
+    },
+    "DAL": {
+      "nickname": "Cowboys",
+      "players": [
+        {
+          "player": "Alijah Clark",
+          "position": "S",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Cobie Durant",
+          "position": "CB",
+          "injury": "Hamstring",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Tyler Goodson",
+          "position": "RB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Malik Hooker",
+          "position": "S",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "James Houston",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "CeeDee Lamb",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Jonathan Mingo",
+          "position": "WR",
+          "injury": "Illness",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "DeMarvion Overshown",
+          "position": "LB",
+          "injury": "Hamstring",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Joey Porter Jr.",
+          "position": "CB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Drew Shelton",
+          "position": "T",
+          "injury": "Hamstring",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Tyler Smith",
+          "position": "G",
+          "injury": "Thumb",
+          "practice_status": "Full Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        }
+      ]
+    },
+    "PHI": {
+      "nickname": "Eagles",
+      "players": [
+        {
+          "player": "Saquon Barkley",
+          "position": "RB",
+          "injury": "Hamstring",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Zack Baun",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Marquise Brown",
+          "position": "WR",
+          "injury": "Ankle",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Jihaad Campbell",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "A.J. Epenesa",
+          "position": "DE",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Marcus Epps",
+          "position": "S",
+          "injury": "Groin",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Dallas Goedert",
+          "position": "TE",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Jonathan Greenard",
+          "position": "LB",
+          "injury": "Ankle",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Jalen Hurts",
+          "position": "QB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "E.J. Jenkins",
+          "position": "TE",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Fred Johnson",
+          "position": "T",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Drew Kendall",
+          "position": "C",
+          "injury": "Knee",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Quinyon Mitchell",
+          "position": "CB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "DeVonta Smith",
+          "position": "WR",
+          "injury": "Hamstring",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Dontayvion Wicks",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        }
+      ]
+    },
+    "JAX": {
+      "nickname": "Jaguars",
+      "players": [
+        {
+          "player": "Josh Hines-Allen",
+          "position": "DE",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "LeQuint Allen Jr.",
+          "position": "RB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Montaric Brown",
+          "position": "CB",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "DaVon Hamilton",
+          "position": "DT",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Anton Harrison",
+          "position": "T",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Jarrian Jones",
+          "position": "CB",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Jaylon Jones",
+          "position": "CB",
+          "injury": "Hamstring",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Jourdan Lewis",
+          "position": "CB",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Jakobi Meyers",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Eric Murray",
+          "position": "S",
+          "injury": "Concussion",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Doubtful",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Cole Van Lanen",
+          "position": "T",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        }
+      ]
+    },
+    "HOU": {
+      "nickname": "Texans",
+      "players": [
+        {
+          "player": "Azeez Al-Shaair",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Will Anderson Jr.",
+          "position": "DE",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Trent Brown",
+          "position": "T",
+          "injury": null,
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Jadeveon Clowney",
+          "position": "DE",
+          "injury": null,
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Nico Collins",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Tank Dell",
+          "position": "WR",
+          "injury": "Knee",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Aireontae Ersery",
+          "position": "T",
+          "injury": "Illness",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Blake Fisher",
+          "position": "T",
+          "injury": "Illness",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Logan Hall",
+          "position": "DE",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Jamal Hill",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Ed Ingram",
+          "position": "G",
+          "injury": "Illness",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Kayden McDonald",
+          "position": "DT",
+          "injury": "Ankle",
+          "practice_status": "Full Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Braden Smith",
+          "position": "T",
+          "injury": "Foot",
+          "practice_status": "Full Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "M.J. Stewart",
+          "position": "S",
+          "injury": "Knee",
+          "practice_status": "Full Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Nathan Thomas",
+          "position": "T",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Wade Woodaz",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        }
+      ]
+    },
+    "TEN": {
+      "nickname": "Titans",
+      "players": [
+        {
+          "player": "John Franklin-Myers",
+          "position": "DE",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Marcus Harris",
+          "position": "CB",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Gunnar Helm",
+          "position": "TE",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Amani Hooker",
+          "position": "S",
+          "injury": "Concussion",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "David Martin-Robinson",
+          "position": "TE",
+          "injury": "Hamstring",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Tony Pollard",
+          "position": "RB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Jeffery Simmons",
+          "position": "DT",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Carnell Tate",
+          "position": "WR",
+          "injury": "Back",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Joshua Williams",
+          "position": "CB",
+          "injury": "Pectoral",
+          "practice_status": "Full Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Kevin Winston Jr.",
+          "position": "S",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        }
+      ]
+    },
+    "LV": {
+      "nickname": "Raiders",
+      "players": [
+        {
+          "player": "Brock Bowers",
+          "position": "TE",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Spencer Burford",
+          "position": "G",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Foley Fatukasi",
+          "position": "DT",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Ashton Jeanty",
+          "position": "RB",
+          "injury": "Ankle, Foot",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Jalen Nailor",
+          "position": "WR",
+          "injury": "Concussion",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Segun Olubi",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Jackson Powers-Johnson",
+          "position": "G",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Dont'e Thornton Jr.",
+          "position": "WR",
+          "injury": "Hamstring",
+          "practice_status": "Full Participation in Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Cody White",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Dareke Young",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Trey Zuhn III",
+          "position": "C",
+          "injury": "Knee",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        }
+      ]
+    },
+    "NE": {
+      "nickname": "Patriots",
+      "players": [
+        {
+          "player": "Christian Barmore",
+          "position": "DT",
+          "injury": "Shoulder",
+          "practice_status": "Full Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Channing Canada",
+          "position": "CB",
+          "injury": "Hamstring",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Carlton Davis III",
+          "position": "CB",
+          "injury": "Neck",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Christian Elliss",
+          "position": "LB",
+          "injury": "Chest",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Reggie Gilliam",
+          "position": "FB",
+          "injury": "Ankle, Knee",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Christian Gonzalez",
+          "position": "CB",
+          "injury": "Shoulder",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Mack Hollins",
+          "position": "WR",
+          "injury": "Calf",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Dre'Mont Jones",
+          "position": "LB",
+          "injury": "Shoulder",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Drake Maye",
+          "position": "QB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Morgan Moses",
+          "position": "T",
+          "injury": "Foot",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Karon Prunty",
+          "position": "CB",
+          "injury": "Hamstring",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Brenden Schooler",
+          "position": "S",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Rhamondre Stevenson",
+          "position": "RB",
+          "injury": "Knee",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Charles Woods",
+          "position": "CB",
+          "injury": "Shoulder",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Craig Woodson",
+          "position": "S",
+          "injury": "Shoulder",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        }
+      ]
+    },
+    "MIN": {
+      "nickname": "Vikings",
+      "players": [
+        {
+          "player": "Jordan Addison",
+          "position": "WR",
+          "injury": "Hamstring",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Christian Darrisaw",
+          "position": "T",
+          "injury": "Concussion",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Charles Demmings",
+          "position": "CB",
+          "injury": "Hamstring",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Justin Jefferson",
+          "position": "WR",
+          "injury": "Ankle",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Aaron Jones",
+          "position": "RB",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Michael Jurgens",
+          "position": "C",
+          "injury": "Elbow",
+          "practice_status": "Full Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Brian O'Neill",
+          "position": "T",
+          "injury": "Knee",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Harrison Smith",
+          "position": "S",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Brett Thorson",
+          "position": "P",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Ben Yurosek",
+          "position": "TE",
+          "injury": "Ankle",
+          "practice_status": "Full Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        }
+      ]
+    },
+    "NO": {
+      "nickname": "Saints",
+      "players": [
+        {
+          "player": "Julian Blackmon",
+          "position": "S",
+          "injury": "Shoulder",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Barion Brown",
+          "position": "WR",
+          "injury": "Thigh",
+          "practice_status": "Full Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Kaden Elliss",
+          "position": "LB",
+          "injury": "Calf",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Noah Fant",
+          "position": "TE",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Jaylan Ford",
+          "position": "LB",
+          "injury": "Ankle",
+          "practice_status": "Full Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Davon Godchaux",
+          "position": "DT",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Carl Granderson",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Anfernee Jennings",
+          "position": "LB",
+          "injury": "Knee",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Alvin Kamara",
+          "position": "RB",
+          "injury": "Back",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Christen Miller",
+          "position": "DT",
+          "injury": "Illness",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Chris Olave",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Jayden Price",
+          "position": "CB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Michael Reid",
+          "position": "S",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Tyler Shough",
+          "position": "QB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Lorenzo Styles Jr.",
+          "position": "CB",
+          "injury": "Calf",
+          "practice_status": "Full Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Jeremiah Wright",
+          "position": "G",
+          "injury": "Concussion",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        }
+      ]
+    },
+    "CIN": {
+      "nickname": "Bengals",
+      "players": [
+        {
+          "player": "Jonathan Allen",
+          "position": "DT",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Jordan Battle",
+          "position": "S",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Swayze Bozeman",
+          "position": "LB",
+          "injury": "Groin",
+          "practice_status": "Full Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Barrett Carter",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Ja'Marr Chase",
+          "position": "WR",
+          "injury": "Concussion",
+          "practice_status": "Full Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Bryan Cook",
+          "position": "S",
+          "injury": "Ankle",
+          "practice_status": "Full Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Kyle Dugger",
+          "position": "S",
+          "injury": "Quadricep",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Tee Higgins",
+          "position": "WR",
+          "injury": "Groin, Neck",
+          "practice_status": "Full Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "B.J. Hill",
+          "position": "DT",
+          "injury": null,
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Dexter Lawrence",
+          "position": "DT",
+          "injury": null,
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Dalton Risner",
+          "position": "G",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Colbie Young",
+          "position": "WR",
+          "injury": "Knee",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        }
+      ]
+    },
+    "MIA": {
+      "nickname": "Dolphins",
+      "players": [
+        {
+          "player": "Tucker Addington",
+          "position": "LS",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Rob Beal Jr.",
+          "position": "DE",
+          "injury": "Hamstring",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Chris Bell",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Julius Brents",
+          "position": "CB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Caleb Douglas",
+          "position": "WR",
+          "injury": "Ankle",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Storm Duck",
+          "position": "CB",
+          "injury": "Knee",
+          "practice_status": "Full Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Kenneth Grant",
+          "position": "DT",
+          "injury": "Toe",
+          "practice_status": "Full Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Austin Jackson",
+          "position": "T",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Justin Joly",
+          "position": "TE",
+          "injury": "Concussion",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Reese Taylor",
+          "position": "CB",
+          "injury": "Quadricep",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Dante Trader Jr.",
+          "position": "S",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Jackson Woodard",
+          "position": "LB",
+          "injury": "Ankle",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Jaylen Wright",
+          "position": "RB",
+          "injury": "Foot",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        }
+      ]
+    },
+    "CLE": {
+      "nickname": "Browns",
+      "players": [
+        {
+          "player": "Derek Barnett",
+          "position": "DE",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Mekhi Blackmon",
+          "position": "CB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Kalia Davis",
+          "position": "DT",
+          "injury": "Quadricep",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Grant Delpit",
+          "position": "S",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Dillon Gabriel",
+          "position": "QB",
+          "injury": "Back",
+          "practice_status": "Full Participation in Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Mason Graham",
+          "position": "DT",
+          "injury": "Knee, Ankle",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Mike Hall Jr.",
+          "position": "DT",
+          "injury": "Ankle",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Elgton Jenkins",
+          "position": "C",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Teven Jenkins",
+          "position": "G",
+          "injury": "Back",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Carsen Ryan",
+          "position": "TE",
+          "injury": "Calf",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Tylan Wallace",
+          "position": "WR",
+          "injury": "Knee",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        }
+      ]
+    },
+    "NYJ": {
+      "nickname": "Jets",
+      "players": [
+        {
+          "player": "Jarvis Brownlee Jr.",
+          "position": "CB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Kingsley Enagbare",
+          "position": "DE",
+          "injury": "Knee",
+          "practice_status": "Full Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Breece Hall",
+          "position": "RB",
+          "injury": "Quadricep",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Francisco Mauigoa",
+          "position": "LB",
+          "injury": "Quadricep",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Will McDonald IV",
+          "position": "DE",
+          "injury": "Calf",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Adonai Mitchell",
+          "position": "WR",
+          "injury": "Finger",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Dylan Parham",
+          "position": "G",
+          "injury": "Knee",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Tim Patrick",
+          "position": "WR",
+          "injury": "Groin",
+          "practice_status": "Full Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Mason Taylor",
+          "position": "TE",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        }
+      ]
+    },
+    "NYG": {
+      "nickname": "Giants",
+      "players": [
+        {
+          "player": "Deonte Banks",
+          "position": "CB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Chauncey Golston",
+          "position": "DE",
+          "injury": "Neck",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Najee Harris",
+          "position": "RB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Bryan Hudson",
+          "position": "C",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Isaiah Likely",
+          "position": "TE",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Chris Manhertz",
+          "position": "TE",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Malik Nabers",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Jason Pinnock",
+          "position": "S",
+          "injury": "Concussion",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Cam Skattebo",
+          "position": "RB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Andrew Thomas",
+          "position": "T",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        }
+      ]
+    },
+    "WAS": {
+      "nickname": "Commanders",
+      "players": [
+        {
+          "player": "Nick Allegretti",
+          "position": "G",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Trey Amos",
+          "position": "CB",
+          "injury": "Ankle",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Treylon Burks",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Percy Butler",
+          "position": "S",
+          "injury": "Hamstring",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "K'Lavon Chaisson",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Sam Cosmi",
+          "position": "G",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Jacory Croskey-Merritt",
+          "position": "RB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Nick Cross",
+          "position": "S",
+          "injury": "Illness",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Jayden Daniels",
+          "position": "QB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Stefon Diggs",
+          "position": "WR",
+          "injury": "Hamstring",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Javon Kinlaw",
+          "position": "DT",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Frankie Luvu",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Marcus Mariota",
+          "position": "QB",
+          "injury": "Knee",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Terry McLaurin",
+          "position": "WR",
+          "injury": "Hamstring",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Jeremy McNichols",
+          "position": "RB",
+          "injury": "Quadricep",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Fabian Moreau",
+          "position": "CB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Chig Okonkwo",
+          "position": "TE",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Charles Omenihu",
+          "position": "DE",
+          "injury": "Groin, Ankle",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Tyler Owens",
+          "position": "S",
+          "injury": "Hamstring",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Jeremy Reaves",
+          "position": "S",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Ben Sinnott",
+          "position": "TE",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Sonny Styles",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Rachaad White",
+          "position": "RB",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Deatrich Wise",
+          "position": "DE",
+          "injury": "Quadricep",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        }
+      ]
+    },
+    "CHI": {
+      "nickname": "Bears",
+      "players": [
+        {
+          "player": "Keyshaun Elliott",
+          "position": "LB",
+          "injury": "Quadricep",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Kyler Gordon",
+          "position": "CB",
+          "injury": "Calf",
+          "practice_status": "Full Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Jonah Jackson",
+          "position": "G",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Grady Jarrett",
+          "position": "DT",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Cam Lewis",
+          "position": "S",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Kyle Monangai",
+          "position": "RB",
+          "injury": "Thumb, Toe",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Noah Sewell",
+          "position": "LB",
+          "injury": "Achilles",
+          "practice_status": "Full Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "D'Andre Swift",
+          "position": "RB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Joe Thuney",
+          "position": "G",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Shemar Turner",
+          "position": "DE",
+          "injury": "Knee",
+          "practice_status": "Full Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Caleb Williams",
+          "position": "QB",
+          "injury": "Hamstring",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Darnell Wright",
+          "position": "T",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        }
+      ]
+    },
+    "GB": {
+      "nickname": "Packers",
+      "players": [
+        {
+          "player": "Aaron Banks",
+          "position": "G",
+          "injury": "Knee, Toe",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Doubtful",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Anthony Belton",
+          "position": "T",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Chris Brooks",
+          "position": "RB",
+          "injury": "Ankle",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Jager Burton",
+          "position": "C",
+          "injury": "Back",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Anthony Campbell",
+          "position": "DT",
+          "injury": "Ankle",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Brandon Cisse",
+          "position": "CB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Javon Hargrave",
+          "position": "DT",
+          "injury": "Toe",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Jacob Monk",
+          "position": "C",
+          "injury": "Quadricep",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Doubtful",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Lukas Van Ness",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Savion Williams",
+          "position": "WR",
+          "injury": "Ankle",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Devonte Wyatt",
+          "position": "DT",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        }
+      ]
+    },
+    "IND": {
+      "nickname": "Colts",
+      "players": [
+        {
+          "player": "Keenan Allen",
+          "position": "WR",
+          "injury": "Not injury related - resting player, Groin",
+          "practice_status": "Full Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Tanor Bortolini",
+          "position": "C",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "DeForest Buckner",
+          "position": "DT",
+          "injury": null,
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Jaylon Carlies",
+          "position": "LB",
+          "injury": "Ribs",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Akeem Davis-Gaither",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Ashton Dulin",
+          "position": "WR",
+          "injury": "Hamstring",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Arden Key",
+          "position": "DE",
+          "injury": "Hamstring",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Will Mallory",
+          "position": "TE",
+          "injury": "Thumb",
+          "practice_status": "Full Participation in Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Darius Slayton",
+          "position": "WR",
+          "injury": "Knee",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Grover Stewart",
+          "position": "DT",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Jonathan Taylor",
+          "position": "RB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Charvarius Ward",
+          "position": "CB",
+          "injury": "Not injury related - resting player, Groin",
+          "practice_status": "Full Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        }
+      ]
+    },
+    "PIT": {
+      "nickname": "Steelers",
+      "players": [
+        {
+          "player": "Jamel Dean",
+          "position": "CB",
+          "injury": "Ankle",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Rico Dowdle",
+          "position": "RB",
+          "injury": "Toe",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "DeShon Elliott",
+          "position": "S",
+          "injury": "Knee",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Cameron Heyward",
+          "position": "DT",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Michael Pittman",
+          "position": "WR",
+          "injury": "Foot",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Jalen Ramsey",
+          "position": "CB",
+          "injury": "Wrist",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        }
+      ]
+    },
+    "DEN": {
+      "nickname": "Broncos",
+      "players": [
+        {
+          "player": "Zach Allen",
+          "position": "DE",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Tyler Badie",
+          "position": "RB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Pat Bryant",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "D.J. Jones",
+          "position": "DT",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Riley Moss",
+          "position": "CB",
+          "injury": "Ribs",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Pat Surtain II",
+          "position": "CB",
+          "injury": "Ankle",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Dondrea Tillman",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Adam Trautman",
+          "position": "TE",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        }
+      ]
+    },
+    "LAC": {
+      "nickname": "Chargers",
+      "players": [
+        {
+          "player": "Joe Alt",
+          "position": "T",
+          "injury": "Neck",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Kayode Awosika",
+          "position": "G",
+          "injury": "Fibula",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Cam Hart",
+          "position": "CB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Alec Ingold",
+          "position": "FB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Donte Jackson",
+          "position": "CB",
+          "injury": "Hamstring",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Derwin James",
+          "position": "S",
+          "injury": "Hamstring",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Quentin Johnston",
+          "position": "WR",
+          "injury": "Chest",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Charlie Kolar",
+          "position": "TE",
+          "injury": "Forearm",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Trey Lance",
+          "position": "QB",
+          "injury": "Groin",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Doubtful",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Deane Leonard",
+          "position": "CB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Khalil Mack",
+          "position": "DE",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Scott Matlock",
+          "position": "FB",
+          "injury": "Foot",
+          "practice_status": "Full Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Ladd McConkey",
+          "position": "WR",
+          "injury": "Foot",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Trevor Penning",
+          "position": "G",
+          "injury": "Concussion",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Rodney Shelley",
+          "position": "CB",
+          "injury": "Hamstring",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Rashawn Slater",
+          "position": "T",
+          "injury": null,
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Branson Taylor",
+          "position": "G",
+          "injury": "Neck",
+          "practice_status": "Full Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Brenen Thompson",
+          "position": "WR",
+          "injury": "Quadricep",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Dalvin Tomlinson",
+          "position": "DT",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        }
+      ]
+    },
+    "DET": {
+      "nickname": "Lions",
+      "players": [
+        {
+          "player": "Ben Bartch",
+          "position": "G",
+          "injury": "Foot",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Brian Branch",
+          "position": "S",
+          "injury": "Achilles",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Cade Mays",
+          "position": "C",
+          "injury": "Wrist",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Tyleik Williams",
+          "position": "DT",
+          "injury": "Foot",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "D.J. Wonnum",
+          "position": "DE",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Rock Ya-Sin",
+          "position": "CB",
+          "injury": "Hamstring",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        }
+      ]
+    },
+    "ARI": {
+      "nickname": "Cardinals",
+      "players": [
+        {
+          "player": "Isaiah Adams",
+          "position": "G",
+          "injury": "Ankle",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Budda Baker",
+          "position": "S",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Jordan Burch",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Jeremiyah Love",
+          "position": "RB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Walter Nolen",
+          "position": "DT",
+          "injury": "Calf",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Isaac Seumalo",
+          "position": "G",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Karson Sharar",
+          "position": "LB",
+          "injury": "Hamstring",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Josh Sweat",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Dadrion Taylor-Demerson",
+          "position": "S",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Andrew Wingard",
+          "position": "S",
+          "injury": "Knee",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        }
+      ]
+    },
+    "SF": {
+      "nickname": "49ers",
+      "players": [
+        {
+          "player": "Kaelon Black",
+          "position": "RB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Nick Bosa",
+          "position": "DE",
+          "injury": "Knee, Calf",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Jaden Dugger",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Mike Evans",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Dre Greenlaw",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Romello Height",
+          "position": "DE",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Kyle Juszczyk",
+          "position": "FB",
+          "injury": "Knee",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Christian McCaffrey",
+          "position": "RB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Marques Sigle",
+          "position": "S",
+          "injury": "Ankle",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Upton Stout",
+          "position": "CB",
+          "injury": "Shoulder",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "James Thompson Jr.",
+          "position": "DT",
+          "injury": "Ankle",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Mykel Williams",
+          "position": "DE",
+          "injury": "Knee",
+          "practice_status": "Full Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Trent Williams",
+          "position": "T",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        }
+      ]
+    },
+    "SEA": {
+      "nickname": "Seahawks",
+      "players": [
+        {
+          "player": "Zach Charbonnet",
+          "position": "RB",
+          "injury": "Knee",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Irvin Charles",
+          "position": "WR",
+          "injury": "Knee",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "George Holani",
+          "position": "RB",
+          "injury": "Ribs, Knee",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Ernest Jones",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Tyrice Knight",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Julian Neal",
+          "position": "CB",
+          "injury": "Hamstring",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Patrick O'Connell",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Ty Okada",
+          "position": "S",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Nehemiah Pritchett",
+          "position": "CB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Jaxon Smith-Njigba",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Beau Stephens",
+          "position": "G",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Chazz Surratt",
+          "position": "LB",
+          "injury": "Calf",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Leonard Williams",
+          "position": "DT",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        }
+      ]
+    },
+    "BAL": {
+      "nickname": "Ravens",
+      "players": [
+        {
+          "player": "Mark Andrews",
+          "position": "TE",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Rashod Bateman",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Calais Campbell",
+          "position": "DT",
+          "injury": null,
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Zay Flowers",
+          "position": "WR",
+          "injury": "Foot",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Kyle Hamilton",
+          "position": "S",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Trey Hendrickson",
+          "position": "LB",
+          "injury": "Finger",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Marlon Humphrey",
+          "position": "CB",
+          "injury": "Hamstring, Calf",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Lamar Jackson",
+          "position": "QB",
+          "injury": "Ankle",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Cam Jurgens",
+          "position": "C",
+          "injury": "Concussion",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Chris Moore",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "John Simpson",
+          "position": "G",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Durham Smythe",
+          "position": "TE",
+          "injury": null,
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Ronnie Stanley",
+          "position": "T",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Andrew Vorhees",
+          "position": "G",
+          "injury": "Foot",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        }
+      ]
+    },
+    "ATL": {
+      "nickname": "Falcons",
+      "players": [
+        {
+          "player": "Yasir Abdullah",
+          "position": "LB",
+          "injury": "Hamstring",
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": "Out",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Divine Deablo",
+          "position": "LB",
+          "injury": "Hamstring",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Samson Ebukam",
+          "position": "DE",
+          "injury": "Hamstring",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Michael Jerrell",
+          "position": "T",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Jake Matthews",
+          "position": "T",
+          "injury": "Groin",
+          "practice_status": "Full Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Za'Darius Smith",
+          "position": "DE",
+          "injury": "Concussion, Neck",
+          "practice_status": "Limited Participation in Practice",
+          "game_status": "Questionable",
+          "game_status_verified_from_official_table": true,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Cameron Thomas",
+          "position": "DE",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        }
+      ]
+    },
+    "BUF": {
+      "nickname": "Bills",
+      "players": [
+        {
+          "player": "Joe Andreessen",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Christian Benford",
+          "position": "CB",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Terrel Bernard",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Bradley Chubb",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Keon Coleman",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Ray Davis",
+          "position": "RB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Dee Alford",
+          "position": "CB",
+          "injury": null,
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Damar Hamlin",
+          "position": "S",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Landon Jackson",
+          "position": "DE",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "DJ Moore",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Ed Oliver",
+          "position": "DE",
+          "injury": null,
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Ar'maj Reed-Adams",
+          "position": "G",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "T.J. Sanders",
+          "position": "DE",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Dorian Williams",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        }
+      ]
+    },
+    "LA": {
+      "nickname": "Rams",
+      "players": [
+        {
+          "player": "Davante Adams",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Aaron Donald",
+          "position": "DT",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Quentin Lake",
+          "position": "S",
+          "injury": null,
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Nate Landman",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Konata Mumpfield",
+          "position": "WR",
+          "injury": null,
+          "practice_status": "Full Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Colby Parkinson",
+          "position": "TE",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Josaiah Stewart",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Grant Stuard",
+          "position": "LB",
+          "injury": null,
+          "practice_status": "Did Not Participate In Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        },
+        {
+          "player": "Jaylen Watson",
+          "position": "CB",
+          "injury": null,
+          "practice_status": "Limited Participation in Practice",
+          "game_status": null,
+          "game_status_verified_from_official_table": false,
+          "source_url": "https://www.nfl.com/injuries/league/2026/reg5"
+        }
+      ]
+    }
+  },
+  "approved_picks": [],
+  "adjustments_to_model": false,
+  "limitations": [
+    "Hora de captura no equivale a hora de publicación de cada reporte individual.",
+    "Designación vacía NO significa confirmado disponible ni libre de lesión.",
+    "Questionable y Doubtful NO son lista oficial de inactivos del día de juego.",
+    "No demuestra el quarterback titular; usar anuncios e inactivos verificados por separado.",
+    "No se vinculan todavía los equipos a cada game_id específico; verificar jornada/partido.",
+    "Los estatus pueden cambiar; volver a consultar antes del kickoff.",
+    "No autoriza ajustes ni apuestas."
+  ]
+}
