@@ -1,0 +1,67 @@
+{
+  "generated_at_utc": "2026-10-10T16:07:59.779674+00:00",
+  "source": "nflreadpy weekly player stats + nflverse games.csv",
+  "matched_team_weeks": 3497,
+  "observational_results": {
+    "development": {
+      "seasons": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "qb_change": {
+        "games": 218,
+        "mean_points": 19.317,
+        "mean_margin": -2.725,
+        "mean_point_change_from_previous": 1.188,
+        "mean_margin_change_from_previous": 3.11
+      },
+      "no_qb_change": {
+        "games": 2369,
+        "mean_points": 23.718,
+        "mean_margin": 0.916,
+        "mean_point_change_from_previous": -0.002,
+        "mean_margin_change_from_previous": -0.016
+      },
+      "difference_of_mean_points_delta": 1.19,
+      "difference_of_mean_margin_delta": 3.126
+    },
+    "later_check": {
+      "seasons": [
+        2024,
+        2025
+      ],
+      "qb_change": {
+        "games": 91,
+        "mean_points": 19.901,
+        "mean_margin": -4.154,
+        "mean_point_change_from_previous": 2.033,
+        "mean_margin_change_from_previous": 2.396
+      },
+      "no_qb_change": {
+        "games": 819,
+        "mean_points": 23.668,
+        "mean_margin": 0.823,
+        "mean_point_change_from_previous": -0.227,
+        "mean_margin_change_from_previous": -0.376
+      },
+      "difference_of_mean_points_delta": 2.26,
+      "difference_of_mean_margin_delta": 2.772
+    }
+  },
+  "qb_starter_verified": false,
+  "injury_cause_verified": false,
+  "causal_effect_estimated": false,
+  "model_modified": false,
+  "approved_picks": [],
+  "warnings": [
+    "QB dominante por intentos NO es titular confirmado ni prueba lesión.",
+    "Comparar puntos entre semanas NO controla calidad de rivales, localía, cambios de juego ni selección de suplentes.",
+    "2018-2023 es exploración y 2024-2025 es un contraste descriptivo, NO un holdout causal.",
+    "La variación encontrada NO equivale a puntos que deban restarse de un spread.",
+    "Nunca aplicar automáticamente ajustes a proyecciones ni aprobar apuestas con esta prueba."
+  ]
+}
