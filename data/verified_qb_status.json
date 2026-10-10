@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "season": 2026,
+  "week": 5,
+  "source_policy": "manual_review_of_official_NFL_publications",
+  "status_as_of_utc": "2026-10-09T20:31:00Z",
+  "scope": "verified facts for BAL at ATL only; not a complete league-wide QB feed",
+  "games": [
+    {
+      "game_id": "2026_05_BAL_ATL",
+      "away_team": "BAL",
+      "home_team": "ATL",
+      "kickoff_date": "2026-10-11",
+      "teams": {
+        "BAL": {
+          "confirmed_starting_qb": "Tyler Huntley",
+          "starter_status": "announced_by_head_coach",
+          "unavailable_qbs": [
+            {"player": "Lamar Jackson", "status": "out", "injury": "ankle"}
+          ],
+          "source_url": "https://amp.nfl.com/news/ravens-qb-lamar-jackson-ankle-out-falcons-tyler-huntley-start",
+          "source_type": "official_nfl_news",
+          "source_published_at": "2026-10-09T13:31:00-04:00",
+          "notes": "El entrenador anuncio a Huntley como titular y a Jackson como descartado; verificar de nuevo antes del inicio."
+        },
+        "ATL": {
+          "confirmed_starting_qb": null,
+          "starter_status": "not_verified_by_this_record",
+          "unavailable_qbs": [],
+          "notes": "No se ha verificado en este registro al titular de Atlanta; no interpretar como disponible o descartado."
+        }
+      },
+      "model_incorporates_qb_change": false,
+      "model_projection_validated_for_betting": false,
+      "approved_picks": []
+    }
+  ],
+  "warnings": [
+    "Verificacion manual puntual, no automatizacion en tiempo real.",
+    "Los estados pueden cambiar; consultar el reporte oficial cerca del kickoff.",
+    "El modelo publicado no se recalculo por esta informacion y no autoriza apuestas.",
+    "No asumir que ausencia de un jugador en este archivo prueba disponibilidad."
+  ]
+}
