@@ -21,7 +21,7 @@ concurrency:
 jobs:
   registro:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
 
     steps:
       - name: Descargar repositorio
@@ -35,7 +35,7 @@ jobs:
       - name: Instalar dependencias
         run: python -m pip install numpy pandas requests
 
-      - name: Actualizar proyecciones
+      - name: Actualizar proyecciones independientes
         run: python build_nfl_model.py
 
       - name: Consultar cuotas
@@ -48,13 +48,24 @@ jobs:
           test -s data/model_diagnostics.json
           test -s data/nfl_odds_latest.json
 
-      - name: Archivar historial de cuotas
+      - name: Archivar cuotas anteriores al kickoff
         run: python archive_nfl_odds_history.py
 
-      - name: Archivar predicciones
+      - name: Archivar predicciones originales
         run: python archive_nfl_predictions.py
 
-      - name: Guardar registros en GitHub
+      - name: Ejecutar motor de oportunidades V1
+        run: python build_opportunity_engine.py
+
+      - name: Ejecutar motor probabilistico V2
+        run: python build_probability_engine.py
+
+      - name: Comprobar informes
+        run: |
+          test -s data/opportunity_engine.json
+          test -s data/probability_engine_v2.json
+
+      - name: Guardar todos los registros
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -63,20 +74,24 @@ jobs:
           git add data/nfl_odds_latest.json
           git add data/odds_history/
           git add data/prediction_snapshots/
+          git add data/opportunity_engine.json
+          git add data/probability_engine_v2.json
 
           if ! git diff --cached --quiet; then
-            git commit -m "Actualizar historial NFL Edge Lab"
+            git commit -m "Actualizar analisis integral NFL Edge Lab"
             git push
           else
             echo "Sin cambios nuevos"
           fi
 
-      - name: Respaldar historial
+      - name: Respaldar informes
         uses: actions/upload-artifact@v4
         with:
-          name: nfl-weekly-history
+          name: nfl-edge-lab-semanal
           path: |
             data/odds_history/
             data/prediction_snapshots/
+            data/opportunity_engine.json
+            data/probability_engine_v2.json
           if-no-files-found: error
           retention-days: 30
