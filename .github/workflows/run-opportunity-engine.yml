@@ -1,0 +1,50 @@
+
+name: Motor autonomo NFL Edge Lab
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  motor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Ejecutar motor de oportunidades
+        run: python build_opportunity_engine.py
+
+      - name: Comprobar resultado
+        run: test -s data/opportunity_engine.json
+
+      - name: Guardar reporte en GitHub
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/opportunity_engine.json
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Generar oportunidades NFL Edge Lab"
+            git push
+          else
+            echo "Sin cambios nuevos"
+          fi
+
+      - name: Respaldar reporte
+        uses: actions/upload-artifact@v4
+        with:
+          name: nfl-opportunity-engine
+          path: data/opportunity_engine.json
+          if-no-files-found: error
+          retention-days: 30
