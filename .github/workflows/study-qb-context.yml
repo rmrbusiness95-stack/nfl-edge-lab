@@ -1,0 +1,53 @@
+
+name: Estudiar impacto contextual QB NFL
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  estudio:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: python -m pip install nflreadpy requests numpy
+
+      - name: Evaluar contexto y cambios QB
+        run: python study_qb_context.py
+
+      - name: Comprobar resultado
+        run: test -s data/qb_context_study.json
+
+      - name: Guardar estudio en GitHub
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/qb_context_study.json
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Estudiar impacto contextual de QB NFL"
+            git push
+          else
+            echo "Sin cambios nuevos"
+          fi
+
+      - name: Guardar respaldo
+        uses: actions/upload-artifact@v4
+        with:
+          name: nfl-qb-context-study
+          path: data/qb_context_study.json
+          if-no-files-found: error
+          retention-days: 30
