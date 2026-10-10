@@ -1,0 +1,52 @@
+{
+  "generated_at_utc": "2026-10-10T02:53:21.853814+00:00",
+  "url": "https://www.nfl.com/injuries/league/2026/reg5",
+  "season": 2026,
+  "week": 5,
+  "source": "official_nfl_injury_webpage",
+  "http_status": 200,
+  "page_accessible": true,
+  "structured_tables_found": 30,
+  "candidate_injury_headers_found": 30,
+  "player_row_candidates": 357,
+  "official_statuses_extracted": false,
+  "ready_to_publish_player_statuses": false,
+  "model_adjustments_allowed": false,
+  "warnings": [
+    "Solo se verificó estructura HTML. Aún NO se estableció asociación fiable entre jugador, equipo, partido y fecha del reporte.",
+    "No inferir que la ausencia en el reporte significa jugador disponible."
+  ],
+  "page_title": "Official NFL Injury Report for Players - Week 5 of the 2026 Season | NFL.com",
+  "sample_structure_only": [
+    {
+      "cell_count": 5,
+      "redacted_lengths": [
+        15,
+        2,
+        0,
+        30,
+        0
+      ]
+    },
+    {
+      "cell_count": 5,
+      "redacted_lengths": [
+        15,
+        2,
+        11,
+        31,
+        3
+      ]
+    },
+    {
+      "cell_count": 5,
+      "redacted_lengths": [
+        8,
+        2,
+        0,
+        30,
+        0
+      ]
+    }
+  ]
+}
