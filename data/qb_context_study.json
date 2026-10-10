@@ -1,0 +1,74 @@
+{
+  "generated_at_utc": "2026-10-10T16:16:16.445809+00:00",
+  "source": "nflreadpy weekly QB attempts + nflverse schedule results",
+  "qb_identity_proxy": "dominant passer by game-end attempts, 65% threshold",
+  "minimum_prior_games": 3,
+  "rolling_prior_games": 5,
+  "matched_team_games": 3350,
+  "identified_change_events": 385,
+  "examples": [
+    {
+      "season": 2018,
+      "week": 4,
+      "team": "ARI"
+    },
+    {
+      "season": 2018,
+      "week": 4,
+      "team": "CLE"
+    },
+    {
+      "season": 2018,
+      "week": 4,
+      "team": "SF"
+    },
+    {
+      "season": 2018,
+      "week": 6,
+      "team": "TB"
+    }
+  ],
+  "margin": {
+    "training_period": "2018-2023",
+    "later_period": "2024-2025",
+    "train_team_games": 2480,
+    "later_team_games": 870,
+    "train_qb_changes": 281,
+    "later_qb_changes": 104,
+    "base_mae": 9.6815,
+    "plus_qb_change_mae": 9.6336,
+    "base_mae_changed_only": 11.7278,
+    "plus_qb_change_mae_changed_only": 11.3257,
+    "mae_improvement_positive_is_better": 0.0479,
+    "interpretation": "retrospective oracle variable, NOT a pregame forecast"
+  },
+  "points": {
+    "training_period": "2018-2023",
+    "later_period": "2024-2025",
+    "train_team_games": 2480,
+    "later_team_games": 870,
+    "train_qb_changes": 281,
+    "later_qb_changes": 104,
+    "base_mae": 7.1078,
+    "plus_qb_change_mae": 7.0922,
+    "base_mae_changed_only": 7.432,
+    "plus_qb_change_mae_changed_only": 7.2317,
+    "mae_improvement_positive_is_better": 0.0156,
+    "interpretation": "retrospective oracle variable, NOT a pregame forecast"
+  },
+  "uses_only_pregame_context_features": true,
+  "qb_change_indicator_known_before_kickoff": false,
+  "estimates_causal_qb_value": false,
+  "safe_for_prediction_adjustment": false,
+  "model_modified": false,
+  "approved_picks": [],
+  "warnings": [
+    "El pasador dominante se determina despues de jugar; puede reflejar sustituciones EN el partido.",
+    "La variable de cambio en esta prueba se conoce retrospectivamente y NO puede alimentar pronosticos en vivo.",
+    "El contexto ajusta localia, promedio reciente de puntos, puntos permitidos y margenes de ambos equipos; faltan lesiones y otras variables.",
+    "Los dos registros (local y visitante) de un mismo partido NO son observaciones estadisticamente independientes.",
+    "2024-25 ya fue examinado durante el proyecto y NO es un holdout intacto.",
+    "Mejorar MAE retrospectivo no demuestra causalidad ni rentabilidad frente al casino.",
+    "Sin valor individual por QB, sin ajuste a spread/total, sin picks aprobados."
+  ]
+}
