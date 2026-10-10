@@ -60,10 +60,14 @@ jobs:
       - name: Ejecutar motor probabilistico V2
         run: python build_probability_engine.py
 
+      - name: Ejecutar centro de decisiones V3
+        run: python build_decision_center_v3.py
+
       - name: Comprobar informes
         run: |
           test -s data/opportunity_engine.json
           test -s data/probability_engine_v2.json
+          test -s data/decision_center_v3.json
 
       - name: Guardar todos los registros
         run: |
@@ -76,9 +80,10 @@ jobs:
           git add data/prediction_snapshots/
           git add data/opportunity_engine.json
           git add data/probability_engine_v2.json
+          git add data/decision_center_v3.json
 
           if ! git diff --cached --quiet; then
-            git commit -m "Actualizar analisis integral NFL Edge Lab"
+            git commit -m "Actualizar sistema integral NFL Edge Lab V3"
             git push
           else
             echo "Sin cambios nuevos"
@@ -93,5 +98,6 @@ jobs:
             data/prediction_snapshots/
             data/opportunity_engine.json
             data/probability_engine_v2.json
+            data/decision_center_v3.json
           if-no-files-found: error
           retention-days: 30
