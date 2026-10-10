@@ -1,0 +1,1829 @@
+{
+  "generated_at_utc": "2026-10-10T02:20:12.550564+00:00",
+  "availability_source_at_utc": "2026-10-09T21:37:32.775949+00:00",
+  "odds_source_at_utc": "2026-10-10T01:30:55.811312+00:00",
+  "upcoming_games": 26,
+  "ready_for_injury_adjusted_picks": false,
+  "games": [
+    {
+      "event_id": "21b26266f3d78af02eb672e606275d95",
+      "kickoff_utc": "2026-10-11T13:30:00+00:00",
+      "away_team": "Philadelphia Eagles",
+      "home_team": "Jacksonville Jaguars",
+      "teams": [
+        {
+          "team": "Philadelphia Eagles",
+          "abbr": "PHI",
+          "side": "away",
+          "qb_candidates": [
+            {
+              "name": "Jalen Hurts",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Tanner McKee",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Andy Dalton",
+              "depth_rank": "3",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Cole Payton",
+              "depth_rank": "4",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 12,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        },
+        {
+          "team": "Jacksonville Jaguars",
+          "abbr": "JAX",
+          "side": "home",
+          "qb_candidates": [
+            {
+              "name": "Trevor Lawrence",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Quinn Ewers",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 11,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        }
+      ],
+      "prediction_eligibility": "blocked_unverified_qb_injuries"
+    },
+    {
+      "event_id": "2caea57b1e5cfbba1334cfbfd46f6771",
+      "kickoff_utc": "2026-10-11T17:00:00+00:00",
+      "away_team": "Chicago Bears",
+      "home_team": "Green Bay Packers",
+      "teams": [
+        {
+          "team": "Chicago Bears",
+          "abbr": "CHI",
+          "side": "away",
+          "qb_candidates": [
+            {
+              "name": "Caleb Williams",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Tyson Bagent",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Case Keenum",
+              "depth_rank": "3",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 12,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        },
+        {
+          "team": "Green Bay Packers",
+          "abbr": "GB",
+          "side": "home",
+          "qb_candidates": [
+            {
+              "name": "Jordan Love",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Tyrod Taylor",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 10,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        }
+      ],
+      "prediction_eligibility": "blocked_unverified_qb_injuries"
+    },
+    {
+      "event_id": "c4647ca1201e6768501877267ca8251b",
+      "kickoff_utc": "2026-10-11T17:00:00+00:00",
+      "away_team": "Cincinnati Bengals",
+      "home_team": "Miami Dolphins",
+      "teams": [
+        {
+          "team": "Cincinnati Bengals",
+          "abbr": "CIN",
+          "side": "away",
+          "qb_candidates": [
+            {
+              "name": "Joe Burrow",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Joe Flacco",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 12,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        },
+        {
+          "team": "Miami Dolphins",
+          "abbr": "MIA",
+          "side": "home",
+          "qb_candidates": [
+            {
+              "name": "Malik Willis",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Kyle McCord",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Brady Cook",
+              "depth_rank": "3",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 13,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        }
+      ],
+      "prediction_eligibility": "blocked_unverified_qb_injuries"
+    },
+    {
+      "event_id": "9db4ed15fe34fca1fb62f040cd244591",
+      "kickoff_utc": "2026-10-11T17:00:00+00:00",
+      "away_team": "Cleveland Browns",
+      "home_team": "New York Jets",
+      "teams": [
+        {
+          "team": "Cleveland Browns",
+          "abbr": "CLE",
+          "side": "away",
+          "qb_candidates": [
+            {
+              "name": "Deshaun Watson",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Shedeur Sanders",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Taylen Green",
+              "depth_rank": "3",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Dillon Gabriel",
+              "depth_rank": "4",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 11,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        },
+        {
+          "team": "New York Jets",
+          "abbr": "NYJ",
+          "side": "home",
+          "qb_candidates": [
+            {
+              "name": "Geno Smith",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Cade Klubnik",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 8,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        }
+      ],
+      "prediction_eligibility": "blocked_unverified_qb_injuries"
+    },
+    {
+      "event_id": "cc52bba56e74f5cddbe9011046181c3d",
+      "kickoff_utc": "2026-10-11T17:00:00+00:00",
+      "away_team": "Houston Texans",
+      "home_team": "Tennessee Titans",
+      "teams": [
+        {
+          "team": "Houston Texans",
+          "abbr": "HOU",
+          "side": "away",
+          "qb_candidates": [
+            {
+              "name": "C.J. Stroud",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Davis Mills",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Mark Gronowski",
+              "depth_rank": "3",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Graham Mertz",
+              "depth_rank": "4",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 16,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        },
+        {
+          "team": "Tennessee Titans",
+          "abbr": "TEN",
+          "side": "home",
+          "qb_candidates": [
+            {
+              "name": "Cam Ward",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Mitchell Trubisky",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 10,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        }
+      ],
+      "prediction_eligibility": "blocked_unverified_qb_injuries"
+    },
+    {
+      "event_id": "448d7cf18c6db4c811ed82ded1b72867",
+      "kickoff_utc": "2026-10-11T17:00:00+00:00",
+      "away_team": "Indianapolis Colts",
+      "home_team": "Pittsburgh Steelers",
+      "teams": [
+        {
+          "team": "Indianapolis Colts",
+          "abbr": "IND",
+          "side": "away",
+          "qb_candidates": [
+            {
+              "name": "Daniel Jones",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Anthony Richardson Sr.",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Riley Leonard",
+              "depth_rank": "3",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 10,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        },
+        {
+          "team": "Pittsburgh Steelers",
+          "abbr": "PIT",
+          "side": "home",
+          "qb_candidates": [
+            {
+              "name": "Aaron Rodgers",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Mason Rudolph",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Will Howard",
+              "depth_rank": "3",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Drew Allar",
+              "depth_rank": "4",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 6,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        }
+      ],
+      "prediction_eligibility": "blocked_unverified_qb_injuries"
+    },
+    {
+      "event_id": "6b024bad1abb54f597225e4ab9b39d89",
+      "kickoff_utc": "2026-10-11T17:00:00+00:00",
+      "away_team": "Las Vegas Raiders",
+      "home_team": "New England Patriots",
+      "teams": [
+        {
+          "team": "Las Vegas Raiders",
+          "abbr": "LV",
+          "side": "away",
+          "qb_candidates": [
+            {
+              "name": "Kirk Cousins",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Fernando Mendoza",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Aidan O'Connell",
+              "depth_rank": "3",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 11,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        },
+        {
+          "team": "New England Patriots",
+          "abbr": "NE",
+          "side": "home",
+          "qb_candidates": [
+            {
+              "name": "Drake Maye",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Tommy DeVito",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Behren Morton",
+              "depth_rank": "3",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 15,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        }
+      ],
+      "prediction_eligibility": "blocked_unverified_qb_injuries"
+    },
+    {
+      "event_id": "2cda9bf0fbe35a2735f0dd8aaafe9eff",
+      "kickoff_utc": "2026-10-11T17:00:00+00:00",
+      "away_team": "Minnesota Vikings",
+      "home_team": "New Orleans Saints",
+      "teams": [
+        {
+          "team": "Minnesota Vikings",
+          "abbr": "MIN",
+          "side": "away",
+          "qb_candidates": [
+            {
+              "name": "Kyler Murray",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Carson Wentz",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Max Brosmer",
+              "depth_rank": "3",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 9,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        },
+        {
+          "team": "New Orleans Saints",
+          "abbr": "NO",
+          "side": "home",
+          "qb_candidates": [
+            {
+              "name": "Tyler Shough",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Spencer Rattler",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Zach Wilson",
+              "depth_rank": "3",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 15,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        }
+      ],
+      "prediction_eligibility": "blocked_unverified_qb_injuries"
+    },
+    {
+      "event_id": "fbffd0b7722fd81d68d5d62472dc80e8",
+      "kickoff_utc": "2026-10-11T17:00:00+00:00",
+      "away_team": "New York Giants",
+      "home_team": "Washington Commanders",
+      "teams": [
+        {
+          "team": "New York Giants",
+          "abbr": "NYG",
+          "side": "away",
+          "qb_candidates": [
+            {
+              "name": "Jameis Winston",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "J.J. McCarthy",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Jake Haener",
+              "depth_rank": "3",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Jaxson Dart",
+              "depth_rank": "4",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 10,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        },
+        {
+          "team": "Washington Commanders",
+          "abbr": "WAS",
+          "side": "home",
+          "qb_candidates": [
+            {
+              "name": "Jayden Daniels",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Marcus Mariota",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Athan Kaliakmanis",
+              "depth_rank": "3",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 23,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        }
+      ],
+      "prediction_eligibility": "blocked_unverified_qb_injuries"
+    },
+    {
+      "event_id": "d1d408fdfd272046fb517fe992a1c5a0",
+      "kickoff_utc": "2026-10-11T20:05:00+00:00",
+      "away_team": "Denver Broncos",
+      "home_team": "Los Angeles Chargers",
+      "teams": [
+        {
+          "team": "Denver Broncos",
+          "abbr": "DEN",
+          "side": "away",
+          "qb_candidates": [
+            {
+              "name": "Bo Nix",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Jarrett Stidham",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Sam Ehlinger",
+              "depth_rank": "3",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 8,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        },
+        {
+          "team": "Los Angeles Chargers",
+          "abbr": "LAC",
+          "side": "home",
+          "qb_candidates": [
+            {
+              "name": "Justin Herbert",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Trey Lance",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "DJ Uiagalelei",
+              "depth_rank": "3",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 18,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        }
+      ],
+      "prediction_eligibility": "blocked_unverified_qb_injuries"
+    },
+    {
+      "event_id": "f8e7f43f73aa983c5c99c189587f0118",
+      "kickoff_utc": "2026-10-11T20:25:00+00:00",
+      "away_team": "Detroit Lions",
+      "home_team": "Arizona Cardinals",
+      "teams": [
+        {
+          "team": "Detroit Lions",
+          "abbr": "DET",
+          "side": "away",
+          "qb_candidates": [
+            {
+              "name": "Jared Goff",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Joshua Dobbs",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 6,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        },
+        {
+          "team": "Arizona Cardinals",
+          "abbr": "ARI",
+          "side": "home",
+          "qb_candidates": [
+            {
+              "name": "Jacoby Brissett",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Gardner Minshew II",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Carson Beck",
+              "depth_rank": "3",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 10,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        }
+      ],
+      "prediction_eligibility": "blocked_unverified_qb_injuries"
+    },
+    {
+      "event_id": "8e5d515b10d8a5ffb324640ed60bcc55",
+      "kickoff_utc": "2026-10-11T20:25:00+00:00",
+      "away_team": "San Francisco 49ers",
+      "home_team": "Seattle Seahawks",
+      "teams": [
+        {
+          "team": "San Francisco 49ers",
+          "abbr": "SF",
+          "side": "away",
+          "qb_candidates": [
+            {
+              "name": "Brock Purdy",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Mac Jones",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Kurtis Rourke",
+              "depth_rank": "3",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 13,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        },
+        {
+          "team": "Seattle Seahawks",
+          "abbr": "SEA",
+          "side": "home",
+          "qb_candidates": [
+            {
+              "name": "Sam Darnold",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Drew Lock",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Jalen Milroe",
+              "depth_rank": "3",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 13,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        }
+      ],
+      "prediction_eligibility": "blocked_unverified_qb_injuries"
+    },
+    {
+      "event_id": "86457f91112732f21ad4bb7d37bd291c",
+      "kickoff_utc": "2026-10-12T00:20:00+00:00",
+      "away_team": "Baltimore Ravens",
+      "home_team": "Atlanta Falcons",
+      "teams": [
+        {
+          "team": "Baltimore Ravens",
+          "abbr": "BAL",
+          "side": "away",
+          "qb_candidates": [
+            {
+              "name": "Lamar Jackson",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Tyler Huntley",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Joe Fagnano",
+              "depth_rank": "3",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Skylar Thompson",
+              "depth_rank": "4",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 14,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        },
+        {
+          "team": "Atlanta Falcons",
+          "abbr": "ATL",
+          "side": "home",
+          "qb_candidates": [
+            {
+              "name": "Michael Penix Jr.",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Tua Tagovailoa",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Cooper Rush",
+              "depth_rank": "3",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Jack Strand",
+              "depth_rank": "4",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 7,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        }
+      ],
+      "prediction_eligibility": "blocked_unverified_qb_injuries"
+    },
+    {
+      "event_id": "e6d00eedd87d367e510314bd8cab8f6f",
+      "kickoff_utc": "2026-10-13T00:15:00+00:00",
+      "away_team": "Buffalo Bills",
+      "home_team": "Los Angeles Rams",
+      "teams": [
+        {
+          "team": "Buffalo Bills",
+          "abbr": "BUF",
+          "side": "away",
+          "qb_candidates": [
+            {
+              "name": "Josh Allen",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Kyle Allen",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 14,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        },
+        {
+          "team": "Los Angeles Rams",
+          "abbr": "LA",
+          "side": "home",
+          "qb_candidates": [
+            {
+              "name": "Matthew Stafford",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Stetson Bennett IV",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Ty Simpson",
+              "depth_rank": "3",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Matthew Caldwell",
+              "depth_rank": "4",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 9,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        }
+      ],
+      "prediction_eligibility": "blocked_unverified_qb_injuries"
+    },
+    {
+      "event_id": "855f58fad5f0f14b239f4f63df27998b",
+      "kickoff_utc": "2026-10-16T00:15:00+00:00",
+      "away_team": "Seattle Seahawks",
+      "home_team": "Denver Broncos",
+      "teams": [
+        {
+          "team": "Seattle Seahawks",
+          "abbr": "SEA",
+          "side": "away",
+          "qb_candidates": [
+            {
+              "name": "Sam Darnold",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Drew Lock",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Jalen Milroe",
+              "depth_rank": "3",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 13,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        },
+        {
+          "team": "Denver Broncos",
+          "abbr": "DEN",
+          "side": "home",
+          "qb_candidates": [
+            {
+              "name": "Bo Nix",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Jarrett Stidham",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Sam Ehlinger",
+              "depth_rank": "3",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 8,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        }
+      ],
+      "prediction_eligibility": "blocked_unverified_qb_injuries"
+    },
+    {
+      "event_id": "57418b2cf5aca558b3c98eafac1e264a",
+      "kickoff_utc": "2026-10-18T13:30:00+00:00",
+      "away_team": "Houston Texans",
+      "home_team": "Jacksonville Jaguars",
+      "teams": [
+        {
+          "team": "Houston Texans",
+          "abbr": "HOU",
+          "side": "away",
+          "qb_candidates": [
+            {
+              "name": "C.J. Stroud",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Davis Mills",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Mark Gronowski",
+              "depth_rank": "3",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Graham Mertz",
+              "depth_rank": "4",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 16,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        },
+        {
+          "team": "Jacksonville Jaguars",
+          "abbr": "JAX",
+          "side": "home",
+          "qb_candidates": [
+            {
+              "name": "Trevor Lawrence",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Quinn Ewers",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 11,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        }
+      ],
+      "prediction_eligibility": "blocked_unverified_qb_injuries"
+    },
+    {
+      "event_id": "7c312fdf24fb35f58b0e07c2932cc997",
+      "kickoff_utc": "2026-10-18T17:00:00+00:00",
+      "away_team": "Chicago Bears",
+      "home_team": "Atlanta Falcons",
+      "teams": [
+        {
+          "team": "Chicago Bears",
+          "abbr": "CHI",
+          "side": "away",
+          "qb_candidates": [
+            {
+              "name": "Caleb Williams",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Tyson Bagent",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Case Keenum",
+              "depth_rank": "3",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 12,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        },
+        {
+          "team": "Atlanta Falcons",
+          "abbr": "ATL",
+          "side": "home",
+          "qb_candidates": [
+            {
+              "name": "Michael Penix Jr.",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Tua Tagovailoa",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Cooper Rush",
+              "depth_rank": "3",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Jack Strand",
+              "depth_rank": "4",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 7,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        }
+      ],
+      "prediction_eligibility": "blocked_unverified_qb_injuries"
+    },
+    {
+      "event_id": "e86227938fd3cf008fc5648fb5128344",
+      "kickoff_utc": "2026-10-18T17:00:00+00:00",
+      "away_team": "Baltimore Ravens",
+      "home_team": "Cleveland Browns",
+      "teams": [
+        {
+          "team": "Baltimore Ravens",
+          "abbr": "BAL",
+          "side": "away",
+          "qb_candidates": [
+            {
+              "name": "Lamar Jackson",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Tyler Huntley",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Joe Fagnano",
+              "depth_rank": "3",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Skylar Thompson",
+              "depth_rank": "4",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 14,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        },
+        {
+          "team": "Cleveland Browns",
+          "abbr": "CLE",
+          "side": "home",
+          "qb_candidates": [
+            {
+              "name": "Deshaun Watson",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Shedeur Sanders",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Taylen Green",
+              "depth_rank": "3",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Dillon Gabriel",
+              "depth_rank": "4",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 11,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        }
+      ],
+      "prediction_eligibility": "blocked_unverified_qb_injuries"
+    },
+    {
+      "event_id": "caca2d752fe1a1779029082e95332fcc",
+      "kickoff_utc": "2026-10-18T17:00:00+00:00",
+      "away_team": "Carolina Panthers",
+      "home_team": "Philadelphia Eagles",
+      "teams": [
+        {
+          "team": "Carolina Panthers",
+          "abbr": "CAR",
+          "side": "away",
+          "qb_candidates": [
+            {
+              "name": "Bryce Young",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Kenny Pickett",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Haynes King",
+              "depth_rank": "3",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 4,
+          "injury_rows_in_latest_week": 12,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        },
+        {
+          "team": "Philadelphia Eagles",
+          "abbr": "PHI",
+          "side": "home",
+          "qb_candidates": [
+            {
+              "name": "Jalen Hurts",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Tanner McKee",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Andy Dalton",
+              "depth_rank": "3",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Cole Payton",
+              "depth_rank": "4",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 12,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        }
+      ],
+      "prediction_eligibility": "blocked_unverified_qb_injuries"
+    },
+    {
+      "event_id": "84aa9e190e625d7e9cd67e1f157a45b4",
+      "kickoff_utc": "2026-10-18T17:00:00+00:00",
+      "away_team": "Tennessee Titans",
+      "home_team": "Indianapolis Colts",
+      "teams": [
+        {
+          "team": "Tennessee Titans",
+          "abbr": "TEN",
+          "side": "away",
+          "qb_candidates": [
+            {
+              "name": "Cam Ward",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Mitchell Trubisky",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 10,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        },
+        {
+          "team": "Indianapolis Colts",
+          "abbr": "IND",
+          "side": "home",
+          "qb_candidates": [
+            {
+              "name": "Daniel Jones",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Anthony Richardson Sr.",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Riley Leonard",
+              "depth_rank": "3",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 10,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        }
+      ],
+      "prediction_eligibility": "blocked_unverified_qb_injuries"
+    },
+    {
+      "event_id": "0b0b582b32b09ab6ff6664ffae0c9653",
+      "kickoff_utc": "2026-10-18T17:00:00+00:00",
+      "away_team": "New York Jets",
+      "home_team": "New England Patriots",
+      "teams": [
+        {
+          "team": "New York Jets",
+          "abbr": "NYJ",
+          "side": "away",
+          "qb_candidates": [
+            {
+              "name": "Geno Smith",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Cade Klubnik",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 8,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        },
+        {
+          "team": "New England Patriots",
+          "abbr": "NE",
+          "side": "home",
+          "qb_candidates": [
+            {
+              "name": "Drake Maye",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Tommy DeVito",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Behren Morton",
+              "depth_rank": "3",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 15,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        }
+      ],
+      "prediction_eligibility": "blocked_unverified_qb_injuries"
+    },
+    {
+      "event_id": "1cf74afd313e9fd300e1462012b174cb",
+      "kickoff_utc": "2026-10-18T17:00:00+00:00",
+      "away_team": "New Orleans Saints",
+      "home_team": "New York Giants",
+      "teams": [
+        {
+          "team": "New Orleans Saints",
+          "abbr": "NO",
+          "side": "away",
+          "qb_candidates": [
+            {
+              "name": "Tyler Shough",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Spencer Rattler",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Zach Wilson",
+              "depth_rank": "3",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 15,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        },
+        {
+          "team": "New York Giants",
+          "abbr": "NYG",
+          "side": "home",
+          "qb_candidates": [
+            {
+              "name": "Jameis Winston",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "J.J. McCarthy",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Jake Haener",
+              "depth_rank": "3",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Jaxson Dart",
+              "depth_rank": "4",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 10,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        }
+      ],
+      "prediction_eligibility": "blocked_unverified_qb_injuries"
+    },
+    {
+      "event_id": "3729ac6d2a66b642850caf2044cdc658",
+      "kickoff_utc": "2026-10-18T20:05:00+00:00",
+      "away_team": "Arizona Cardinals",
+      "home_team": "Los Angeles Rams",
+      "teams": [
+        {
+          "team": "Arizona Cardinals",
+          "abbr": "ARI",
+          "side": "away",
+          "qb_candidates": [
+            {
+              "name": "Jacoby Brissett",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Gardner Minshew II",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Carson Beck",
+              "depth_rank": "3",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 10,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        },
+        {
+          "team": "Los Angeles Rams",
+          "abbr": "LA",
+          "side": "home",
+          "qb_candidates": [
+            {
+              "name": "Matthew Stafford",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Stetson Bennett IV",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Ty Simpson",
+              "depth_rank": "3",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Matthew Caldwell",
+              "depth_rank": "4",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 9,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        }
+      ],
+      "prediction_eligibility": "blocked_unverified_qb_injuries"
+    },
+    {
+      "event_id": "45b2690b350ed45145c7a716b18e8e66",
+      "kickoff_utc": "2026-10-18T20:25:00+00:00",
+      "away_team": "Buffalo Bills",
+      "home_team": "Las Vegas Raiders",
+      "teams": [
+        {
+          "team": "Buffalo Bills",
+          "abbr": "BUF",
+          "side": "away",
+          "qb_candidates": [
+            {
+              "name": "Josh Allen",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Kyle Allen",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 14,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        },
+        {
+          "team": "Las Vegas Raiders",
+          "abbr": "LV",
+          "side": "home",
+          "qb_candidates": [
+            {
+              "name": "Kirk Cousins",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Fernando Mendoza",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Aidan O'Connell",
+              "depth_rank": "3",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 11,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        }
+      ],
+      "prediction_eligibility": "blocked_unverified_qb_injuries"
+    },
+    {
+      "event_id": "20fefae8c296247460ba5773caa42218",
+      "kickoff_utc": "2026-10-18T20:25:00+00:00",
+      "away_team": "Los Angeles Chargers",
+      "home_team": "Kansas City Chiefs",
+      "teams": [
+        {
+          "team": "Los Angeles Chargers",
+          "abbr": "LAC",
+          "side": "away",
+          "qb_candidates": [
+            {
+              "name": "Justin Herbert",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Trey Lance",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "DJ Uiagalelei",
+              "depth_rank": "3",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 18,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        },
+        {
+          "team": "Kansas City Chiefs",
+          "abbr": "KC",
+          "side": "home",
+          "qb_candidates": [
+            {
+              "name": "Patrick Mahomes",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Justin Fields",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Garrett Nussmeier",
+              "depth_rank": "3",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 4,
+          "injury_rows_in_latest_week": 11,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        }
+      ],
+      "prediction_eligibility": "blocked_unverified_qb_injuries"
+    },
+    {
+      "event_id": "f122527f003276d3bca19efa48c902c1",
+      "kickoff_utc": "2026-10-20T00:15:00+00:00",
+      "away_team": "Washington Commanders",
+      "home_team": "San Francisco 49ers",
+      "teams": [
+        {
+          "team": "Washington Commanders",
+          "abbr": "WAS",
+          "side": "away",
+          "qb_candidates": [
+            {
+              "name": "Jayden Daniels",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Marcus Mariota",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Athan Kaliakmanis",
+              "depth_rank": "3",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 23,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        },
+        {
+          "team": "San Francisco 49ers",
+          "abbr": "SF",
+          "side": "home",
+          "qb_candidates": [
+            {
+              "name": "Brock Purdy",
+              "depth_rank": "1",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Mac Jones",
+              "depth_rank": "2",
+              "source": "nflverse depth charts"
+            },
+            {
+              "name": "Kurtis Rourke",
+              "depth_rank": "3",
+              "source": "nflverse depth charts"
+            }
+          ],
+          "depth_chart_snapshot_at_utc": "2026-10-09T14:19:58+00:00",
+          "qb_starter_confirmed": false,
+          "qb_starter_name": null,
+          "injury_latest_source_week": 5,
+          "injury_rows_in_latest_week": 13,
+          "injury_rows_with_parseable_date": 0,
+          "current_game_designations_verified": false,
+          "safe_for_prediction_adjustments": false
+        }
+      ],
+      "prediction_eligibility": "blocked_unverified_qb_injuries"
+    }
+  ],
+  "warnings": [
+    "Las posiciones QB en depth chart NO prueban titularidad.",
+    "Lesiones sin fecha individual y designación del encuentro NO prueban situación actual.",
+    "La lista de juegos deriva de la última captura de cuotas, puede estar desactualizada.",
+    "No se modifica el modelo ni se generan picks; se necesitan fuentes oficiales fechadas por partido."
+  ]
+}
