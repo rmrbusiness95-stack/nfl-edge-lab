@@ -1,0 +1,189 @@
+{
+  "generated_at_utc": "2026-10-10T16:02:20.362904+00:00",
+  "source": "nflreadpy.load_player_stats(summary_level=week)",
+  "season_range": [
+    2018,
+    2025
+  ],
+  "selection_rule": "QB con al menos 10 pases y >=65% de intentos del equipo por semana",
+  "metrics": {
+    "seasons": {
+      "2018": {
+        "team_weeks": 520,
+        "dominant_qb_weeks": 509,
+        "consecutive_dominant_qb_changes": 24
+      },
+      "2019": {
+        "team_weeks": 520,
+        "dominant_qb_weeks": 510,
+        "consecutive_dominant_qb_changes": 32
+      },
+      "2020": {
+        "team_weeks": 519,
+        "dominant_qb_weeks": 497,
+        "consecutive_dominant_qb_changes": 33
+      },
+      "2021": {
+        "team_weeks": 540,
+        "dominant_qb_weeks": 527,
+        "consecutive_dominant_qb_changes": 48
+      },
+      "2022": {
+        "team_weeks": 542,
+        "dominant_qb_weeks": 530,
+        "consecutive_dominant_qb_changes": 51
+      },
+      "2023": {
+        "team_weeks": 544,
+        "dominant_qb_weeks": 527,
+        "consecutive_dominant_qb_changes": 37
+      },
+      "2024": {
+        "team_weeks": 544,
+        "dominant_qb_weeks": 530,
+        "consecutive_dominant_qb_changes": 42
+      },
+      "2025": {
+        "team_weeks": 544,
+        "dominant_qb_weeks": 529,
+        "consecutive_dominant_qb_changes": 49
+      }
+    },
+    "total_team_weeks": 4273,
+    "dominant_qb_weeks": 4159,
+    "consecutive_dominant_qb_changes": 316,
+    "examples": [
+      {
+        "season": 2018,
+        "week": 3,
+        "team": "PHI",
+        "dominant_passer": "C.Wentz",
+        "pass_attempts": 37,
+        "team_pass_attempts": 37
+      },
+      {
+        "season": 2018,
+        "week": 3,
+        "team": "TEN",
+        "dominant_passer": "M.Mariota",
+        "pass_attempts": 18,
+        "team_pass_attempts": 21
+      },
+      {
+        "season": 2018,
+        "week": 4,
+        "team": "ARI",
+        "dominant_passer": "J.Rosen",
+        "pass_attempts": 27,
+        "team_pass_attempts": 27
+      },
+      {
+        "season": 2018,
+        "week": 4,
+        "team": "SF",
+        "dominant_passer": "C.Beathard",
+        "pass_attempts": 37,
+        "team_pass_attempts": 37
+      },
+      {
+        "season": 2018,
+        "week": 6,
+        "team": "MIA",
+        "dominant_passer": "B.Osweiler",
+        "pass_attempts": 44,
+        "team_pass_attempts": 44
+      },
+      {
+        "season": 2018,
+        "week": 7,
+        "team": "JAX",
+        "dominant_passer": "C.Kessler",
+        "pass_attempts": 30,
+        "team_pass_attempts": 42
+      },
+      {
+        "season": 2018,
+        "week": 8,
+        "team": "JAX",
+        "dominant_passer": "B.Bortles",
+        "pass_attempts": 41,
+        "team_pass_attempts": 41
+      },
+      {
+        "season": 2018,
+        "week": 9,
+        "team": "BUF",
+        "dominant_passer": "N.Peterman",
+        "pass_attempts": 49,
+        "team_pass_attempts": 49
+      },
+      {
+        "season": 2018,
+        "week": 9,
+        "team": "SF",
+        "dominant_passer": "N.Mullens",
+        "pass_attempts": 22,
+        "team_pass_attempts": 22
+      },
+      {
+        "season": 2018,
+        "week": 9,
+        "team": "TB",
+        "dominant_passer": "R.Fitzpatrick",
+        "pass_attempts": 40,
+        "team_pass_attempts": 40
+      },
+      {
+        "season": 2018,
+        "week": 10,
+        "team": "BUF",
+        "dominant_passer": "M.Barkley",
+        "pass_attempts": 25,
+        "team_pass_attempts": 25
+      },
+      {
+        "season": 2018,
+        "week": 10,
+        "team": "NYJ",
+        "dominant_passer": "J.McCown",
+        "pass_attempts": 34,
+        "team_pass_attempts": 34
+      },
+      {
+        "season": 2018,
+        "week": 12,
+        "team": "CHI",
+        "dominant_passer": "C.Daniel",
+        "pass_attempts": 37,
+        "team_pass_attempts": 37
+      },
+      {
+        "season": 2018,
+        "week": 12,
+        "team": "WAS",
+        "dominant_passer": "C.McCoy",
+        "pass_attempts": 38,
+        "team_pass_attempts": 38
+      },
+      {
+        "season": 2018,
+        "week": 13,
+        "team": "JAX",
+        "dominant_passer": "C.Kessler",
+        "pass_attempts": 24,
+        "team_pass_attempts": 24
+      }
+    ]
+  },
+  "schema_verified": true,
+  "causal_effect_estimated": false,
+  "qb_starter_verified": false,
+  "model_modified": false,
+  "approved_picks": [],
+  "warnings": [
+    "Un pasador dominante NO equivale necesariamente al titular de inicio.",
+    "Los cambios observados no miden el impacto causal de lesiones o cambios de QB.",
+    "Faltan controlar rivales, localía, estado de partido, EPA, y disponibilidad previa.",
+    "Esta auditoría NO autoriza ajustar spreads, totals o probabilidades."
+  ]
+}
