@@ -1,0 +1,49 @@
+
+name: Auditar disponibilidad por partido NFL
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  auditoria:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Auditar quarterbacks y lesiones
+        run: python check_game_availability.py
+
+      - name: Verificar resultado
+        run: test -s data/game_availability_audit.json
+
+      - name: Publicar auditoria en GitHub
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/game_availability_audit.json
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Actualizar auditoria de jugadores NFL"
+            git push
+          else
+            echo "Sin cambios nuevos"
+          fi
+
+      - name: Guardar respaldo
+        uses: actions/upload-artifact@v4
+        with:
+          name: nfl-game-availability-audit
+          path: data/game_availability_audit.json
+          if-no-files-found: error
+          retention-days: 14
