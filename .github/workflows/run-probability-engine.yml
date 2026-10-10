@@ -1,0 +1,53 @@
+
+name: Motor probabilistico NFL Edge Lab V2
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  probabilidades:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: python -m pip install numpy pandas requests
+
+      - name: Ejecutar motor de probabilidades
+        run: python build_probability_engine.py
+
+      - name: Comprobar resultados
+        run: test -s data/probability_engine_v2.json
+
+      - name: Guardar resultados en GitHub
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/probability_engine_v2.json
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Generar probabilidades NFL Edge Lab V2"
+            git push
+          else
+            echo "Sin cambios nuevos"
+          fi
+
+      - name: Respaldar informe
+        uses: actions/upload-artifact@v4
+        with:
+          name: nfl-probability-engine-v2
+          path: data/probability_engine_v2.json
+          if-no-files-found: error
+          retention-days: 30
