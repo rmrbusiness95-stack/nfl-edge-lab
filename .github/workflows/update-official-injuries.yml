@@ -1,0 +1,65 @@
+
+name: Actualizar lesiones oficiales NFL
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Viernes, 3 PM hora de Arizona
+    - cron: '0 22 * 9-12,1 5'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nfl-official-injuries
+  cancel-in-progress: false
+
+jobs:
+  actualizacion:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Instalar dependencias
+        run: python -m pip install requests beautifulsoup4
+
+      - name: Detectar jornada y consultar NFL.com
+        run: python update_weekly_official_injuries.py
+
+      - name: Comprobar resultado
+        run: |
+          test -s data/official_nfl_injuries.json
+          test -d data/official_injury_history
+
+      - name: Guardar reportes en GitHub
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add data/official_nfl_injuries.json
+          git add data/official_injury_history/
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Actualizar lesiones oficiales NFL"
+            git push
+          else
+            echo "Sin cambios nuevos"
+          fi
+
+      - name: Guardar respaldo
+        uses: actions/upload-artifact@v4
+        with:
+          name: nfl-weekly-official-injuries
+          path: |
+            data/official_nfl_injuries.json
+            data/official_injury_history/
+          if-no-files-found: error
+          retention-days: 30
