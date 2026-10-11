@@ -1,5 +1,5 @@
 {
-  "generated_for_date": "2026-10-10",
+  "generated_for_date": "2026-10-11",
   "source": "nflverse nfldata games.csv",
   "trend_sample_start": 2002,
   "methodology": "ATS: margen equipo + puntos del equipo > 0; pushes excluidos del porcentaje; sólo partidos previos; condiciones situacionales históricas",
@@ -917,7 +917,7 @@
       "week": 5,
       "home": "PIT",
       "away": "IND",
-      "market_reference_spread_home": 3.0,
+      "market_reference_spread_home": 2.5,
       "market_reference_verified_live": false,
       "teams": [
         {
@@ -1133,7 +1133,7 @@
       "week": 5,
       "home": "NO",
       "away": "MIN",
-      "market_reference_spread_home": -2.5,
+      "market_reference_spread_home": -1.5,
       "market_reference_verified_live": false,
       "teams": [
         {
@@ -1635,7 +1635,7 @@
       "week": 5,
       "home": "LA",
       "away": "BUF",
-      "market_reference_spread_home": 3.0,
+      "market_reference_spread_home": 3.5,
       "market_reference_verified_live": false,
       "teams": [
         {
