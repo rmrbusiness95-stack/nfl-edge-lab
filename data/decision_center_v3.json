@@ -1,2047 +1,12 @@
 {
-  "generated_at_utc": "2026-10-11T11:13:51.868110+00:00",
-  "source_probabilities_utc": "2026-10-11T11:13:51.511782+00:00",
-  "source_odds_utc": "2026-10-11T11:13:51.115848+00:00",
-  "source_model_utc": "2026-10-11T11:13:50.615108+00:00",
-  "archived_odds_files_inspected": 5,
-  "games_count": 26,
-  "distinct_game_market_selections": 156,
+  "generated_at_utc": "2026-10-12T16:11:48.855120+00:00",
+  "source_probabilities_utc": "2026-10-12T16:11:48.327767+00:00",
+  "source_odds_utc": "2026-10-12T16:11:47.721611+00:00",
+  "source_model_utc": "2026-10-12T16:11:47.175915+00:00",
+  "archived_odds_files_inspected": 6,
+  "games_count": 15,
+  "distinct_game_market_selections": 90,
   "games": [
-    {
-      "game_id": "2026_05_PHI_JAX",
-      "week": 5,
-      "kickoff_utc": "2026-10-11T13:30:00+00:00",
-      "away_team": "Philadelphia Eagles",
-      "home_team": "Jacksonville Jaguars",
-      "independent_home_margin": 14.64,
-      "independent_total": 45.95,
-      "model_home_win_probability_experimental": 0.85644,
-      "status": "SEGUIMIENTO_SIN_APROBACION",
-      "blocking_issues": [
-        "availability_quality_not_verified",
-        "injury_data_not_verified",
-        "probabilities_not_prospectively_validated",
-        "qb_not_verified"
-      ],
-      "best_quotes_by_selection": [
-        {
-          "market": "moneyline",
-          "selection": "Jacksonville Jaguars",
-          "book": "BetMGM",
-          "line": null,
-          "american_odds": -400,
-          "probability_experimental": 0.85644,
-          "ev_experimental_per_dollar": null,
-          "push_probability_experimental": null,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": null,
-              "american_odds": -375
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": -400
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "moneyline",
-          "selection": "Philadelphia Eagles",
-          "book": "BetMGM",
-          "line": null,
-          "american_odds": 310,
-          "probability_experimental": 0.12719,
-          "ev_experimental_per_dollar": null,
-          "push_probability_experimental": null,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": null,
-              "american_odds": 300
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": 310
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "spread",
-          "selection": "Jacksonville Jaguars",
-          "book": "BetRivers",
-          "line": -8.0,
-          "american_odds": -107,
-          "probability_experimental": 0.67804,
-          "ev_experimental_per_dollar": 0.3382,
-          "push_probability_experimental": 0.0265,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": -7.5,
-              "american_odds": -112
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": -8.0,
-              "american_odds": -107
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "spread",
-          "selection": "Philadelphia Eagles",
-          "book": "BetUS",
-          "line": 9.0,
-          "american_odds": -120,
-          "probability_experimental": 0.32196,
-          "ev_experimental_per_dollar": -0.3823,
-          "push_probability_experimental": 0.02744,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": 8.0,
-              "american_odds": -115
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": 9.0,
-              "american_odds": -120
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "total",
-          "selection": "Over",
-          "book": "Bovada",
-          "line": 41.5,
-          "american_odds": -105,
-          "probability_experimental": 0.6271,
-          "ev_experimental_per_dollar": 0.2243,
-          "push_probability_experimental": 0.0,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": 42.0,
-              "american_odds": -110
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": 41.5,
-              "american_odds": -105
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "total",
-          "selection": "Under",
-          "book": "FanDuel",
-          "line": 41.5,
-          "american_odds": -105,
-          "probability_experimental": 0.3729,
-          "ev_experimental_per_dollar": -0.272,
-          "push_probability_experimental": 0.0,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": 41.5,
-              "american_odds": -105
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": 41.5,
-              "american_odds": -105
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        }
-      ],
-      "approved_picks": []
-    },
-    {
-      "game_id": "2026_05_CHI_GB",
-      "week": 5,
-      "kickoff_utc": "2026-10-11T17:00:00+00:00",
-      "away_team": "Chicago Bears",
-      "home_team": "Green Bay Packers",
-      "independent_home_margin": -7.43,
-      "independent_total": 45.85,
-      "model_home_win_probability_experimental": 0.27526,
-      "status": "SEGUIMIENTO_SIN_APROBACION",
-      "blocking_issues": [
-        "availability_quality_not_verified",
-        "injury_data_not_verified",
-        "probabilities_not_prospectively_validated",
-        "qb_not_verified"
-      ],
-      "best_quotes_by_selection": [
-        {
-          "market": "moneyline",
-          "selection": "Chicago Bears",
-          "book": "BetMGM",
-          "line": null,
-          "american_odds": -125,
-          "probability_experimental": 0.69906,
-          "ev_experimental_per_dollar": null,
-          "push_probability_experimental": null,
-          "books_compared": 8,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": null,
-              "american_odds": -125
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": -125
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "moneyline",
-          "selection": "Green Bay Packers",
-          "book": "BetMGM",
-          "line": null,
-          "american_odds": 105,
-          "probability_experimental": 0.27526,
-          "ev_experimental_per_dollar": null,
-          "push_probability_experimental": null,
-          "books_compared": 8,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": null,
-              "american_odds": 105
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": 105
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "spread",
-          "selection": "Chicago Bears",
-          "book": "BetUS",
-          "line": -1.0,
-          "american_odds": -110,
-          "probability_experimental": 0.67235,
-          "ev_experimental_per_dollar": 0.3103,
-          "push_probability_experimental": 0.02671,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": -1.0,
-              "american_odds": -115
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": -1.0,
-              "american_odds": -110
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "spread",
-          "selection": "Green Bay Packers",
-          "book": "DraftKings",
-          "line": 1.5,
-          "american_odds": -108,
-          "probability_experimental": 0.32765,
-          "ev_experimental_per_dollar": -0.369,
-          "push_probability_experimental": 0.0,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": 1.5,
-              "american_odds": -110
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": 1.5,
-              "american_odds": -108
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "total",
-          "selection": "Over",
-          "book": "LowVig.ag",
-          "line": 47.0,
-          "american_odds": -102,
-          "probability_experimental": 0.45216,
-          "ev_experimental_per_dollar": -0.0756,
-          "push_probability_experimental": 0.02895,
-          "books_compared": 8,
-          "movement": {
-            "status": "insufficient_matched_history"
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "total",
-          "selection": "Under",
-          "book": "BetMGM",
-          "line": 47.0,
-          "american_odds": -110,
-          "probability_experimental": 0.51888,
-          "ev_experimental_per_dollar": 0.0195,
-          "push_probability_experimental": 0.02895,
-          "books_compared": 8,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": 45.5,
-              "american_odds": -108
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": 47.0,
-              "american_odds": -110
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        }
-      ],
-      "approved_picks": []
-    },
-    {
-      "game_id": "2026_05_CIN_MIA",
-      "week": 5,
-      "kickoff_utc": "2026-10-11T17:00:00+00:00",
-      "away_team": "Cincinnati Bengals",
-      "home_team": "Miami Dolphins",
-      "independent_home_margin": -8.76,
-      "independent_total": 44.66,
-      "model_home_win_probability_experimental": 0.24287,
-      "status": "SEGUIMIENTO_SIN_APROBACION",
-      "blocking_issues": [
-        "availability_quality_not_verified",
-        "injury_data_not_verified",
-        "probabilities_not_prospectively_validated",
-        "qb_not_verified"
-      ],
-      "best_quotes_by_selection": [
-        {
-          "market": "moneyline",
-          "selection": "Cincinnati Bengals",
-          "book": "BetMGM",
-          "line": null,
-          "american_odds": -375,
-          "probability_experimental": 0.73297,
-          "ev_experimental_per_dollar": null,
-          "push_probability_experimental": null,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": null,
-              "american_odds": -350
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": -375
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "moneyline",
-          "selection": "Miami Dolphins",
-          "book": "BetMGM",
-          "line": null,
-          "american_odds": 300,
-          "probability_experimental": 0.24287,
-          "ev_experimental_per_dollar": null,
-          "push_probability_experimental": null,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": null,
-              "american_odds": 275
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": 300
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "spread",
-          "selection": "Cincinnati Bengals",
-          "book": "LowVig.ag",
-          "line": -7.0,
-          "american_odds": -105,
-          "probability_experimental": 0.53778,
-          "ev_experimental_per_dollar": 0.0797,
-          "push_probability_experimental": 0.02976,
-          "books_compared": 9,
-          "movement": {
-            "status": "insufficient_matched_history"
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "spread",
-          "selection": "Miami Dolphins",
-          "book": "Bovada",
-          "line": 7.0,
-          "american_odds": -105,
-          "probability_experimental": 0.43245,
-          "ev_experimental_per_dollar": -0.1259,
-          "push_probability_experimental": 0.02976,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": 7.0,
-              "american_odds": -110
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": 7.0,
-              "american_odds": -105
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "total",
-          "selection": "Over",
-          "book": "BetRivers",
-          "line": 43.5,
-          "american_odds": -109,
-          "probability_experimental": 0.53367,
-          "ev_experimental_per_dollar": 0.0233,
-          "push_probability_experimental": 0.0,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": 43.5,
-              "american_odds": -109
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": 43.5,
-              "american_odds": -109
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "total",
-          "selection": "Under",
-          "book": "LowVig.ag",
-          "line": 44.0,
-          "american_odds": -107,
-          "probability_experimental": 0.46633,
-          "ev_experimental_per_dollar": -0.0688,
-          "push_probability_experimental": 0.02902,
-          "books_compared": 9,
-          "movement": {
-            "status": "insufficient_matched_history"
-          },
-          "recommendation": "NO_APROBADA"
-        }
-      ],
-      "approved_picks": []
-    },
-    {
-      "game_id": "2026_05_CLE_NYJ",
-      "week": 5,
-      "kickoff_utc": "2026-10-11T17:00:00+00:00",
-      "away_team": "Cleveland Browns",
-      "home_team": "New York Jets",
-      "independent_home_margin": 2.75,
-      "independent_total": 45.96,
-      "model_home_win_probability_experimental": 0.56725,
-      "status": "SEGUIMIENTO_SIN_APROBACION",
-      "blocking_issues": [
-        "availability_quality_not_verified",
-        "injury_data_not_verified",
-        "probabilities_not_prospectively_validated",
-        "qb_not_verified"
-      ],
-      "best_quotes_by_selection": [
-        {
-          "market": "moneyline",
-          "selection": "Cleveland Browns",
-          "book": "BetMGM",
-          "line": null,
-          "american_odds": 115,
-          "probability_experimental": 0.40336,
-          "ev_experimental_per_dollar": null,
-          "push_probability_experimental": null,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": null,
-              "american_odds": 115
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": 115
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "moneyline",
-          "selection": "New York Jets",
-          "book": "BetMGM",
-          "line": null,
-          "american_odds": -140,
-          "probability_experimental": 0.56725,
-          "ev_experimental_per_dollar": null,
-          "push_probability_experimental": null,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": null,
-              "american_odds": -140
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": -140
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "spread",
-          "selection": "Cleveland Browns",
-          "book": "LowVig.ag",
-          "line": 2.5,
-          "american_odds": 100,
-          "probability_experimental": 0.49249,
-          "ev_experimental_per_dollar": -0.015,
-          "push_probability_experimental": 0.0,
-          "books_compared": 9,
-          "movement": {
-            "status": "insufficient_matched_history"
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "spread",
-          "selection": "New York Jets",
-          "book": "BetMGM",
-          "line": -2.0,
-          "american_odds": -110,
-          "probability_experimental": 0.50751,
-          "ev_experimental_per_dollar": -0.0011,
-          "push_probability_experimental": 0.02998,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": -2.0,
-              "american_odds": -110
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": -2.0,
-              "american_odds": -110
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "total",
-          "selection": "Over",
-          "book": "BetUS",
-          "line": 39.5,
-          "american_odds": -105,
-          "probability_experimental": 0.68104,
-          "ev_experimental_per_dollar": 0.3296,
-          "push_probability_experimental": 0.0,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": 39.5,
-              "american_odds": -105
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": 39.5,
-              "american_odds": -105
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "total",
-          "selection": "Under",
-          "book": "FanDuel",
-          "line": 39.5,
-          "american_odds": -105,
-          "probability_experimental": 0.31896,
-          "ev_experimental_per_dollar": -0.3773,
-          "push_probability_experimental": 0.0,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": 39.5,
-              "american_odds": -105
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": 39.5,
-              "american_odds": -105
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        }
-      ],
-      "approved_picks": []
-    },
-    {
-      "game_id": "2026_05_HOU_TEN",
-      "week": 5,
-      "kickoff_utc": "2026-10-11T17:00:00+00:00",
-      "away_team": "Houston Texans",
-      "home_team": "Tennessee Titans",
-      "independent_home_margin": -0.1,
-      "independent_total": 43.98,
-      "model_home_win_probability_experimental": 0.48199,
-      "status": "SEGUIMIENTO_SIN_APROBACION",
-      "blocking_issues": [
-        "availability_quality_not_verified",
-        "injury_data_not_verified",
-        "probabilities_not_prospectively_validated",
-        "qb_not_verified"
-      ],
-      "best_quotes_by_selection": [
-        {
-          "market": "moneyline",
-          "selection": "Houston Texans",
-          "book": "BetMGM",
-          "line": null,
-          "american_odds": -375,
-          "probability_experimental": 0.48799,
-          "ev_experimental_per_dollar": null,
-          "push_probability_experimental": null,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": null,
-              "american_odds": -350
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": -375
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "moneyline",
-          "selection": "Tennessee Titans",
-          "book": "BetMGM",
-          "line": null,
-          "american_odds": 290,
-          "probability_experimental": 0.48199,
-          "ev_experimental_per_dollar": null,
-          "push_probability_experimental": null,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": null,
-              "american_odds": 290
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": 290
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "spread",
-          "selection": "Houston Texans",
-          "book": "LowVig.ag",
-          "line": -7.0,
-          "american_odds": -105,
-          "probability_experimental": 0.28874,
-          "ev_experimental_per_dollar": -0.41,
-          "push_probability_experimental": 0.02624,
-          "books_compared": 9,
-          "movement": {
-            "status": "insufficient_matched_history"
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "spread",
-          "selection": "Tennessee Titans",
-          "book": "FanDuel",
-          "line": 7.0,
-          "american_odds": -105,
-          "probability_experimental": 0.68503,
-          "ev_experimental_per_dollar": 0.3637,
-          "push_probability_experimental": 0.02624,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": 7.0,
-              "american_odds": -105
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": 7.0,
-              "american_odds": -105
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "total",
-          "selection": "Over",
-          "book": "Bovada",
-          "line": 38.0,
-          "american_odds": -105,
-          "probability_experimental": 0.65513,
-          "ev_experimental_per_dollar": 0.3055,
-          "push_probability_experimental": 0.02643,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": 38.0,
-              "american_odds": -110
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": 38.0,
-              "american_odds": -105
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "total",
-          "selection": "Under",
-          "book": "LowVig.ag",
-          "line": 38.0,
-          "american_odds": -107,
-          "probability_experimental": 0.31844,
-          "ev_experimental_per_dollar": -0.3575,
-          "push_probability_experimental": 0.02643,
-          "books_compared": 9,
-          "movement": {
-            "status": "insufficient_matched_history"
-          },
-          "recommendation": "NO_APROBADA"
-        }
-      ],
-      "approved_picks": []
-    },
-    {
-      "game_id": "2026_05_IND_PIT",
-      "week": 5,
-      "kickoff_utc": "2026-10-11T17:00:00+00:00",
-      "away_team": "Indianapolis Colts",
-      "home_team": "Pittsburgh Steelers",
-      "independent_home_margin": 1.05,
-      "independent_total": 43.44,
-      "model_home_win_probability_experimental": 0.51651,
-      "status": "SEGUIMIENTO_SIN_APROBACION",
-      "blocking_issues": [
-        "availability_quality_not_verified",
-        "injury_data_not_verified",
-        "probabilities_not_prospectively_validated",
-        "qb_not_verified"
-      ],
-      "best_quotes_by_selection": [
-        {
-          "market": "moneyline",
-          "selection": "Indianapolis Colts",
-          "book": "BetMGM",
-          "line": null,
-          "american_odds": 125,
-          "probability_experimental": 0.45355,
-          "ev_experimental_per_dollar": null,
-          "push_probability_experimental": null,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": null,
-              "american_odds": 120
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": 125
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "moneyline",
-          "selection": "Pittsburgh Steelers",
-          "book": "BetMGM",
-          "line": null,
-          "american_odds": -145,
-          "probability_experimental": 0.51651,
-          "ev_experimental_per_dollar": null,
-          "push_probability_experimental": null,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": null,
-              "american_odds": -145
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": -145
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "spread",
-          "selection": "Indianapolis Colts",
-          "book": "BetMGM",
-          "line": 2.5,
-          "american_odds": 100,
-          "probability_experimental": 0.54346,
-          "ev_experimental_per_dollar": 0.0869,
-          "push_probability_experimental": 0.0,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": 2.5,
-              "american_odds": -102
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": 2.5,
-              "american_odds": 100
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "spread",
-          "selection": "Pittsburgh Steelers",
-          "book": "LowVig.ag",
-          "line": -3.0,
-          "american_odds": 101,
-          "probability_experimental": 0.42683,
-          "ev_experimental_per_dollar": -0.1124,
-          "push_probability_experimental": 0.0297,
-          "books_compared": 9,
-          "movement": {
-            "status": "insufficient_matched_history"
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "total",
-          "selection": "Over",
-          "book": "Bovada",
-          "line": 43.5,
-          "american_odds": -105,
-          "probability_experimental": 0.49826,
-          "ev_experimental_per_dollar": -0.0272,
-          "push_probability_experimental": 0.0,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": 43.5,
-              "american_odds": -110
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": 43.5,
-              "american_odds": -105
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "total",
-          "selection": "Under",
-          "book": "LowVig.ag",
-          "line": 43.5,
-          "american_odds": -107,
-          "probability_experimental": 0.50174,
-          "ev_experimental_per_dollar": -0.0293,
-          "push_probability_experimental": 0.0,
-          "books_compared": 9,
-          "movement": {
-            "status": "insufficient_matched_history"
-          },
-          "recommendation": "NO_APROBADA"
-        }
-      ],
-      "approved_picks": []
-    },
-    {
-      "game_id": "2026_05_LV_NE",
-      "week": 5,
-      "kickoff_utc": "2026-10-11T17:00:00+00:00",
-      "away_team": "Las Vegas Raiders",
-      "home_team": "New England Patriots",
-      "independent_home_margin": -1.13,
-      "independent_total": 43.56,
-      "model_home_win_probability_experimental": 0.45117,
-      "status": "SEGUIMIENTO_SIN_APROBACION",
-      "blocking_issues": [
-        "availability_quality_not_verified",
-        "injury_data_not_verified",
-        "probabilities_not_prospectively_validated",
-        "qb_not_verified"
-      ],
-      "best_quotes_by_selection": [
-        {
-          "market": "moneyline",
-          "selection": "Las Vegas Raiders",
-          "book": "BetMGM",
-          "line": null,
-          "american_odds": 155,
-          "probability_experimental": 0.51891,
-          "ev_experimental_per_dollar": null,
-          "push_probability_experimental": null,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": null,
-              "american_odds": 160
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": 155
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "moneyline",
-          "selection": "New England Patriots",
-          "book": "BetMGM",
-          "line": null,
-          "american_odds": -190,
-          "probability_experimental": 0.45117,
-          "ev_experimental_per_dollar": null,
-          "push_probability_experimental": null,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": null,
-              "american_odds": -200
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": -190
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "spread",
-          "selection": "Las Vegas Raiders",
-          "book": "LowVig.ag",
-          "line": 3.5,
-          "american_odds": -106,
-          "probability_experimental": 0.63629,
-          "ev_experimental_per_dollar": 0.2366,
-          "push_probability_experimental": 0.0,
-          "books_compared": 9,
-          "movement": {
-            "status": "insufficient_matched_history"
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "spread",
-          "selection": "New England Patriots",
-          "book": "LowVig.ag",
-          "line": -3.5,
-          "american_odds": -104,
-          "probability_experimental": 0.36371,
-          "ev_experimental_per_dollar": -0.2866,
-          "push_probability_experimental": 0.0,
-          "books_compared": 9,
-          "movement": {
-            "status": "insufficient_matched_history"
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "total",
-          "selection": "Over",
-          "book": "BetMGM",
-          "line": 45.0,
-          "american_odds": -110,
-          "probability_experimental": 0.44381,
-          "ev_experimental_per_dollar": -0.1238,
-          "push_probability_experimental": 0.0289,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": 44.5,
-              "american_odds": -110
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": 45.0,
-              "american_odds": -110
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "total",
-          "selection": "Under",
-          "book": "LowVig.ag",
-          "line": 45.0,
-          "american_odds": 101,
-          "probability_experimental": 0.5273,
-          "ev_experimental_per_dollar": 0.0888,
-          "push_probability_experimental": 0.0289,
-          "books_compared": 9,
-          "movement": {
-            "status": "insufficient_matched_history"
-          },
-          "recommendation": "NO_APROBADA"
-        }
-      ],
-      "approved_picks": []
-    },
-    {
-      "game_id": "2026_05_MIN_NO",
-      "week": 5,
-      "kickoff_utc": "2026-10-11T17:00:00+00:00",
-      "away_team": "Minnesota Vikings",
-      "home_team": "New Orleans Saints",
-      "independent_home_margin": 0.72,
-      "independent_total": 42.08,
-      "model_home_win_probability_experimental": 0.50661,
-      "status": "SEGUIMIENTO_SIN_APROBACION",
-      "blocking_issues": [
-        "availability_quality_not_verified",
-        "injury_data_not_verified",
-        "probabilities_not_prospectively_validated",
-        "qb_not_verified"
-      ],
-      "best_quotes_by_selection": [
-        {
-          "market": "moneyline",
-          "selection": "Minnesota Vikings",
-          "book": "BetMGM",
-          "line": null,
-          "american_odds": -135,
-          "probability_experimental": 0.46341,
-          "ev_experimental_per_dollar": null,
-          "push_probability_experimental": null,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": null,
-              "american_odds": -145
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": -135
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "moneyline",
-          "selection": "New Orleans Saints",
-          "book": "BetMGM",
-          "line": null,
-          "american_odds": 110,
-          "probability_experimental": 0.50661,
-          "ev_experimental_per_dollar": null,
-          "push_probability_experimental": null,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": null,
-              "american_odds": 120
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": 110
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "spread",
-          "selection": "Minnesota Vikings",
-          "book": "BetOnline.ag",
-          "line": -1.0,
-          "american_odds": -125,
-          "probability_experimental": 0.43364,
-          "ev_experimental_per_dollar": -0.1897,
-          "push_probability_experimental": 0.02978,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": -1.0,
-              "american_odds": -125
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": -1.0,
-              "american_odds": -125
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "spread",
-          "selection": "New Orleans Saints",
-          "book": "LowVig.ag",
-          "line": 2.5,
-          "american_odds": -110,
-          "probability_experimental": 0.59577,
-          "ev_experimental_per_dollar": 0.1374,
-          "push_probability_experimental": 0.0,
-          "books_compared": 9,
-          "movement": {
-            "status": "insufficient_matched_history"
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "total",
-          "selection": "Over",
-          "book": "LowVig.ag",
-          "line": 42.0,
-          "american_odds": 103,
-          "probability_experimental": 0.4878,
-          "ev_experimental_per_dollar": 0.0193,
-          "push_probability_experimental": 0.02906,
-          "books_compared": 9,
-          "movement": {
-            "status": "insufficient_matched_history"
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "total",
-          "selection": "Under",
-          "book": "Bovada",
-          "line": 42.0,
-          "american_odds": -110,
-          "probability_experimental": 0.48315,
-          "ev_experimental_per_dollar": -0.0486,
-          "push_probability_experimental": 0.02906,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": 41.5,
-              "american_odds": -110
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": 42.0,
-              "american_odds": -110
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        }
-      ],
-      "approved_picks": []
-    },
-    {
-      "game_id": "2026_05_NYG_WAS",
-      "week": 5,
-      "kickoff_utc": "2026-10-11T17:00:00+00:00",
-      "away_team": "New York Giants",
-      "home_team": "Washington Commanders",
-      "independent_home_margin": 1.16,
-      "independent_total": 43.43,
-      "model_home_win_probability_experimental": 0.51981,
-      "status": "SEGUIMIENTO_SIN_APROBACION",
-      "blocking_issues": [
-        "availability_quality_not_verified",
-        "injury_data_not_verified",
-        "probabilities_not_prospectively_validated",
-        "qb_not_verified"
-      ],
-      "best_quotes_by_selection": [
-        {
-          "market": "moneyline",
-          "selection": "New York Giants",
-          "book": "BetMGM",
-          "line": null,
-          "american_odds": 155,
-          "probability_experimental": 0.45028,
-          "ev_experimental_per_dollar": null,
-          "push_probability_experimental": null,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": null,
-              "american_odds": 155
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": 155
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "moneyline",
-          "selection": "Washington Commanders",
-          "book": "BetMGM",
-          "line": null,
-          "american_odds": -190,
-          "probability_experimental": 0.51981,
-          "ev_experimental_per_dollar": null,
-          "push_probability_experimental": null,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": null,
-              "american_odds": -190
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": -190
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "spread",
-          "selection": "New York Giants",
-          "book": "BetRivers",
-          "line": 4.0,
-          "american_odds": -114,
-          "probability_experimental": 0.56991,
-          "ev_experimental_per_dollar": 0.0992,
-          "push_probability_experimental": 0.02935,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": 4.0,
-              "american_odds": -113
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": 4.0,
-              "american_odds": -114
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "spread",
-          "selection": "Washington Commanders",
-          "book": "LowVig.ag",
-          "line": -3.5,
-          "american_odds": -102,
-          "probability_experimental": 0.43009,
-          "ev_experimental_per_dollar": -0.1483,
-          "push_probability_experimental": 0.0,
-          "books_compared": 9,
-          "movement": {
-            "status": "insufficient_matched_history"
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "total",
-          "selection": "Over",
-          "book": "LowVig.ag",
-          "line": 41.5,
-          "american_odds": -107,
-          "probability_experimental": 0.55591,
-          "ev_experimental_per_dollar": 0.0755,
-          "push_probability_experimental": 0.0,
-          "books_compared": 9,
-          "movement": {
-            "status": "insufficient_matched_history"
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "total",
-          "selection": "Under",
-          "book": "Bovada",
-          "line": 41.5,
-          "american_odds": -105,
-          "probability_experimental": 0.44409,
-          "ev_experimental_per_dollar": -0.133,
-          "push_probability_experimental": 0.0,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": 42.0,
-              "american_odds": -115
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": 41.5,
-              "american_odds": -105
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        }
-      ],
-      "approved_picks": []
-    },
-    {
-      "game_id": "2026_05_DEN_LAC",
-      "week": 5,
-      "kickoff_utc": "2026-10-11T20:05:00+00:00",
-      "away_team": "Denver Broncos",
-      "home_team": "Los Angeles Chargers",
-      "independent_home_margin": -0.17,
-      "independent_total": 42.65,
-      "model_home_win_probability_experimental": 0.47989,
-      "status": "SEGUIMIENTO_SIN_APROBACION",
-      "blocking_issues": [
-        "availability_quality_not_verified",
-        "injury_data_not_verified",
-        "probabilities_not_prospectively_validated",
-        "qb_not_verified"
-      ],
-      "best_quotes_by_selection": [
-        {
-          "market": "moneyline",
-          "selection": "Denver Broncos",
-          "book": "BetMGM",
-          "line": null,
-          "american_odds": -190,
-          "probability_experimental": 0.49009,
-          "ev_experimental_per_dollar": null,
-          "push_probability_experimental": null,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": null,
-              "american_odds": -190
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": -190
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "moneyline",
-          "selection": "Los Angeles Chargers",
-          "book": "BetMGM",
-          "line": null,
-          "american_odds": 155,
-          "probability_experimental": 0.47989,
-          "ev_experimental_per_dollar": null,
-          "push_probability_experimental": null,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": null,
-              "american_odds": 155
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": 155
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "spread",
-          "selection": "Denver Broncos",
-          "book": "FanDuel",
-          "line": -3.5,
-          "american_odds": -105,
-          "probability_experimental": 0.40103,
-          "ev_experimental_per_dollar": -0.217,
-          "push_probability_experimental": 0.0,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": -3.5,
-              "american_odds": -106
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": -3.5,
-              "american_odds": -105
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "spread",
-          "selection": "Los Angeles Chargers",
-          "book": "LowVig.ag",
-          "line": 3.5,
-          "american_odds": -103,
-          "probability_experimental": 0.59897,
-          "ev_experimental_per_dollar": 0.1805,
-          "push_probability_experimental": 0.0,
-          "books_compared": 9,
-          "movement": {
-            "status": "insufficient_matched_history"
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "total",
-          "selection": "Over",
-          "book": "Bovada",
-          "line": 42.0,
-          "american_odds": -105,
-          "probability_experimental": 0.50436,
-          "ev_experimental_per_dollar": 0.0137,
-          "push_probability_experimental": 0.02902,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": 42.0,
-              "american_odds": -110
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": 42.0,
-              "american_odds": -105
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "total",
-          "selection": "Under",
-          "book": "LowVig.ag",
-          "line": 42.0,
-          "american_odds": -107,
-          "probability_experimental": 0.46662,
-          "ev_experimental_per_dollar": -0.0683,
-          "push_probability_experimental": 0.02902,
-          "books_compared": 9,
-          "movement": {
-            "status": "insufficient_matched_history"
-          },
-          "recommendation": "NO_APROBADA"
-        }
-      ],
-      "approved_picks": []
-    },
-    {
-      "game_id": "2026_05_DET_ARI",
-      "week": 5,
-      "kickoff_utc": "2026-10-11T20:25:00+00:00",
-      "away_team": "Detroit Lions",
-      "home_team": "Arizona Cardinals",
-      "independent_home_margin": -2.46,
-      "independent_total": 49.86,
-      "model_home_win_probability_experimental": 0.41183,
-      "status": "SEGUIMIENTO_SIN_APROBACION",
-      "blocking_issues": [
-        "availability_quality_not_verified",
-        "injury_data_not_verified",
-        "probabilities_not_prospectively_validated",
-        "qb_not_verified"
-      ],
-      "best_quotes_by_selection": [
-        {
-          "market": "moneyline",
-          "selection": "Arizona Cardinals",
-          "book": "BetMGM",
-          "line": null,
-          "american_odds": 200,
-          "probability_experimental": 0.41183,
-          "ev_experimental_per_dollar": null,
-          "push_probability_experimental": null,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": null,
-              "american_odds": 200
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": 200
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "moneyline",
-          "selection": "Detroit Lions",
-          "book": "BetMGM",
-          "line": null,
-          "american_odds": -250,
-          "probability_experimental": 0.55865,
-          "ev_experimental_per_dollar": null,
-          "push_probability_experimental": null,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": null,
-              "american_odds": -235
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": -250
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "spread",
-          "selection": "Arizona Cardinals",
-          "book": "LowVig.ag",
-          "line": 5.5,
-          "american_odds": -108,
-          "probability_experimental": 0.59051,
-          "ev_experimental_per_dollar": 0.1373,
-          "push_probability_experimental": 0.0,
-          "books_compared": 9,
-          "movement": {
-            "status": "insufficient_matched_history"
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "spread",
-          "selection": "Detroit Lions",
-          "book": "BetMGM",
-          "line": -5.0,
-          "american_odds": -110,
-          "probability_experimental": 0.40949,
-          "ev_experimental_per_dollar": -0.1888,
-          "push_probability_experimental": 0.02948,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": -5.5,
-              "american_odds": -108
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": -5.0,
-              "american_odds": -110
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "total",
-          "selection": "Over",
-          "book": "LowVig.ag",
-          "line": 54.5,
-          "american_odds": -107,
-          "probability_experimental": 0.36767,
-          "ev_experimental_per_dollar": -0.2887,
-          "push_probability_experimental": 0.0,
-          "books_compared": 9,
-          "movement": {
-            "status": "insufficient_matched_history"
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "total",
-          "selection": "Under",
-          "book": "DraftKings",
-          "line": 54.5,
-          "american_odds": -105,
-          "probability_experimental": 0.63233,
-          "ev_experimental_per_dollar": 0.2345,
-          "push_probability_experimental": 0.0,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": 54.5,
-              "american_odds": -105
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": 54.5,
-              "american_odds": -105
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        }
-      ],
-      "approved_picks": []
-    },
-    {
-      "game_id": "2026_05_SF_SEA",
-      "week": 5,
-      "kickoff_utc": "2026-10-11T20:25:00+00:00",
-      "away_team": "San Francisco 49ers",
-      "home_team": "Seattle Seahawks",
-      "independent_home_margin": -3.82,
-      "independent_total": 51.13,
-      "model_home_win_probability_experimental": 0.37251,
-      "status": "SEGUIMIENTO_SIN_APROBACION",
-      "blocking_issues": [
-        "availability_quality_not_verified",
-        "injury_data_not_verified",
-        "probabilities_not_prospectively_validated",
-        "qb_not_verified"
-      ],
-      "best_quotes_by_selection": [
-        {
-          "market": "moneyline",
-          "selection": "San Francisco 49ers",
-          "book": "BetMGM",
-          "line": null,
-          "american_odds": 138,
-          "probability_experimental": 0.59868,
-          "ev_experimental_per_dollar": null,
-          "push_probability_experimental": null,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": null,
-              "american_odds": 138
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": 138
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "moneyline",
-          "selection": "Seattle Seahawks",
-          "book": "BetMGM",
-          "line": null,
-          "american_odds": -165,
-          "probability_experimental": 0.37251,
-          "ev_experimental_per_dollar": null,
-          "push_probability_experimental": null,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": null,
-              "american_odds": -165
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": -165
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "spread",
-          "selection": "San Francisco 49ers",
-          "book": "LowVig.ag",
-          "line": 3.0,
-          "american_odds": 104,
-          "probability_experimental": 0.68288,
-          "ev_experimental_per_dollar": 0.4194,
-          "push_probability_experimental": 0.02632,
-          "books_compared": 9,
-          "movement": {
-            "status": "insufficient_matched_history"
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "spread",
-          "selection": "Seattle Seahawks",
-          "book": "BetUS",
-          "line": -3.5,
-          "american_odds": 100,
-          "probability_experimental": 0.2908,
-          "ev_experimental_per_dollar": -0.4184,
-          "push_probability_experimental": 0.0,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": -3.5,
-              "american_odds": -105
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": -3.5,
-              "american_odds": 100
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "total",
-          "selection": "Over",
-          "book": "FanDuel",
-          "line": 46.5,
-          "american_odds": -105,
-          "probability_experimental": 0.63205,
-          "ev_experimental_per_dollar": 0.234,
-          "push_probability_experimental": 0.0,
-          "books_compared": 8,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": 46.5,
-              "american_odds": -105
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": 46.5,
-              "american_odds": -105
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "total",
-          "selection": "Under",
-          "book": "LowVig.ag",
-          "line": 46.5,
-          "american_odds": -107,
-          "probability_experimental": 0.36795,
-          "ev_experimental_per_dollar": -0.2882,
-          "push_probability_experimental": 0.0,
-          "books_compared": 8,
-          "movement": {
-            "status": "insufficient_matched_history"
-          },
-          "recommendation": "NO_APROBADA"
-        }
-      ],
-      "approved_picks": []
-    },
-    {
-      "game_id": "2026_05_BAL_ATL",
-      "week": 5,
-      "kickoff_utc": "2026-10-12T00:20:00+00:00",
-      "away_team": "Baltimore Ravens",
-      "home_team": "Atlanta Falcons",
-      "independent_home_margin": -1.82,
-      "independent_total": 49.04,
-      "model_home_win_probability_experimental": 0.43068,
-      "status": "SEGUIMIENTO_SIN_APROBACION",
-      "blocking_issues": [
-        "availability_quality_not_verified",
-        "injury_data_not_verified",
-        "probabilities_not_prospectively_validated",
-        "qb_not_verified"
-      ],
-      "best_quotes_by_selection": [
-        {
-          "market": "moneyline",
-          "selection": "Atlanta Falcons",
-          "book": "BetMGM",
-          "line": null,
-          "american_odds": -175,
-          "probability_experimental": 0.43068,
-          "ev_experimental_per_dollar": null,
-          "push_probability_experimental": null,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": null,
-              "american_odds": -175
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": -175
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "moneyline",
-          "selection": "Baltimore Ravens",
-          "book": "BetMGM",
-          "line": null,
-          "american_odds": 145,
-          "probability_experimental": 0.53958,
-          "ev_experimental_per_dollar": null,
-          "push_probability_experimental": null,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": null,
-              "american_odds": 150
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": 145
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "spread",
-          "selection": "Atlanta Falcons",
-          "book": "LowVig.ag",
-          "line": -3.5,
-          "american_odds": 101,
-          "probability_experimental": 0.3444,
-          "ev_experimental_per_dollar": -0.3078,
-          "push_probability_experimental": 0.0,
-          "books_compared": 9,
-          "movement": {
-            "status": "insufficient_matched_history"
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "spread",
-          "selection": "Baltimore Ravens",
-          "book": "DraftKings",
-          "line": 3.0,
-          "american_odds": 102,
-          "probability_experimental": 0.62749,
-          "ev_experimental_per_dollar": 0.2956,
-          "push_probability_experimental": 0.02811,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": 3.5,
-              "american_odds": -118
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": 3.0,
-              "american_odds": 102
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "total",
-          "selection": "Over",
-          "book": "BetMGM",
-          "line": 43.5,
-          "american_odds": -110,
-          "probability_experimental": 0.65674,
-          "ev_experimental_per_dollar": 0.2538,
-          "push_probability_experimental": 0.0,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": 44.0,
-              "american_odds": -110
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": 43.5,
-              "american_odds": -110
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "total",
-          "selection": "Under",
-          "book": "LowVig.ag",
-          "line": 43.5,
-          "american_odds": -102,
-          "probability_experimental": 0.34326,
-          "ev_experimental_per_dollar": -0.3202,
-          "push_probability_experimental": 0.0,
-          "books_compared": 9,
-          "movement": {
-            "status": "insufficient_matched_history"
-          },
-          "recommendation": "NO_APROBADA"
-        }
-      ],
-      "approved_picks": []
-    },
     {
       "game_id": "2026_05_BUF_LA",
       "week": 5,
@@ -2077,11 +42,11 @@
               "american_odds": 150
             },
             "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
               "point": null,
               "american_odds": 150
             },
-            "observations": 5
+            "observations": 6
           },
           "recommendation": "NO_APROBADA"
         },
@@ -2090,7 +55,7 @@
           "selection": "Los Angeles Rams",
           "book": "BetMGM",
           "line": null,
-          "american_odds": -185,
+          "american_odds": -175,
           "probability_experimental": 0.59256,
           "ev_experimental_per_dollar": null,
           "push_probability_experimental": null,
@@ -2103,49 +68,23 @@
               "american_odds": -185
             },
             "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
               "point": null,
-              "american_odds": -185
+              "american_odds": -175
             },
-            "observations": 5
+            "observations": 6
           },
           "recommendation": "NO_APROBADA"
         },
         {
           "market": "spread",
           "selection": "Buffalo Bills",
-          "book": "Bovada",
-          "line": 3.0,
-          "american_odds": 100,
-          "probability_experimental": 0.4667,
-          "ev_experimental_per_dollar": -0.0366,
-          "push_probability_experimental": 0.02999,
-          "books_compared": 9,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": 3.0,
-              "american_odds": 100
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": 3.0,
-              "american_odds": 100
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "spread",
-          "selection": "Los Angeles Rams",
           "book": "LowVig.ag",
-          "line": -3.5,
-          "american_odds": 100,
-          "probability_experimental": 0.5033,
-          "ev_experimental_per_dollar": 0.0066,
-          "push_probability_experimental": 0.0,
+          "line": 3.0,
+          "american_odds": 108,
+          "probability_experimental": 0.4667,
+          "ev_experimental_per_dollar": 0.0007,
+          "push_probability_experimental": 0.02999,
           "books_compared": 9,
           "movement": {
             "status": "insufficient_matched_history"
@@ -2153,14 +92,40 @@
           "recommendation": "NO_APROBADA"
         },
         {
+          "market": "spread",
+          "selection": "Los Angeles Rams",
+          "book": "BetMGM",
+          "line": -3.5,
+          "american_odds": -102,
+          "probability_experimental": 0.5033,
+          "ev_experimental_per_dollar": -0.0033,
+          "push_probability_experimental": 0.0,
+          "books_compared": 9,
+          "movement": {
+            "status": "matched_book_observations",
+            "first": {
+              "at_utc": "2026-10-10T00:00:18.139663+00:00",
+              "point": -3.0,
+              "american_odds": -125
+            },
+            "last": {
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
+              "point": -3.5,
+              "american_odds": -102
+            },
+            "observations": 6
+          },
+          "recommendation": "NO_APROBADA"
+        },
+        {
           "market": "total",
           "selection": "Over",
           "book": "BetRivers",
-          "line": 54.0,
-          "american_odds": -112,
+          "line": 54.5,
+          "american_odds": -110,
           "probability_experimental": 0.36466,
-          "ev_experimental_per_dollar": -0.2821,
-          "push_probability_experimental": 0.0277,
+          "ev_experimental_per_dollar": -0.3038,
+          "push_probability_experimental": 0.0,
           "books_compared": 9,
           "movement": {
             "status": "matched_book_observations",
@@ -2170,11 +135,11 @@
               "american_odds": -108
             },
             "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": 54.0,
-              "american_odds": -112
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
+              "point": 54.5,
+              "american_odds": -110
             },
-            "observations": 5
+            "observations": 6
           },
           "recommendation": "NO_APROBADA"
         },
@@ -2183,9 +148,9 @@
           "selection": "Under",
           "book": "DraftKings",
           "line": 54.5,
-          "american_odds": -105,
+          "american_odds": -102,
           "probability_experimental": 0.63534,
-          "ev_experimental_per_dollar": 0.2404,
+          "ev_experimental_per_dollar": 0.2582,
           "push_probability_experimental": 0.0,
           "books_compared": 9,
           "movement": {
@@ -2196,11 +161,11 @@
               "american_odds": -102
             },
             "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
               "point": 54.5,
-              "american_odds": -105
+              "american_odds": -102
             },
-            "observations": 5
+            "observations": 6
           },
           "recommendation": "NO_APROBADA"
         }
@@ -2213,9 +178,9 @@
       "kickoff_utc": "2026-10-16T00:15:00+00:00",
       "away_team": "Seattle Seahawks",
       "home_team": "Denver Broncos",
-      "independent_home_margin": -3.43,
-      "independent_total": 43.85,
-      "model_home_win_probability_experimental": 0.38367,
+      "independent_home_margin": -0.19,
+      "independent_total": 40.82,
+      "model_home_win_probability_experimental": 0.47929,
       "status": "SEGUIMIENTO_SIN_APROBACION",
       "blocking_issues": [
         "availability_quality_not_verified",
@@ -2228,104 +193,81 @@
         {
           "market": "moneyline",
           "selection": "Denver Broncos",
-          "book": "BetRivers",
+          "book": "BetMGM",
           "line": null,
-          "american_odds": 116,
-          "probability_experimental": 0.38367,
+          "american_odds": 130,
+          "probability_experimental": 0.47929,
           "ev_experimental_per_dollar": null,
           "push_probability_experimental": null,
-          "books_compared": 4,
+          "books_compared": 9,
           "movement": {
-            "status": "matched_book_observations",
+            "status": "single_archived_observation",
             "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
               "point": null,
-              "american_odds": 116
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": 116
-            },
-            "observations": 5
+              "american_odds": 130
+            }
           },
           "recommendation": "NO_APROBADA"
         },
         {
           "market": "moneyline",
           "selection": "Seattle Seahawks",
-          "book": "BetRivers",
+          "book": "BetMGM",
           "line": null,
-          "american_odds": -141,
-          "probability_experimental": 0.58729,
+          "american_odds": -155,
+          "probability_experimental": 0.49069,
           "ev_experimental_per_dollar": null,
           "push_probability_experimental": null,
-          "books_compared": 4,
+          "books_compared": 9,
           "movement": {
-            "status": "matched_book_observations",
+            "status": "single_archived_observation",
             "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
               "point": null,
-              "american_odds": -141
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": -141
-            },
-            "observations": 5
+              "american_odds": -155
+            }
           },
           "recommendation": "NO_APROBADA"
         },
         {
           "market": "spread",
           "selection": "Denver Broncos",
-          "book": "FanDuel",
+          "book": "BetOnline.ag",
           "line": 2.5,
-          "american_odds": -110,
-          "probability_experimental": 0.47209,
-          "ev_experimental_per_dollar": -0.0987,
+          "american_odds": 105,
+          "probability_experimental": 0.56903,
+          "ev_experimental_per_dollar": 0.1665,
           "push_probability_experimental": 0.0,
-          "books_compared": 7,
+          "books_compared": 9,
           "movement": {
             "status": "matched_book_observations",
             "first": {
               "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": 2.5,
+              "point": 2.0,
               "american_odds": -110
             },
             "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
               "point": 2.5,
-              "american_odds": -110
+              "american_odds": 105
             },
-            "observations": 5
+            "observations": 6
           },
           "recommendation": "NO_APROBADA"
         },
         {
           "market": "spread",
           "selection": "Seattle Seahawks",
-          "book": "DraftKings",
-          "line": -1.5,
-          "american_odds": -110,
-          "probability_experimental": 0.55776,
-          "ev_experimental_per_dollar": 0.0648,
-          "push_probability_experimental": 0.0,
-          "books_compared": 7,
+          "book": "LowVig.ag",
+          "line": -3.0,
+          "american_odds": 105,
+          "probability_experimental": 0.40161,
+          "ev_experimental_per_dollar": -0.1473,
+          "push_probability_experimental": 0.02936,
+          "books_compared": 9,
           "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": -1.5,
-              "american_odds": -110
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": -1.5,
-              "american_odds": -110
-            },
-            "observations": 5
+            "status": "insufficient_matched_history"
           },
           "recommendation": "NO_APROBADA"
         },
@@ -2333,12 +275,12 @@
           "market": "total",
           "selection": "Over",
           "book": "LowVig.ag",
-          "line": 42.0,
+          "line": 41.0,
           "american_odds": -107,
-          "probability_experimental": 0.53917,
-          "ev_experimental_per_dollar": 0.0719,
-          "push_probability_experimental": 0.02879,
-          "books_compared": 7,
+          "probability_experimental": 0.48025,
+          "ev_experimental_per_dollar": -0.0419,
+          "push_probability_experimental": 0.02905,
+          "books_compared": 9,
           "movement": {
             "status": "insufficient_matched_history"
           },
@@ -2347,26 +289,15 @@
         {
           "market": "total",
           "selection": "Under",
-          "book": "DraftKings",
-          "line": 42.5,
-          "american_odds": -110,
-          "probability_experimental": 0.46083,
-          "ev_experimental_per_dollar": -0.1202,
-          "push_probability_experimental": 0.0,
-          "books_compared": 7,
+          "book": "LowVig.ag",
+          "line": 41.0,
+          "american_odds": -107,
+          "probability_experimental": 0.4907,
+          "ev_experimental_per_dollar": -0.0217,
+          "push_probability_experimental": 0.02905,
+          "books_compared": 9,
           "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": 42.5,
-              "american_odds": -110
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": 42.5,
-              "american_odds": -110
-            },
-            "observations": 5
+            "status": "insufficient_matched_history"
           },
           "recommendation": "NO_APROBADA"
         }
@@ -2379,9 +310,9 @@
       "kickoff_utc": "2026-10-18T13:30:00+00:00",
       "away_team": "Houston Texans",
       "home_team": "Jacksonville Jaguars",
-      "independent_home_margin": 10.6,
-      "independent_total": 47.8,
-      "model_home_win_probability_experimental": 0.77647,
+      "independent_home_margin": 7.96,
+      "independent_total": 46.91,
+      "model_home_win_probability_experimental": 0.7128,
       "status": "SEGUIMIENTO_SIN_APROBACION",
       "blocking_issues": [
         "availability_quality_not_verified",
@@ -2394,119 +325,118 @@
         {
           "market": "moneyline",
           "selection": "Houston Texans",
-          "book": "BetRivers",
+          "book": "BetMGM",
           "line": null,
-          "american_odds": 135,
-          "probability_experimental": 0.20168,
+          "american_odds": 120,
+          "probability_experimental": 0.2621,
           "ev_experimental_per_dollar": null,
           "push_probability_experimental": null,
-          "books_compared": 4,
+          "books_compared": 9,
           "movement": {
-            "status": "matched_book_observations",
+            "status": "single_archived_observation",
             "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
               "point": null,
-              "american_odds": 135
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": 135
-            },
-            "observations": 5
+              "american_odds": 120
+            }
           },
           "recommendation": "NO_APROBADA"
         },
         {
           "market": "moneyline",
           "selection": "Jacksonville Jaguars",
-          "book": "BetRivers",
+          "book": "BetMGM",
           "line": null,
-          "american_odds": -165,
-          "probability_experimental": 0.77647,
+          "american_odds": -145,
+          "probability_experimental": 0.7128,
           "ev_experimental_per_dollar": null,
           "push_probability_experimental": null,
-          "books_compared": 4,
+          "books_compared": 9,
           "movement": {
-            "status": "matched_book_observations",
+            "status": "single_archived_observation",
             "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
               "point": null,
-              "american_odds": -165
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": -165
-            },
-            "observations": 5
+              "american_odds": -145
+            }
           },
           "recommendation": "NO_APROBADA"
         },
         {
           "market": "spread",
           "selection": "Houston Texans",
-          "book": "LowVig.ag",
-          "line": 3.0,
-          "american_odds": 110,
-          "probability_experimental": 0.27101,
-          "ev_experimental_per_dollar": -0.4054,
-          "push_probability_experimental": 0.02549,
-          "books_compared": 7,
+          "book": "FanDuel",
+          "line": 2.5,
+          "american_odds": 100,
+          "probability_experimental": 0.34052,
+          "ev_experimental_per_dollar": -0.319,
+          "push_probability_experimental": 0.0,
+          "books_compared": 9,
           "movement": {
-            "status": "insufficient_matched_history"
+            "status": "matched_book_observations",
+            "first": {
+              "at_utc": "2026-10-10T00:00:18.139663+00:00",
+              "point": 3.0,
+              "american_odds": -105
+            },
+            "last": {
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
+              "point": 2.5,
+              "american_odds": 100
+            },
+            "observations": 6
           },
           "recommendation": "NO_APROBADA"
         },
         {
           "market": "spread",
           "selection": "Jacksonville Jaguars",
-          "book": "BetRivers",
+          "book": "DraftKings",
           "line": -3.0,
-          "american_odds": -110,
-          "probability_experimental": 0.7035,
-          "ev_experimental_per_dollar": 0.3685,
-          "push_probability_experimental": 0.02549,
-          "books_compared": 7,
+          "american_odds": -102,
+          "probability_experimental": 0.63147,
+          "ev_experimental_per_dollar": 0.2786,
+          "push_probability_experimental": 0.028,
+          "books_compared": 9,
           "movement": {
             "status": "matched_book_observations",
             "first": {
               "at_utc": "2026-10-10T00:00:18.139663+00:00",
               "point": -3.0,
-              "american_odds": -110
+              "american_odds": -118
             },
             "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
               "point": -3.0,
-              "american_odds": -110
+              "american_odds": -102
             },
-            "observations": 5
+            "observations": 6
           },
           "recommendation": "NO_APROBADA"
         },
         {
           "market": "total",
           "selection": "Over",
-          "book": "BetRivers",
+          "book": "BetUS",
           "line": 42.5,
-          "american_odds": -110,
-          "probability_experimental": 0.65029,
-          "ev_experimental_per_dollar": 0.2415,
+          "american_odds": -105,
+          "probability_experimental": 0.62599,
+          "ev_experimental_per_dollar": 0.2222,
           "push_probability_experimental": 0.0,
-          "books_compared": 7,
+          "books_compared": 9,
           "movement": {
             "status": "matched_book_observations",
             "first": {
               "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": 42.5,
+              "point": 43.0,
               "american_odds": -110
             },
             "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
               "point": 42.5,
-              "american_odds": -110
+              "american_odds": -105
             },
-            "observations": 5
+            "observations": 6
           },
           "recommendation": "NO_APROBADA"
         },
@@ -2515,11 +445,11 @@
           "selection": "Under",
           "book": "DraftKings",
           "line": 43.5,
-          "american_odds": -110,
-          "probability_experimental": 0.37705,
-          "ev_experimental_per_dollar": -0.2802,
+          "american_odds": -105,
+          "probability_experimental": 0.40191,
+          "ev_experimental_per_dollar": -0.2153,
           "push_probability_experimental": 0.0,
-          "books_compared": 7,
+          "books_compared": 9,
           "movement": {
             "status": "matched_book_observations",
             "first": {
@@ -2528,11 +458,11 @@
               "american_odds": -110
             },
             "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
               "point": 43.5,
-              "american_odds": -110
+              "american_odds": -105
             },
-            "observations": 5
+            "observations": 6
           },
           "recommendation": "NO_APROBADA"
         }
@@ -2545,9 +475,9 @@
       "kickoff_utc": "2026-10-18T17:00:00+00:00",
       "away_team": "Baltimore Ravens",
       "home_team": "Cleveland Browns",
-      "independent_home_margin": -6.62,
-      "independent_total": 49.35,
-      "model_home_win_probability_experimental": 0.29598,
+      "independent_home_margin": -7.04,
+      "independent_total": 47.35,
+      "model_home_win_probability_experimental": 0.28515,
       "status": "SEGUIMIENTO_SIN_APROBACION",
       "blocking_issues": [
         "availability_quality_not_verified",
@@ -2560,52 +490,40 @@
         {
           "market": "moneyline",
           "selection": "Baltimore Ravens",
-          "book": "BetRivers",
+          "book": "BetMGM",
           "line": null,
-          "american_odds": -182,
-          "probability_experimental": 0.6775,
+          "american_odds": -235,
+          "probability_experimental": 0.68876,
           "ev_experimental_per_dollar": null,
           "push_probability_experimental": null,
-          "books_compared": 4,
+          "books_compared": 7,
           "movement": {
-            "status": "matched_book_observations",
+            "status": "single_archived_observation",
             "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
               "point": null,
-              "american_odds": -182
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": -182
-            },
-            "observations": 5
+              "american_odds": -235
+            }
           },
           "recommendation": "NO_APROBADA"
         },
         {
           "market": "moneyline",
           "selection": "Cleveland Browns",
-          "book": "BetRivers",
+          "book": "BetMGM",
           "line": null,
-          "american_odds": 150,
-          "probability_experimental": 0.29598,
+          "american_odds": 190,
+          "probability_experimental": 0.28515,
           "ev_experimental_per_dollar": null,
           "push_probability_experimental": null,
-          "books_compared": 4,
+          "books_compared": 7,
           "movement": {
-            "status": "matched_book_observations",
+            "status": "single_archived_observation",
             "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
               "point": null,
-              "american_odds": 150
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": 150
-            },
-            "observations": 5
+              "american_odds": 190
+            }
           },
           "recommendation": "NO_APROBADA"
         },
@@ -2613,12 +531,12 @@
           "market": "spread",
           "selection": "Baltimore Ravens",
           "book": "DraftKings",
-          "line": -3.0,
-          "american_odds": -110,
-          "probability_experimental": 0.59285,
-          "ev_experimental_per_dollar": 0.1607,
-          "push_probability_experimental": 0.02893,
-          "books_compared": 7,
+          "line": -4.5,
+          "american_odds": -105,
+          "probability_experimental": 0.57582,
+          "ev_experimental_per_dollar": 0.1242,
+          "push_probability_experimental": 0.0,
+          "books_compared": 8,
           "movement": {
             "status": "matched_book_observations",
             "first": {
@@ -2627,11 +545,11 @@
               "american_odds": -115
             },
             "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": -3.0,
-              "american_odds": -110
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
+              "point": -4.5,
+              "american_odds": -105
             },
-            "observations": 5
+            "observations": 6
           },
           "recommendation": "NO_APROBADA"
         },
@@ -2639,12 +557,12 @@
           "market": "spread",
           "selection": "Cleveland Browns",
           "book": "FanDuel",
-          "line": 3.5,
+          "line": 4.5,
           "american_odds": -105,
-          "probability_experimental": 0.40715,
-          "ev_experimental_per_dollar": -0.2051,
+          "probability_experimental": 0.42418,
+          "ev_experimental_per_dollar": -0.1718,
           "push_probability_experimental": 0.0,
-          "books_compared": 7,
+          "books_compared": 8,
           "movement": {
             "status": "matched_book_observations",
             "first": {
@@ -2653,52 +571,52 @@
               "american_odds": -105
             },
             "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": 3.5,
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
+              "point": 4.5,
               "american_odds": -105
             },
-            "observations": 5
+            "observations": 6
           },
           "recommendation": "NO_APROBADA"
         },
         {
           "market": "total",
           "selection": "Over",
-          "book": "LowVig.ag",
+          "book": "BetRivers",
           "line": 40.5,
           "american_odds": -113,
-          "probability_experimental": 0.74044,
-          "ev_experimental_per_dollar": 0.3957,
+          "probability_experimental": 0.69112,
+          "ev_experimental_per_dollar": 0.3027,
           "push_probability_experimental": 0.0,
-          "books_compared": 7,
+          "books_compared": 8,
           "movement": {
-            "status": "insufficient_matched_history"
+            "status": "matched_book_observations",
+            "first": {
+              "at_utc": "2026-10-10T00:00:18.139663+00:00",
+              "point": 40.0,
+              "american_odds": -114
+            },
+            "last": {
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
+              "point": 40.5,
+              "american_odds": -113
+            },
+            "observations": 6
           },
           "recommendation": "NO_APROBADA"
         },
         {
           "market": "total",
           "selection": "Under",
-          "book": "DraftKings",
+          "book": "LowVig.ag",
           "line": 41.5,
-          "american_odds": -110,
-          "probability_experimental": 0.28371,
-          "ev_experimental_per_dollar": -0.4584,
+          "american_odds": -107,
+          "probability_experimental": 0.33499,
+          "ev_experimental_per_dollar": -0.3519,
           "push_probability_experimental": 0.0,
-          "books_compared": 7,
+          "books_compared": 8,
           "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": 41.5,
-              "american_odds": -110
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": 41.5,
-              "american_odds": -110
-            },
-            "observations": 5
+            "status": "insufficient_matched_history"
           },
           "recommendation": "NO_APROBADA"
         }
@@ -2711,9 +629,9 @@
       "kickoff_utc": "2026-10-18T17:00:00+00:00",
       "away_team": "Carolina Panthers",
       "home_team": "Philadelphia Eagles",
-      "independent_home_margin": -6.65,
-      "independent_total": 46.1,
-      "model_home_win_probability_experimental": 0.2952,
+      "independent_home_margin": -7.03,
+      "independent_total": 45.58,
+      "model_home_win_probability_experimental": 0.2854,
       "status": "SEGUIMIENTO_SIN_APROBACION",
       "blocking_issues": [
         "availability_quality_not_verified",
@@ -2726,78 +644,55 @@
         {
           "market": "moneyline",
           "selection": "Carolina Panthers",
-          "book": "BetRivers",
+          "book": "BetMGM",
           "line": null,
-          "american_odds": 108,
-          "probability_experimental": 0.67831,
+          "american_odds": -102,
+          "probability_experimental": 0.68849,
           "ev_experimental_per_dollar": null,
           "push_probability_experimental": null,
-          "books_compared": 4,
+          "books_compared": 9,
           "movement": {
-            "status": "matched_book_observations",
+            "status": "single_archived_observation",
             "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
               "point": null,
-              "american_odds": 108
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": 108
-            },
-            "observations": 5
+              "american_odds": -102
+            }
           },
           "recommendation": "NO_APROBADA"
         },
         {
           "market": "moneyline",
           "selection": "Philadelphia Eagles",
-          "book": "BetRivers",
+          "book": "BetMGM",
           "line": null,
-          "american_odds": -130,
-          "probability_experimental": 0.2952,
+          "american_odds": -118,
+          "probability_experimental": 0.2854,
           "ev_experimental_per_dollar": null,
           "push_probability_experimental": null,
-          "books_compared": 4,
+          "books_compared": 9,
           "movement": {
-            "status": "matched_book_observations",
+            "status": "single_archived_observation",
             "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
               "point": null,
-              "american_odds": -130
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": -130
-            },
-            "observations": 5
+              "american_odds": -118
+            }
           },
           "recommendation": "NO_APROBADA"
         },
         {
           "market": "spread",
           "selection": "Carolina Panthers",
-          "book": "BetRivers",
-          "line": 2.0,
-          "american_odds": -110,
-          "probability_experimental": 0.73024,
-          "ev_experimental_per_dollar": 0.4184,
-          "push_probability_experimental": 0.02429,
-          "books_compared": 7,
+          "book": "LowVig.ag",
+          "line": 1.0,
+          "american_odds": -106,
+          "probability_experimental": 0.7146,
+          "ev_experimental_per_dollar": 0.4138,
+          "push_probability_experimental": 0.02501,
+          "books_compared": 9,
           "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": 2.0,
-              "american_odds": -110
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": 2.0,
-              "american_odds": -110
-            },
-            "observations": 5
+            "status": "insufficient_matched_history"
           },
           "recommendation": "NO_APROBADA"
         },
@@ -2805,12 +700,12 @@
           "market": "spread",
           "selection": "Philadelphia Eagles",
           "book": "LowVig.ag",
-          "line": -1.5,
-          "american_odds": 100,
-          "probability_experimental": 0.26976,
-          "ev_experimental_per_dollar": -0.4605,
-          "push_probability_experimental": 0.0,
-          "books_compared": 7,
+          "line": -1.0,
+          "american_odds": -104,
+          "probability_experimental": 0.26039,
+          "ev_experimental_per_dollar": -0.4642,
+          "push_probability_experimental": 0.02501,
+          "books_compared": 9,
           "movement": {
             "status": "insufficient_matched_history"
           },
@@ -2820,12 +715,12 @@
           "market": "total",
           "selection": "Over",
           "book": "LowVig.ag",
-          "line": 42.5,
-          "american_odds": -107,
-          "probability_experimental": 0.60344,
-          "ev_experimental_per_dollar": 0.1674,
-          "push_probability_experimental": 0.0,
-          "books_compared": 7,
+          "line": 42.0,
+          "american_odds": -104,
+          "probability_experimental": 0.58877,
+          "ev_experimental_per_dollar": 0.183,
+          "push_probability_experimental": 0.02808,
+          "books_compared": 9,
           "movement": {
             "status": "insufficient_matched_history"
           },
@@ -2834,26 +729,26 @@
         {
           "market": "total",
           "selection": "Under",
-          "book": "DraftKings",
-          "line": 43.5,
-          "american_odds": -105,
-          "probability_experimental": 0.42489,
-          "ev_experimental_per_dollar": -0.1705,
-          "push_probability_experimental": 0.0,
-          "books_compared": 7,
+          "book": "BetRivers",
+          "line": 42.0,
+          "american_odds": -109,
+          "probability_experimental": 0.38315,
+          "ev_experimental_per_dollar": -0.2373,
+          "push_probability_experimental": 0.02808,
+          "books_compared": 9,
           "movement": {
             "status": "matched_book_observations",
             "first": {
               "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": 43.5,
-              "american_odds": -105
+              "point": 42.5,
+              "american_odds": -106
             },
             "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": 43.5,
-              "american_odds": -105
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
+              "point": 42.0,
+              "american_odds": -109
             },
-            "observations": 5
+            "observations": 6
           },
           "recommendation": "NO_APROBADA"
         }
@@ -2866,9 +761,9 @@
       "kickoff_utc": "2026-10-18T17:00:00+00:00",
       "away_team": "Chicago Bears",
       "home_team": "Atlanta Falcons",
-      "independent_home_margin": 0.37,
-      "independent_total": 46.73,
-      "model_home_win_probability_experimental": 0.4961,
+      "independent_home_margin": 2.34,
+      "independent_total": 45.44,
+      "model_home_win_probability_experimental": 0.55508,
       "status": "SEGUIMIENTO_SIN_APROBACION",
       "blocking_issues": [
         "availability_quality_not_verified",
@@ -2881,90 +776,52 @@
         {
           "market": "moneyline",
           "selection": "Atlanta Falcons",
-          "book": "BetRivers",
+          "book": "BetMGM",
           "line": null,
-          "american_odds": 108,
-          "probability_experimental": 0.4961,
+          "american_odds": 150,
+          "probability_experimental": 0.55508,
           "ev_experimental_per_dollar": null,
           "push_probability_experimental": null,
-          "books_compared": 4,
+          "books_compared": 6,
           "movement": {
-            "status": "matched_book_observations",
+            "status": "single_archived_observation",
             "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
               "point": null,
-              "american_odds": 108
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": 108
-            },
-            "observations": 5
+              "american_odds": 150
+            }
           },
           "recommendation": "NO_APROBADA"
         },
         {
           "market": "moneyline",
           "selection": "Chicago Bears",
-          "book": "BetRivers",
+          "book": "BetMGM",
           "line": null,
-          "american_odds": -130,
-          "probability_experimental": 0.47389,
+          "american_odds": -185,
+          "probability_experimental": 0.41535,
           "ev_experimental_per_dollar": null,
           "push_probability_experimental": null,
-          "books_compared": 4,
+          "books_compared": 6,
           "movement": {
-            "status": "matched_book_observations",
+            "status": "single_archived_observation",
             "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
               "point": null,
-              "american_odds": -130
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": -130
-            },
-            "observations": 5
+              "american_odds": -185
+            }
           },
           "recommendation": "NO_APROBADA"
         },
         {
           "market": "spread",
           "selection": "Atlanta Falcons",
-          "book": "FanDuel",
-          "line": 1.5,
-          "american_odds": -105,
-          "probability_experimental": 0.55598,
-          "ev_experimental_per_dollar": 0.0855,
-          "push_probability_experimental": 0.0,
-          "books_compared": 7,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": 1.5,
-              "american_odds": -105
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": 1.5,
-              "american_odds": -105
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "spread",
-          "selection": "Chicago Bears",
           "book": "LowVig.ag",
-          "line": -1.0,
-          "american_odds": -105,
-          "probability_experimental": 0.44402,
-          "ev_experimental_per_dollar": -0.1032,
-          "push_probability_experimental": 0.02987,
+          "line": 3.0,
+          "american_odds": 105,
+          "probability_experimental": 0.64221,
+          "ev_experimental_per_dollar": 0.3442,
+          "push_probability_experimental": 0.0277,
           "books_compared": 7,
           "movement": {
             "status": "insufficient_matched_history"
@@ -2972,13 +829,33 @@
           "recommendation": "NO_APROBADA"
         },
         {
+          "market": "spread",
+          "selection": "Chicago Bears",
+          "book": "BetMGM",
+          "line": -3.5,
+          "american_odds": -102,
+          "probability_experimental": 0.3301,
+          "ev_experimental_per_dollar": -0.3463,
+          "push_probability_experimental": 0.0,
+          "books_compared": 7,
+          "movement": {
+            "status": "single_archived_observation",
+            "first": {
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
+              "point": -3.5,
+              "american_odds": -102
+            }
+          },
+          "recommendation": "NO_APROBADA"
+        },
+        {
           "market": "total",
           "selection": "Over",
           "book": "BetRivers",
-          "line": 47.5,
-          "american_odds": -110,
-          "probability_experimental": 0.47763,
-          "ev_experimental_per_dollar": -0.0882,
+          "line": 48.5,
+          "american_odds": -109,
+          "probability_experimental": 0.4118,
+          "ev_experimental_per_dollar": -0.2104,
           "push_probability_experimental": 0.0,
           "books_compared": 7,
           "movement": {
@@ -2989,11 +866,11 @@
               "american_odds": -110
             },
             "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": 47.5,
-              "american_odds": -110
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
+              "point": 48.5,
+              "american_odds": -109
             },
-            "observations": 5
+            "observations": 6
           },
           "recommendation": "NO_APROBADA"
         },
@@ -3001,11 +878,11 @@
           "market": "total",
           "selection": "Under",
           "book": "LowVig.ag",
-          "line": 49.5,
-          "american_odds": -113,
-          "probability_experimental": 0.57996,
-          "ev_experimental_per_dollar": 0.0932,
-          "push_probability_experimental": 0.0,
+          "line": 49.0,
+          "american_odds": -107,
+          "probability_experimental": 0.5882,
+          "ev_experimental_per_dollar": 0.166,
+          "push_probability_experimental": 0.0281,
           "books_compared": 7,
           "movement": {
             "status": "insufficient_matched_history"
@@ -3021,9 +898,9 @@
       "kickoff_utc": "2026-10-18T17:00:00+00:00",
       "away_team": "New Orleans Saints",
       "home_team": "New York Giants",
-      "independent_home_margin": 0.32,
-      "independent_total": 46.36,
-      "model_home_win_probability_experimental": 0.49459,
+      "independent_home_margin": 2.33,
+      "independent_total": 45.01,
+      "model_home_win_probability_experimental": 0.55479,
       "status": "SEGUIMIENTO_SIN_APROBACION",
       "blocking_issues": [
         "availability_quality_not_verified",
@@ -3036,106 +913,79 @@
         {
           "market": "moneyline",
           "selection": "New Orleans Saints",
-          "book": "BetRivers",
+          "book": "BetMGM",
           "line": null,
-          "american_odds": -118,
-          "probability_experimental": 0.47539,
+          "american_odds": -120,
+          "probability_experimental": 0.41565,
           "ev_experimental_per_dollar": null,
           "push_probability_experimental": null,
-          "books_compared": 4,
+          "books_compared": 8,
           "movement": {
-            "status": "matched_book_observations",
+            "status": "single_archived_observation",
             "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
               "point": null,
-              "american_odds": -118
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": -118
-            },
-            "observations": 5
+              "american_odds": -120
+            }
           },
           "recommendation": "NO_APROBADA"
         },
         {
           "market": "moneyline",
           "selection": "New York Giants",
-          "book": "BetRivers",
+          "book": "BetMGM",
           "line": null,
-          "american_odds": -104,
-          "probability_experimental": 0.49459,
+          "american_odds": 100,
+          "probability_experimental": 0.55479,
           "ev_experimental_per_dollar": null,
           "push_probability_experimental": null,
-          "books_compared": 4,
+          "books_compared": 8,
           "movement": {
-            "status": "matched_book_observations",
+            "status": "single_archived_observation",
             "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
               "point": null,
-              "american_odds": -104
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": -104
-            },
-            "observations": 5
+              "american_odds": 100
+            }
           },
           "recommendation": "NO_APROBADA"
         },
         {
           "market": "spread",
           "selection": "New Orleans Saints",
-          "book": "LowVig.ag",
+          "book": "BetRivers",
           "line": -1.0,
-          "american_odds": -105,
-          "probability_experimental": 0.44551,
-          "ev_experimental_per_dollar": -0.1003,
-          "push_probability_experimental": 0.02988,
-          "books_compared": 7,
+          "american_odds": -107,
+          "probability_experimental": 0.38655,
+          "ev_experimental_per_dollar": -0.2231,
+          "push_probability_experimental": 0.0291,
+          "books_compared": 9,
           "movement": {
-            "status": "insufficient_matched_history"
+            "status": "matched_book_observations",
+            "first": {
+              "at_utc": "2026-10-10T00:00:18.139663+00:00",
+              "point": -1.0,
+              "american_odds": -110
+            },
+            "last": {
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
+              "point": -1.0,
+              "american_odds": -107
+            },
+            "observations": 6
           },
           "recommendation": "NO_APROBADA"
         },
         {
           "market": "spread",
           "selection": "New York Giants",
-          "book": "MyBookie.ag",
-          "line": 1.5,
-          "american_odds": -110,
-          "probability_experimental": 0.55449,
-          "ev_experimental_per_dollar": 0.0586,
-          "push_probability_experimental": 0.0,
-          "books_compared": 7,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": 1.5,
-              "american_odds": -110
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": 1.5,
-              "american_odds": -110
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "total",
-          "selection": "Over",
           "book": "LowVig.ag",
-          "line": 44.5,
-          "american_odds": -107,
-          "probability_experimental": 0.55389,
-          "ev_experimental_per_dollar": 0.0715,
+          "line": 1.5,
+          "american_odds": -102,
+          "probability_experimental": 0.61345,
+          "ev_experimental_per_dollar": 0.2149,
           "push_probability_experimental": 0.0,
-          "books_compared": 7,
+          "books_compared": 9,
           "movement": {
             "status": "insufficient_matched_history"
           },
@@ -3143,27 +993,42 @@
         },
         {
           "market": "total",
-          "selection": "Under",
-          "book": "DraftKings",
-          "line": 45.5,
-          "american_odds": -110,
-          "probability_experimental": 0.47502,
-          "ev_experimental_per_dollar": -0.0931,
+          "selection": "Over",
+          "book": "FanDuel",
+          "line": 44.5,
+          "american_odds": -118,
+          "probability_experimental": 0.51482,
+          "ev_experimental_per_dollar": -0.0489,
           "push_probability_experimental": 0.0,
-          "books_compared": 7,
+          "books_compared": 9,
           "movement": {
             "status": "matched_book_observations",
             "first": {
               "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": 45.5,
-              "american_odds": -110
+              "point": 44.5,
+              "american_odds": -115
             },
             "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": 45.5,
-              "american_odds": -110
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
+              "point": 44.5,
+              "american_odds": -118
             },
-            "observations": 5
+            "observations": 6
+          },
+          "recommendation": "NO_APROBADA"
+        },
+        {
+          "market": "total",
+          "selection": "Under",
+          "book": "LowVig.ag",
+          "line": 45.0,
+          "american_odds": -102,
+          "probability_experimental": 0.48518,
+          "ev_experimental_per_dollar": -0.0101,
+          "push_probability_experimental": 0.02906,
+          "books_compared": 9,
+          "movement": {
+            "status": "insufficient_matched_history"
           },
           "recommendation": "NO_APROBADA"
         }
@@ -3176,9 +1041,9 @@
       "kickoff_utc": "2026-10-18T17:00:00+00:00",
       "away_team": "New York Jets",
       "home_team": "New England Patriots",
-      "independent_home_margin": -0.5,
-      "independent_total": 44.71,
-      "model_home_win_probability_experimental": 0.47,
+      "independent_home_margin": 2.85,
+      "independent_total": 44.7,
+      "model_home_win_probability_experimental": 0.57021,
       "status": "SEGUIMIENTO_SIN_APROBACION",
       "blocking_issues": [
         "availability_quality_not_verified",
@@ -3191,52 +1056,40 @@
         {
           "market": "moneyline",
           "selection": "New England Patriots",
-          "book": "BetRivers",
+          "book": "BetMGM",
           "line": null,
-          "american_odds": -335,
-          "probability_experimental": 0.47,
+          "american_odds": -350,
+          "probability_experimental": 0.57021,
           "ev_experimental_per_dollar": null,
           "push_probability_experimental": null,
-          "books_compared": 4,
+          "books_compared": 9,
           "movement": {
-            "status": "matched_book_observations",
+            "status": "single_archived_observation",
             "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
               "point": null,
-              "american_odds": -335
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": -335
-            },
-            "observations": 5
+              "american_odds": -350
+            }
           },
           "recommendation": "NO_APROBADA"
         },
         {
           "market": "moneyline",
           "selection": "New York Jets",
-          "book": "BetRivers",
+          "book": "BetMGM",
           "line": null,
-          "american_odds": 255,
-          "probability_experimental": 0.5,
+          "american_odds": 275,
+          "probability_experimental": 0.40045,
           "ev_experimental_per_dollar": null,
           "push_probability_experimental": null,
-          "books_compared": 4,
+          "books_compared": 9,
           "movement": {
-            "status": "matched_book_observations",
+            "status": "single_archived_observation",
             "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
               "point": null,
-              "american_odds": 255
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": 255
-            },
-            "observations": 5
+              "american_odds": 275
+            }
           },
           "recommendation": "NO_APROBADA"
         },
@@ -3245,11 +1098,11 @@
           "selection": "New England Patriots",
           "book": "LowVig.ag",
           "line": -7.0,
-          "american_odds": 105,
-          "probability_experimental": 0.2735,
-          "ev_experimental_per_dollar": -0.4137,
-          "push_probability_experimental": 0.0256,
-          "books_compared": 7,
+          "american_odds": -104,
+          "probability_experimental": 0.36315,
+          "ev_experimental_per_dollar": -0.2591,
+          "push_probability_experimental": 0.0286,
+          "books_compared": 9,
           "movement": {
             "status": "insufficient_matched_history"
           },
@@ -3258,41 +1111,46 @@
         {
           "market": "spread",
           "selection": "New York Jets",
-          "book": "MyBookie.ag",
-          "line": 7.0,
-          "american_odds": -110,
-          "probability_experimental": 0.70089,
-          "ev_experimental_per_dollar": 0.3637,
-          "push_probability_experimental": 0.0256,
-          "books_compared": 7,
+          "book": "BetOnline.ag",
+          "line": 6.5,
+          "american_odds": 100,
+          "probability_experimental": 0.60826,
+          "ev_experimental_per_dollar": 0.2165,
+          "push_probability_experimental": 0.0,
+          "books_compared": 9,
           "movement": {
             "status": "matched_book_observations",
             "first": {
               "at_utc": "2026-10-10T00:00:18.139663+00:00",
               "point": 7.0,
-              "american_odds": -110
+              "american_odds": -120
             },
             "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": 7.0,
-              "american_odds": -110
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
+              "point": 6.5,
+              "american_odds": 100
             },
-            "observations": 5
+            "observations": 6
           },
           "recommendation": "NO_APROBADA"
         },
         {
           "market": "total",
           "selection": "Over",
-          "book": "LowVig.ag",
-          "line": 42.5,
-          "american_odds": -107,
-          "probability_experimental": 0.56395,
-          "ev_experimental_per_dollar": 0.091,
-          "push_probability_experimental": 0.0,
-          "books_compared": 7,
+          "book": "Bovada",
+          "line": 44.0,
+          "american_odds": 100,
+          "probability_experimental": 0.50581,
+          "ev_experimental_per_dollar": 0.0406,
+          "push_probability_experimental": 0.02902,
+          "books_compared": 9,
           "movement": {
-            "status": "insufficient_matched_history"
+            "status": "single_archived_observation",
+            "first": {
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
+              "point": 44.0,
+              "american_odds": 100
+            }
           },
           "recommendation": "NO_APROBADA"
         },
@@ -3302,10 +1160,10 @@
           "book": "DraftKings",
           "line": 43.5,
           "american_odds": -105,
-          "probability_experimental": 0.46488,
-          "ev_experimental_per_dollar": -0.0924,
+          "probability_experimental": 0.46517,
+          "ev_experimental_per_dollar": -0.0918,
           "push_probability_experimental": 0.0,
-          "books_compared": 7,
+          "books_compared": 9,
           "movement": {
             "status": "matched_book_observations",
             "first": {
@@ -3314,11 +1172,142 @@
               "american_odds": -105
             },
             "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
               "point": 43.5,
               "american_odds": -105
             },
-            "observations": 5
+            "observations": 6
+          },
+          "recommendation": "NO_APROBADA"
+        }
+      ],
+      "approved_picks": []
+    },
+    {
+      "game_id": "2026_06_PIT_TB",
+      "week": 6,
+      "kickoff_utc": "2026-10-18T17:00:00+00:00",
+      "away_team": "Pittsburgh Steelers",
+      "home_team": "Tampa Bay Buccaneers",
+      "independent_home_margin": 1.41,
+      "independent_total": 43.1,
+      "model_home_win_probability_experimental": 0.52731,
+      "status": "SEGUIMIENTO_SIN_APROBACION",
+      "blocking_issues": [
+        "availability_quality_not_verified",
+        "future_week_injury_data_missing",
+        "injury_data_not_verified",
+        "probabilities_not_prospectively_validated",
+        "qb_not_verified"
+      ],
+      "best_quotes_by_selection": [
+        {
+          "market": "moneyline",
+          "selection": "Pittsburgh Steelers",
+          "book": "BetMGM",
+          "line": null,
+          "american_odds": -150,
+          "probability_experimental": 0.44283,
+          "ev_experimental_per_dollar": null,
+          "push_probability_experimental": null,
+          "books_compared": 9,
+          "movement": {
+            "status": "single_archived_observation",
+            "first": {
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
+              "point": null,
+              "american_odds": -150
+            }
+          },
+          "recommendation": "NO_APROBADA"
+        },
+        {
+          "market": "moneyline",
+          "selection": "Tampa Bay Buccaneers",
+          "book": "BetMGM",
+          "line": null,
+          "american_odds": 125,
+          "probability_experimental": 0.52731,
+          "ev_experimental_per_dollar": null,
+          "push_probability_experimental": null,
+          "books_compared": 9,
+          "movement": {
+            "status": "single_archived_observation",
+            "first": {
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
+              "point": null,
+              "american_odds": 125
+            }
+          },
+          "recommendation": "NO_APROBADA"
+        },
+        {
+          "market": "spread",
+          "selection": "Pittsburgh Steelers",
+          "book": "LowVig.ag",
+          "line": -3.0,
+          "american_odds": 103,
+          "probability_experimental": 0.35583,
+          "ev_experimental_per_dollar": -0.2492,
+          "push_probability_experimental": 0.02842,
+          "books_compared": 9,
+          "movement": {
+            "status": "insufficient_matched_history"
+          },
+          "recommendation": "NO_APROBADA"
+        },
+        {
+          "market": "spread",
+          "selection": "Tampa Bay Buccaneers",
+          "book": "MyBookie.ag",
+          "line": 2.5,
+          "american_odds": 100,
+          "probability_experimental": 0.61575,
+          "ev_experimental_per_dollar": 0.2315,
+          "push_probability_experimental": 0.0,
+          "books_compared": 9,
+          "movement": {
+            "status": "single_archived_observation",
+            "first": {
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
+              "point": 2.5,
+              "american_odds": 100
+            }
+          },
+          "recommendation": "NO_APROBADA"
+        },
+        {
+          "market": "total",
+          "selection": "Over",
+          "book": "FanDuel",
+          "line": 40.5,
+          "american_odds": -106,
+          "probability_experimental": 0.57511,
+          "ev_experimental_per_dollar": 0.1177,
+          "push_probability_experimental": 0.0,
+          "books_compared": 9,
+          "movement": {
+            "status": "single_archived_observation",
+            "first": {
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
+              "point": 40.5,
+              "american_odds": -106
+            }
+          },
+          "recommendation": "NO_APROBADA"
+        },
+        {
+          "market": "total",
+          "selection": "Under",
+          "book": "LowVig.ag",
+          "line": 40.5,
+          "american_odds": -107,
+          "probability_experimental": 0.42489,
+          "ev_experimental_per_dollar": -0.178,
+          "push_probability_experimental": 0.0,
+          "books_compared": 9,
+          "movement": {
+            "status": "insufficient_matched_history"
           },
           "recommendation": "NO_APROBADA"
         }
@@ -3331,9 +1320,9 @@
       "kickoff_utc": "2026-10-18T17:00:00+00:00",
       "away_team": "Tennessee Titans",
       "home_team": "Indianapolis Colts",
-      "independent_home_margin": 2.59,
-      "independent_total": 43.39,
-      "model_home_win_probability_experimental": 0.56251,
+      "independent_home_margin": 3.65,
+      "independent_total": 42.59,
+      "model_home_win_probability_experimental": 0.59372,
       "status": "SEGUIMIENTO_SIN_APROBACION",
       "blocking_issues": [
         "availability_quality_not_verified",
@@ -3346,78 +1335,55 @@
         {
           "market": "moneyline",
           "selection": "Indianapolis Colts",
-          "book": "BetRivers",
+          "book": "BetMGM",
           "line": null,
-          "american_odds": -315,
-          "probability_experimental": 0.56251,
+          "american_odds": -325,
+          "probability_experimental": 0.59372,
           "ev_experimental_per_dollar": null,
           "push_probability_experimental": null,
-          "books_compared": 4,
+          "books_compared": 9,
           "movement": {
-            "status": "matched_book_observations",
+            "status": "single_archived_observation",
             "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
               "point": null,
-              "american_odds": -315
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": -315
-            },
-            "observations": 5
+              "american_odds": -325
+            }
           },
           "recommendation": "NO_APROBADA"
         },
         {
           "market": "moneyline",
           "selection": "Tennessee Titans",
-          "book": "BetRivers",
+          "book": "BetMGM",
           "line": null,
-          "american_odds": 250,
-          "probability_experimental": 0.40803,
+          "american_odds": 260,
+          "probability_experimental": 0.37736,
           "ev_experimental_per_dollar": null,
           "push_probability_experimental": null,
-          "books_compared": 4,
+          "books_compared": 9,
           "movement": {
-            "status": "matched_book_observations",
+            "status": "single_archived_observation",
             "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
               "point": null,
-              "american_odds": 250
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": 250
-            },
-            "observations": 5
+              "american_odds": 260
+            }
           },
           "recommendation": "NO_APROBADA"
         },
         {
           "market": "spread",
           "selection": "Indianapolis Colts",
-          "book": "DraftKings",
-          "line": -6.5,
-          "american_odds": -110,
-          "probability_experimental": 0.38425,
-          "ev_experimental_per_dollar": -0.2664,
-          "push_probability_experimental": 0.0,
-          "books_compared": 7,
+          "book": "LowVig.ag",
+          "line": -7.0,
+          "american_odds": -101,
+          "probability_experimental": 0.38597,
+          "ev_experimental_per_dollar": -0.2028,
+          "push_probability_experimental": 0.02909,
+          "books_compared": 9,
           "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": -6.5,
-              "american_odds": -110
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": -6.5,
-              "american_odds": -110
-            },
-            "observations": 5
+            "status": "insufficient_matched_history"
           },
           "recommendation": "NO_APROBADA"
         },
@@ -3425,12 +1391,12 @@
           "market": "spread",
           "selection": "Tennessee Titans",
           "book": "LowVig.ag",
-          "line": 6.5,
-          "american_odds": 100,
-          "probability_experimental": 0.61575,
-          "ev_experimental_per_dollar": 0.2315,
-          "push_probability_experimental": 0.0,
-          "books_compared": 7,
+          "line": 7.0,
+          "american_odds": -109,
+          "probability_experimental": 0.58494,
+          "ev_experimental_per_dollar": 0.1507,
+          "push_probability_experimental": 0.02909,
+          "books_compared": 9,
           "movement": {
             "status": "insufficient_matched_history"
           },
@@ -3439,41 +1405,41 @@
         {
           "market": "total",
           "selection": "Over",
-          "book": "LowVig.ag",
+          "book": "BetRivers",
           "line": 43.5,
-          "american_odds": -107,
-          "probability_experimental": 0.4968,
-          "ev_experimental_per_dollar": -0.0389,
+          "american_odds": -109,
+          "probability_experimental": 0.47357,
+          "ev_experimental_per_dollar": -0.092,
           "push_probability_experimental": 0.0,
-          "books_compared": 7,
+          "books_compared": 9,
           "movement": {
-            "status": "insufficient_matched_history"
+            "status": "matched_book_observations",
+            "first": {
+              "at_utc": "2026-10-10T00:00:18.139663+00:00",
+              "point": 43.5,
+              "american_odds": -109
+            },
+            "last": {
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
+              "point": 43.5,
+              "american_odds": -109
+            },
+            "observations": 6
           },
           "recommendation": "NO_APROBADA"
         },
         {
           "market": "total",
           "selection": "Under",
-          "book": "DraftKings",
-          "line": 44.5,
-          "american_odds": -110,
-          "probability_experimental": 0.53222,
-          "ev_experimental_per_dollar": 0.0161,
-          "push_probability_experimental": 0.0,
-          "books_compared": 7,
+          "book": "LowVig.ag",
+          "line": 44.0,
+          "american_odds": -107,
+          "probability_experimental": 0.52643,
+          "ev_experimental_per_dollar": 0.0473,
+          "push_probability_experimental": 0.0289,
+          "books_compared": 9,
           "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": 44.5,
-              "american_odds": -110
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": 44.5,
-              "american_odds": -110
-            },
-            "observations": 5
+            "status": "insufficient_matched_history"
           },
           "recommendation": "NO_APROBADA"
         }
@@ -3486,9 +1452,9 @@
       "kickoff_utc": "2026-10-18T20:05:00+00:00",
       "away_team": "Arizona Cardinals",
       "home_team": "Los Angeles Rams",
-      "independent_home_margin": 8.79,
-      "independent_total": 44.78,
-      "model_home_win_probability_experimental": 0.73371,
+      "independent_home_margin": 9.35,
+      "independent_total": 45.43,
+      "model_home_win_probability_experimental": 0.74737,
       "status": "SEGUIMIENTO_SIN_APROBACION",
       "blocking_issues": [
         "availability_quality_not_verified",
@@ -3501,134 +1467,116 @@
         {
           "market": "moneyline",
           "selection": "Arizona Cardinals",
-          "book": "BetRivers",
+          "book": "BetMGM",
           "line": null,
-          "american_odds": 485,
-          "probability_experimental": 0.24216,
+          "american_odds": 550,
+          "probability_experimental": 0.22919,
           "ev_experimental_per_dollar": null,
           "push_probability_experimental": null,
-          "books_compared": 4,
+          "books_compared": 6,
           "movement": {
-            "status": "matched_book_observations",
+            "status": "single_archived_observation",
             "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
               "point": null,
-              "american_odds": 485
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": 485
-            },
-            "observations": 5
+              "american_odds": 550
+            }
           },
           "recommendation": "NO_APROBADA"
         },
         {
           "market": "moneyline",
           "selection": "Los Angeles Rams",
-          "book": "BetRivers",
+          "book": "BetMGM",
           "line": null,
-          "american_odds": -715,
-          "probability_experimental": 0.73371,
+          "american_odds": -750,
+          "probability_experimental": 0.74737,
           "ev_experimental_per_dollar": null,
           "push_probability_experimental": null,
-          "books_compared": 4,
+          "books_compared": 6,
           "movement": {
-            "status": "matched_book_observations",
+            "status": "single_archived_observation",
             "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
               "point": null,
-              "american_odds": -715
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": -715
-            },
-            "observations": 5
+              "american_odds": -750
+            }
           },
           "recommendation": "NO_APROBADA"
         },
         {
           "market": "spread",
           "selection": "Arizona Cardinals",
-          "book": "FanDuel",
-          "line": 11.5,
-          "american_odds": -115,
-          "probability_experimental": 0.58083,
-          "ev_experimental_per_dollar": 0.0859,
-          "push_probability_experimental": 0.0,
-          "books_compared": 7,
+          "book": "LowVig.ag",
+          "line": 13.0,
+          "american_odds": -105,
+          "probability_experimental": 0.59372,
+          "ev_experimental_per_dollar": 0.1881,
+          "push_probability_experimental": 0.02891,
+          "books_compared": 8,
           "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": 11.5,
-              "american_odds": -115
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": 11.5,
-              "american_odds": -115
-            },
-            "observations": 5
+            "status": "insufficient_matched_history"
           },
           "recommendation": "NO_APROBADA"
         },
         {
           "market": "spread",
           "selection": "Los Angeles Rams",
-          "book": "LowVig.ag",
-          "line": -10.5,
-          "american_odds": -105,
-          "probability_experimental": 0.44879,
-          "ev_experimental_per_dollar": -0.1238,
+          "book": "BetMGM",
+          "line": -12.5,
+          "american_odds": -110,
+          "probability_experimental": 0.40628,
+          "ev_experimental_per_dollar": -0.2244,
           "push_probability_experimental": 0.0,
-          "books_compared": 7,
+          "books_compared": 8,
           "movement": {
-            "status": "insufficient_matched_history"
+            "status": "single_archived_observation",
+            "first": {
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
+              "point": -12.5,
+              "american_odds": -110
+            }
           },
           "recommendation": "NO_APROBADA"
         },
         {
           "market": "total",
           "selection": "Over",
-          "book": "LowVig.ag",
-          "line": 50.5,
-          "american_odds": -107,
-          "probability_experimental": 0.33845,
-          "ev_experimental_per_dollar": -0.3452,
+          "book": "FanDuel",
+          "line": 51.5,
+          "american_odds": -115,
+          "probability_experimental": 0.32917,
+          "ev_experimental_per_dollar": -0.3846,
           "push_probability_experimental": 0.0,
-          "books_compared": 7,
+          "books_compared": 8,
           "movement": {
-            "status": "insufficient_matched_history"
+            "status": "matched_book_observations",
+            "first": {
+              "at_utc": "2026-10-10T00:00:18.139663+00:00",
+              "point": 50.5,
+              "american_odds": -110
+            },
+            "last": {
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
+              "point": 51.5,
+              "american_odds": -115
+            },
+            "observations": 6
           },
           "recommendation": "NO_APROBADA"
         },
         {
           "market": "total",
           "selection": "Under",
-          "book": "MyBookie.ag",
-          "line": 51.0,
-          "american_odds": -110,
-          "probability_experimental": 0.66155,
-          "ev_experimental_per_dollar": 0.2892,
-          "push_probability_experimental": 0.02622,
-          "books_compared": 7,
+          "book": "LowVig.ag",
+          "line": 52.0,
+          "american_odds": -107,
+          "probability_experimental": 0.67083,
+          "ev_experimental_per_dollar": 0.3237,
+          "push_probability_experimental": 0.02591,
+          "books_compared": 8,
           "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": 51.0,
-              "american_odds": -110
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": 51.0,
-              "american_odds": -110
-            },
-            "observations": 5
+            "status": "insufficient_matched_history"
           },
           "recommendation": "NO_APROBADA"
         }
@@ -3641,9 +1589,9 @@
       "kickoff_utc": "2026-10-18T20:25:00+00:00",
       "away_team": "Buffalo Bills",
       "home_team": "Las Vegas Raiders",
-      "independent_home_margin": 0.69,
-      "independent_total": 49.41,
-      "model_home_win_probability_experimental": 0.50571,
+      "independent_home_margin": -1.68,
+      "independent_total": 49.9,
+      "model_home_win_probability_experimental": 0.43482,
       "status": "SEGUIMIENTO_SIN_APROBACION",
       "blocking_issues": [
         "availability_quality_not_verified",
@@ -3656,106 +1604,73 @@
         {
           "market": "moneyline",
           "selection": "Buffalo Bills",
-          "book": "BetRivers",
+          "book": "BetMGM",
           "line": null,
-          "american_odds": -240,
-          "probability_experimental": 0.46431,
+          "american_odds": -275,
+          "probability_experimental": 0.53539,
           "ev_experimental_per_dollar": null,
           "push_probability_experimental": null,
-          "books_compared": 4,
+          "books_compared": 6,
           "movement": {
-            "status": "matched_book_observations",
+            "status": "single_archived_observation",
             "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
               "point": null,
-              "american_odds": -240
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": -240
-            },
-            "observations": 5
+              "american_odds": -275
+            }
           },
           "recommendation": "NO_APROBADA"
         },
         {
           "market": "moneyline",
           "selection": "Las Vegas Raiders",
-          "book": "BetRivers",
+          "book": "BetMGM",
           "line": null,
-          "american_odds": 190,
-          "probability_experimental": 0.50571,
+          "american_odds": 225,
+          "probability_experimental": 0.43482,
           "ev_experimental_per_dollar": null,
           "push_probability_experimental": null,
-          "books_compared": 4,
+          "books_compared": 6,
           "movement": {
-            "status": "matched_book_observations",
+            "status": "single_archived_observation",
             "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
               "point": null,
-              "american_odds": 190
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": 190
-            },
-            "observations": 5
+              "american_odds": 225
+            }
           },
           "recommendation": "NO_APROBADA"
         },
         {
           "market": "spread",
           "selection": "Buffalo Bills",
-          "book": "LowVig.ag",
-          "line": -3.5,
-          "american_odds": -105,
-          "probability_experimental": 0.37622,
-          "ev_experimental_per_dollar": -0.2655,
+          "book": "BetMGM",
+          "line": -5.5,
+          "american_odds": -110,
+          "probability_experimental": 0.38684,
+          "ev_experimental_per_dollar": -0.2615,
           "push_probability_experimental": 0.0,
-          "books_compared": 7,
+          "books_compared": 8,
           "movement": {
-            "status": "insufficient_matched_history"
+            "status": "single_archived_observation",
+            "first": {
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
+              "point": -5.5,
+              "american_odds": -110
+            }
           },
           "recommendation": "NO_APROBADA"
         },
         {
           "market": "spread",
           "selection": "Las Vegas Raiders",
-          "book": "FanDuel",
-          "line": 4.5,
-          "american_odds": -102,
-          "probability_experimental": 0.65199,
-          "ev_experimental_per_dollar": 0.2912,
-          "push_probability_experimental": 0.0,
-          "books_compared": 7,
-          "movement": {
-            "status": "matched_book_observations",
-            "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
-              "point": 4.5,
-              "american_odds": -102
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": 4.5,
-              "american_odds": -102
-            },
-            "observations": 5
-          },
-          "recommendation": "NO_APROBADA"
-        },
-        {
-          "market": "total",
-          "selection": "Over",
           "book": "LowVig.ag",
-          "line": 51.0,
-          "american_odds": -107,
-          "probability_experimental": 0.43949,
-          "ev_experimental_per_dollar": -0.1209,
-          "push_probability_experimental": 0.02886,
-          "books_compared": 7,
+          "line": 6.0,
+          "american_odds": -105,
+          "probability_experimental": 0.61316,
+          "ev_experimental_per_dollar": 0.2256,
+          "push_probability_experimental": 0.02848,
+          "books_compared": 8,
           "movement": {
             "status": "insufficient_matched_history"
           },
@@ -3763,27 +1678,42 @@
         },
         {
           "market": "total",
-          "selection": "Under",
-          "book": "DraftKings",
-          "line": 51.5,
-          "american_odds": -110,
-          "probability_experimental": 0.56051,
-          "ev_experimental_per_dollar": 0.0701,
+          "selection": "Over",
+          "book": "BetRivers",
+          "line": 52.5,
+          "american_odds": -112,
+          "probability_experimental": 0.42489,
+          "ev_experimental_per_dollar": -0.1957,
           "push_probability_experimental": 0.0,
-          "books_compared": 7,
+          "books_compared": 8,
           "movement": {
             "status": "matched_book_observations",
             "first": {
               "at_utc": "2026-10-10T00:00:18.139663+00:00",
               "point": 51.5,
-              "american_odds": -110
+              "american_odds": -109
             },
             "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": 51.5,
-              "american_odds": -110
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
+              "point": 52.5,
+              "american_odds": -112
             },
-            "observations": 5
+            "observations": 6
+          },
+          "recommendation": "NO_APROBADA"
+        },
+        {
+          "market": "total",
+          "selection": "Under",
+          "book": "LowVig.ag",
+          "line": 53.0,
+          "american_odds": -107,
+          "probability_experimental": 0.57511,
+          "ev_experimental_per_dollar": 0.1409,
+          "push_probability_experimental": 0.02832,
+          "books_compared": 8,
+          "movement": {
+            "status": "insufficient_matched_history"
           },
           "recommendation": "NO_APROBADA"
         }
@@ -3796,9 +1726,9 @@
       "kickoff_utc": "2026-10-18T20:25:00+00:00",
       "away_team": "Los Angeles Chargers",
       "home_team": "Kansas City Chiefs",
-      "independent_home_margin": 12.96,
-      "independent_total": 44.12,
-      "model_home_win_probability_experimental": 0.82588,
+      "independent_home_margin": 13.97,
+      "independent_total": 42.55,
+      "model_home_win_probability_experimental": 0.84472,
       "status": "SEGUIMIENTO_SIN_APROBACION",
       "blocking_issues": [
         "availability_quality_not_verified",
@@ -3811,78 +1741,66 @@
         {
           "market": "moneyline",
           "selection": "Kansas City Chiefs",
-          "book": "BetRivers",
+          "book": "BetMGM",
           "line": null,
-          "american_odds": -435,
-          "probability_experimental": 0.82588,
+          "american_odds": -425,
+          "probability_experimental": 0.84472,
           "ev_experimental_per_dollar": null,
           "push_probability_experimental": null,
-          "books_compared": 4,
+          "books_compared": 9,
           "movement": {
-            "status": "matched_book_observations",
+            "status": "single_archived_observation",
             "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
               "point": null,
-              "american_odds": -435
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": -435
-            },
-            "observations": 5
+              "american_odds": -425
+            }
           },
           "recommendation": "NO_APROBADA"
         },
         {
           "market": "moneyline",
           "selection": "Los Angeles Chargers",
-          "book": "BetRivers",
+          "book": "BetMGM",
           "line": null,
-          "american_odds": 310,
-          "probability_experimental": 0.15546,
+          "american_odds": 333,
+          "probability_experimental": 0.13801,
           "ev_experimental_per_dollar": null,
           "push_probability_experimental": null,
-          "books_compared": 4,
+          "books_compared": 9,
           "movement": {
-            "status": "matched_book_observations",
+            "status": "single_archived_observation",
             "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
               "point": null,
-              "american_odds": 310
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": 310
-            },
-            "observations": 5
+              "american_odds": 333
+            }
           },
           "recommendation": "NO_APROBADA"
         },
         {
           "market": "spread",
           "selection": "Kansas City Chiefs",
-          "book": "FanDuel",
-          "line": -7.5,
-          "american_odds": -108,
-          "probability_experimental": 0.65948,
-          "ev_experimental_per_dollar": 0.2701,
-          "push_probability_experimental": 0.0,
-          "books_compared": 7,
+          "book": "BetUS",
+          "line": -9.0,
+          "american_odds": 100,
+          "probability_experimental": 0.63176,
+          "ev_experimental_per_dollar": 0.2915,
+          "push_probability_experimental": 0.028,
+          "books_compared": 9,
           "movement": {
             "status": "matched_book_observations",
             "first": {
               "at_utc": "2026-10-10T00:00:18.139663+00:00",
               "point": -7.5,
-              "american_odds": -108
+              "american_odds": -115
             },
             "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": -7.5,
-              "american_odds": -108
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
+              "point": -9.0,
+              "american_odds": 100
             },
-            "observations": 5
+            "observations": 6
           },
           "recommendation": "NO_APROBADA"
         },
@@ -3890,12 +1808,12 @@
           "market": "spread",
           "selection": "Los Angeles Chargers",
           "book": "LowVig.ag",
-          "line": 7.5,
+          "line": 8.0,
           "american_odds": 100,
-          "probability_experimental": 0.34052,
-          "ev_experimental_per_dollar": -0.319,
-          "push_probability_experimental": 0.0,
-          "books_compared": 7,
+          "probability_experimental": 0.31311,
+          "ev_experimental_per_dollar": -0.3466,
+          "push_probability_experimental": 0.02714,
+          "books_compared": 9,
           "movement": {
             "status": "insufficient_matched_history"
           },
@@ -3905,12 +1823,12 @@
           "market": "total",
           "selection": "Over",
           "book": "LowVig.ag",
-          "line": 45.0,
-          "american_odds": -101,
-          "probability_experimental": 0.45996,
-          "ev_experimental_per_dollar": -0.0556,
-          "push_probability_experimental": 0.029,
-          "books_compared": 7,
+          "line": 42.0,
+          "american_odds": -107,
+          "probability_experimental": 0.50145,
+          "ev_experimental_per_dollar": -0.0009,
+          "push_probability_experimental": 0.02903,
+          "books_compared": 9,
           "movement": {
             "status": "insufficient_matched_history"
           },
@@ -3919,26 +1837,152 @@
         {
           "market": "total",
           "selection": "Under",
-          "book": "BetRivers",
-          "line": 45.5,
-          "american_odds": -109,
-          "probability_experimental": 0.54004,
-          "ev_experimental_per_dollar": 0.0355,
+          "book": "FanDuel",
+          "line": 42.5,
+          "american_odds": -108,
+          "probability_experimental": 0.49855,
+          "ev_experimental_per_dollar": -0.0398,
           "push_probability_experimental": 0.0,
-          "books_compared": 7,
+          "books_compared": 9,
           "movement": {
             "status": "matched_book_observations",
             "first": {
               "at_utc": "2026-10-10T00:00:18.139663+00:00",
               "point": 45.5,
-              "american_odds": -109
+              "american_odds": -110
             },
             "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": 45.5,
-              "american_odds": -109
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
+              "point": 42.5,
+              "american_odds": -108
             },
-            "observations": 5
+            "observations": 6
+          },
+          "recommendation": "NO_APROBADA"
+        }
+      ],
+      "approved_picks": []
+    },
+    {
+      "game_id": "2026_06_DAL_GB",
+      "week": 6,
+      "kickoff_utc": "2026-10-19T00:20:00+00:00",
+      "away_team": "Dallas Cowboys",
+      "home_team": "Green Bay Packers",
+      "independent_home_margin": -0.05,
+      "independent_total": 49.42,
+      "model_home_win_probability_experimental": 0.48349,
+      "status": "SEGUIMIENTO_SIN_APROBACION",
+      "blocking_issues": [
+        "availability_quality_not_verified",
+        "future_week_injury_data_missing",
+        "injury_data_not_verified",
+        "probabilities_not_prospectively_validated",
+        "qb_not_verified"
+      ],
+      "best_quotes_by_selection": [
+        {
+          "market": "moneyline",
+          "selection": "Dallas Cowboys",
+          "book": "BetMGM",
+          "line": null,
+          "american_odds": -105,
+          "probability_experimental": 0.48649,
+          "ev_experimental_per_dollar": null,
+          "push_probability_experimental": null,
+          "books_compared": 8,
+          "movement": {
+            "status": "single_archived_observation",
+            "first": {
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
+              "point": null,
+              "american_odds": -105
+            }
+          },
+          "recommendation": "NO_APROBADA"
+        },
+        {
+          "market": "moneyline",
+          "selection": "Green Bay Packers",
+          "book": "BetMGM",
+          "line": null,
+          "american_odds": -112,
+          "probability_experimental": 0.48349,
+          "ev_experimental_per_dollar": null,
+          "push_probability_experimental": null,
+          "books_compared": 8,
+          "movement": {
+            "status": "single_archived_observation",
+            "first": {
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
+              "point": null,
+              "american_odds": -112
+            }
+          },
+          "recommendation": "NO_APROBADA"
+        },
+        {
+          "market": "spread",
+          "selection": "Dallas Cowboys",
+          "book": "LowVig.ag",
+          "line": 1.0,
+          "american_odds": -107,
+          "probability_experimental": 0.51651,
+          "ev_experimental_per_dollar": 0.0292,
+          "push_probability_experimental": 0.02993,
+          "books_compared": 9,
+          "movement": {
+            "status": "insufficient_matched_history"
+          },
+          "recommendation": "NO_APROBADA"
+        },
+        {
+          "market": "spread",
+          "selection": "Green Bay Packers",
+          "book": "LowVig.ag",
+          "line": -1.0,
+          "american_odds": -103,
+          "probability_experimental": 0.45355,
+          "ev_experimental_per_dollar": -0.0762,
+          "push_probability_experimental": 0.02993,
+          "books_compared": 9,
+          "movement": {
+            "status": "insufficient_matched_history"
+          },
+          "recommendation": "NO_APROBADA"
+        },
+        {
+          "market": "total",
+          "selection": "Over",
+          "book": "FanDuel",
+          "line": 52.5,
+          "american_odds": -106,
+          "probability_experimental": 0.41123,
+          "ev_experimental_per_dollar": -0.2008,
+          "push_probability_experimental": 0.0,
+          "books_compared": 9,
+          "movement": {
+            "status": "single_archived_observation",
+            "first": {
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
+              "point": 52.5,
+              "american_odds": -106
+            }
+          },
+          "recommendation": "NO_APROBADA"
+        },
+        {
+          "market": "total",
+          "selection": "Under",
+          "book": "LowVig.ag",
+          "line": 53.0,
+          "american_odds": -107,
+          "probability_experimental": 0.58877,
+          "ev_experimental_per_dollar": 0.1671,
+          "push_probability_experimental": 0.02808,
+          "books_compared": 9,
+          "movement": {
+            "status": "insufficient_matched_history"
           },
           "recommendation": "NO_APROBADA"
         }
@@ -3951,9 +1995,9 @@
       "kickoff_utc": "2026-10-20T00:15:00+00:00",
       "away_team": "Washington Commanders",
       "home_team": "San Francisco 49ers",
-      "independent_home_margin": 15.88,
-      "independent_total": 49.4,
-      "model_home_win_probability_experimental": 0.87653,
+      "independent_home_margin": 14.21,
+      "independent_total": 48.39,
+      "model_home_win_probability_experimental": 0.84899,
       "status": "SEGUIMIENTO_SIN_APROBACION",
       "blocking_issues": [
         "availability_quality_not_verified",
@@ -3966,52 +2010,40 @@
         {
           "market": "moneyline",
           "selection": "San Francisco 49ers",
-          "book": "BetRivers",
+          "book": "BetMGM",
           "line": null,
-          "american_odds": -420,
-          "probability_experimental": 0.87653,
+          "american_odds": -400,
+          "probability_experimental": 0.84899,
           "ev_experimental_per_dollar": null,
           "push_probability_experimental": null,
-          "books_compared": 4,
+          "books_compared": 9,
           "movement": {
-            "status": "matched_book_observations",
+            "status": "single_archived_observation",
             "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
               "point": null,
-              "american_odds": -420
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": -420
-            },
-            "observations": 5
+              "american_odds": -400
+            }
           },
           "recommendation": "NO_APROBADA"
         },
         {
           "market": "moneyline",
           "selection": "Washington Commanders",
-          "book": "BetRivers",
+          "book": "BetMGM",
           "line": null,
           "american_odds": 320,
-          "probability_experimental": 0.10877,
+          "probability_experimental": 0.13406,
           "ev_experimental_per_dollar": null,
           "push_probability_experimental": null,
-          "books_compared": 4,
+          "books_compared": 9,
           "movement": {
-            "status": "matched_book_observations",
+            "status": "single_archived_observation",
             "first": {
-              "at_utc": "2026-10-10T00:00:18.139663+00:00",
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
               "point": null,
               "american_odds": 320
-            },
-            "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": null,
-              "american_odds": 320
-            },
-            "observations": 5
+            }
           },
           "recommendation": "NO_APROBADA"
         },
@@ -4020,11 +2052,11 @@
           "selection": "San Francisco 49ers",
           "book": "LowVig.ag",
           "line": -7.5,
-          "american_odds": -105,
-          "probability_experimental": 0.73593,
-          "ev_experimental_per_dollar": 0.4368,
+          "american_odds": -104,
+          "probability_experimental": 0.69327,
+          "ev_experimental_per_dollar": 0.3599,
           "push_probability_experimental": 0.0,
-          "books_compared": 7,
+          "books_compared": 9,
           "movement": {
             "status": "insufficient_matched_history"
           },
@@ -4035,11 +2067,11 @@
           "selection": "Washington Commanders",
           "book": "LowVig.ag",
           "line": 7.5,
-          "american_odds": -105,
-          "probability_experimental": 0.26407,
-          "ev_experimental_per_dollar": -0.4844,
+          "american_odds": -106,
+          "probability_experimental": 0.30673,
+          "ev_experimental_per_dollar": -0.4039,
           "push_probability_experimental": 0.0,
-          "books_compared": 7,
+          "books_compared": 9,
           "movement": {
             "status": "insufficient_matched_history"
           },
@@ -4048,26 +2080,26 @@
         {
           "market": "total",
           "selection": "Over",
-          "book": "FanDuel",
-          "line": 49.5,
-          "american_odds": -105,
-          "probability_experimental": 0.49709,
-          "ev_experimental_per_dollar": -0.0295,
+          "book": "MyBookie.ag",
+          "line": 50.5,
+          "american_odds": -110,
+          "probability_experimental": 0.43892,
+          "ev_experimental_per_dollar": -0.1621,
           "push_probability_experimental": 0.0,
-          "books_compared": 7,
+          "books_compared": 9,
           "movement": {
             "status": "matched_book_observations",
             "first": {
               "at_utc": "2026-10-10T00:00:18.139663+00:00",
               "point": 49.5,
-              "american_odds": -105
+              "american_odds": -110
             },
             "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
-              "point": 49.5,
-              "american_odds": -105
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
+              "point": 50.5,
+              "american_odds": -110
             },
-            "observations": 5
+            "observations": 6
           },
           "recommendation": "NO_APROBADA"
         },
@@ -4076,11 +2108,11 @@
           "selection": "Under",
           "book": "DraftKings",
           "line": 50.5,
-          "american_odds": -110,
-          "probability_experimental": 0.53193,
-          "ev_experimental_per_dollar": 0.0155,
+          "american_odds": -102,
+          "probability_experimental": 0.56108,
+          "ev_experimental_per_dollar": 0.1112,
           "push_probability_experimental": 0.0,
-          "books_compared": 7,
+          "books_compared": 9,
           "movement": {
             "status": "matched_book_observations",
             "first": {
@@ -4089,11 +2121,11 @@
               "american_odds": -110
             },
             "last": {
-              "at_utc": "2026-10-11T11:13:51.115848+00:00",
+              "at_utc": "2026-10-12T16:11:47.721611+00:00",
               "point": 50.5,
-              "american_odds": -110
+              "american_odds": -102
             },
-            "observations": 5
+            "observations": 6
           },
           "recommendation": "NO_APROBADA"
         }
