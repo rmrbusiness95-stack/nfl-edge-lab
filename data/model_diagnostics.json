@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-12T16:11:47.175915+00:00",
+  "generated_at_utc": "2026-10-16T22:22:09.295641+00:00",
   "source": "team_week_stats + nflverse games.csv",
   "feature_window": 8,
   "min_prior_games": 4,
@@ -38,16 +38,6 @@
     "baseline_total_mae": 10.873
   },
   "prospective": [
-    {
-      "game_id": "2026_05_BUF_LA",
-      "season": 2026,
-      "week": 5,
-      "home_team": "LA",
-      "away_team": "BUF",
-      "home_margin_projection": 3.61,
-      "game_total_projection": 49.75,
-      "status": "experimental_unvalidated"
-    },
     {
       "game_id": "2026_06_ARI_LA",
       "season": 2026,
@@ -156,16 +146,6 @@
       "away_team": "PIT",
       "home_margin_projection": 1.41,
       "game_total_projection": 43.1,
-      "status": "experimental_unvalidated"
-    },
-    {
-      "game_id": "2026_06_SEA_DEN",
-      "season": 2026,
-      "week": 6,
-      "home_team": "DEN",
-      "away_team": "SEA",
-      "home_margin_projection": -0.19,
-      "game_total_projection": 40.82,
       "status": "experimental_unvalidated"
     },
     {
