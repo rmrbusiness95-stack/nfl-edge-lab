@@ -1,7 +1,7 @@
 {
   "season": 2026,
-  "checked_at_utc": "2026-10-17T14:23:49.016101+00:00",
-  "input_generated_at_utc": "2026-10-17T14:23:48.689794+00:00",
+  "checked_at_utc": "2026-10-17T20:23:34.206736+00:00",
+  "input_generated_at_utc": "2026-10-17T20:23:33.876008+00:00",
   "qb_teams": 32,
   "qb_candidate_records": 93,
   "latest_injury_week_in_dataset": 6,
@@ -18,7 +18,7 @@
     "ARI": {
       "qb_candidates": 3,
       "depth_chart_snapshot_at_utc": "2026-10-17T11:33:46+00:00",
-      "depth_chart_age_hours": 2.8,
+      "depth_chart_age_hours": 8.8,
       "qb_starter_confirmed": false,
       "injury_report_week": 6,
       "injury_report_rows_in_latest_dataset_week": 11,
@@ -34,7 +34,7 @@
     "ATL": {
       "qb_candidates": 4,
       "depth_chart_snapshot_at_utc": "2026-10-17T11:33:46+00:00",
-      "depth_chart_age_hours": 2.8,
+      "depth_chart_age_hours": 8.8,
       "qb_starter_confirmed": false,
       "injury_report_week": 6,
       "injury_report_rows_in_latest_dataset_week": 9,
@@ -50,7 +50,7 @@
     "BAL": {
       "qb_candidates": 4,
       "depth_chart_snapshot_at_utc": "2026-10-17T11:33:46+00:00",
-      "depth_chart_age_hours": 2.8,
+      "depth_chart_age_hours": 8.8,
       "qb_starter_confirmed": false,
       "injury_report_week": 6,
       "injury_report_rows_in_latest_dataset_week": 21,
@@ -66,7 +66,7 @@
     "BUF": {
       "qb_candidates": 2,
       "depth_chart_snapshot_at_utc": "2026-10-17T11:33:46+00:00",
-      "depth_chart_age_hours": 2.8,
+      "depth_chart_age_hours": 8.8,
       "qb_starter_confirmed": false,
       "injury_report_week": 6,
       "injury_report_rows_in_latest_dataset_week": 15,
@@ -81,7 +81,7 @@
     "CAR": {
       "qb_candidates": 3,
       "depth_chart_snapshot_at_utc": "2026-10-17T11:33:46+00:00",
-      "depth_chart_age_hours": 2.8,
+      "depth_chart_age_hours": 8.8,
       "qb_starter_confirmed": false,
       "injury_report_week": 6,
       "injury_report_rows_in_latest_dataset_week": 12,
@@ -98,7 +98,7 @@
     "CHI": {
       "qb_candidates": 3,
       "depth_chart_snapshot_at_utc": "2026-10-17T11:33:46+00:00",
-      "depth_chart_age_hours": 2.8,
+      "depth_chart_age_hours": 8.8,
       "qb_starter_confirmed": false,
       "injury_report_week": 6,
       "injury_report_rows_in_latest_dataset_week": 9,
@@ -114,7 +114,7 @@
     "CIN": {
       "qb_candidates": 2,
       "depth_chart_snapshot_at_utc": "2026-10-17T11:33:46+00:00",
-      "depth_chart_age_hours": 2.8,
+      "depth_chart_age_hours": 8.8,
       "qb_starter_confirmed": false,
       "injury_report_week": null,
       "injury_report_rows_in_latest_dataset_week": 0,
@@ -126,7 +126,7 @@
     "CLE": {
       "qb_candidates": 4,
       "depth_chart_snapshot_at_utc": "2026-10-17T11:33:46+00:00",
-      "depth_chart_age_hours": 2.8,
+      "depth_chart_age_hours": 8.8,
       "qb_starter_confirmed": false,
       "injury_report_week": 6,
       "injury_report_rows_in_latest_dataset_week": 17,
@@ -142,7 +142,7 @@
     "DAL": {
       "qb_candidates": 2,
       "depth_chart_snapshot_at_utc": "2026-10-17T11:33:46+00:00",
-      "depth_chart_age_hours": 2.8,
+      "depth_chart_age_hours": 8.8,
       "qb_starter_confirmed": false,
       "injury_report_week": 6,
       "injury_report_rows_in_latest_dataset_week": 13,
@@ -158,7 +158,7 @@
     "DEN": {
       "qb_candidates": 3,
       "depth_chart_snapshot_at_utc": "2026-10-17T11:33:46+00:00",
-      "depth_chart_age_hours": 2.8,
+      "depth_chart_age_hours": 8.8,
       "qb_starter_confirmed": false,
       "injury_report_week": 6,
       "injury_report_rows_in_latest_dataset_week": 6,
@@ -174,7 +174,7 @@
     "DET": {
       "qb_candidates": 2,
       "depth_chart_snapshot_at_utc": "2026-10-17T11:33:46+00:00",
-      "depth_chart_age_hours": 2.8,
+      "depth_chart_age_hours": 8.8,
       "qb_starter_confirmed": false,
       "injury_report_week": null,
       "injury_report_rows_in_latest_dataset_week": 0,
@@ -186,7 +186,7 @@
     "GB": {
       "qb_candidates": 2,
       "depth_chart_snapshot_at_utc": "2026-10-17T11:33:46+00:00",
-      "depth_chart_age_hours": 2.8,
+      "depth_chart_age_hours": 8.8,
       "qb_starter_confirmed": false,
       "injury_report_week": 6,
       "injury_report_rows_in_latest_dataset_week": 14,
@@ -203,7 +203,7 @@
     "HOU": {
       "qb_candidates": 3,
       "depth_chart_snapshot_at_utc": "2026-10-17T11:33:46+00:00",
-      "depth_chart_age_hours": 2.8,
+      "depth_chart_age_hours": 8.8,
       "qb_starter_confirmed": false,
       "injury_report_week": 6,
       "injury_report_rows_in_latest_dataset_week": 14,
@@ -219,7 +219,7 @@
     "IND": {
       "qb_candidates": 3,
       "depth_chart_snapshot_at_utc": "2026-10-17T11:33:46+00:00",
-      "depth_chart_age_hours": 2.8,
+      "depth_chart_age_hours": 8.8,
       "qb_starter_confirmed": false,
       "injury_report_week": 6,
       "injury_report_rows_in_latest_dataset_week": 15,
@@ -235,7 +235,7 @@
     "JAX": {
       "qb_candidates": 2,
       "depth_chart_snapshot_at_utc": "2026-10-17T11:33:46+00:00",
-      "depth_chart_age_hours": 2.8,
+      "depth_chart_age_hours": 8.8,
       "qb_starter_confirmed": false,
       "injury_report_week": 6,
       "injury_report_rows_in_latest_dataset_week": 9,
@@ -251,7 +251,7 @@
     "KC": {
       "qb_candidates": 3,
       "depth_chart_snapshot_at_utc": "2026-10-17T11:33:46+00:00",
-      "depth_chart_age_hours": 2.8,
+      "depth_chart_age_hours": 8.8,
       "qb_starter_confirmed": false,
       "injury_report_week": 6,
       "injury_report_rows_in_latest_dataset_week": 7,
@@ -267,7 +267,7 @@
     "LA": {
       "qb_candidates": 4,
       "depth_chart_snapshot_at_utc": "2026-10-17T11:33:46+00:00",
-      "depth_chart_age_hours": 2.8,
+      "depth_chart_age_hours": 8.8,
       "qb_starter_confirmed": false,
       "injury_report_week": 6,
       "injury_report_rows_in_latest_dataset_week": 11,
@@ -282,7 +282,7 @@
     "LAC": {
       "qb_candidates": 3,
       "depth_chart_snapshot_at_utc": "2026-10-17T11:33:46+00:00",
-      "depth_chart_age_hours": 2.8,
+      "depth_chart_age_hours": 8.8,
       "qb_starter_confirmed": false,
       "injury_report_week": 6,
       "injury_report_rows_in_latest_dataset_week": 21,
@@ -299,7 +299,7 @@
     "LV": {
       "qb_candidates": 3,
       "depth_chart_snapshot_at_utc": "2026-10-17T11:33:46+00:00",
-      "depth_chart_age_hours": 2.8,
+      "depth_chart_age_hours": 8.8,
       "qb_starter_confirmed": false,
       "injury_report_week": 6,
       "injury_report_rows_in_latest_dataset_week": 13,
@@ -315,7 +315,7 @@
     "MIA": {
       "qb_candidates": 2,
       "depth_chart_snapshot_at_utc": "2026-10-17T11:33:46+00:00",
-      "depth_chart_age_hours": 2.8,
+      "depth_chart_age_hours": 8.8,
       "qb_starter_confirmed": false,
       "injury_report_week": null,
       "injury_report_rows_in_latest_dataset_week": 0,
@@ -327,7 +327,7 @@
     "MIN": {
       "qb_candidates": 3,
       "depth_chart_snapshot_at_utc": "2026-10-17T11:33:46+00:00",
-      "depth_chart_age_hours": 2.8,
+      "depth_chart_age_hours": 8.8,
       "qb_starter_confirmed": false,
       "injury_report_week": null,
       "injury_report_rows_in_latest_dataset_week": 0,
@@ -339,7 +339,7 @@
     "NE": {
       "qb_candidates": 3,
       "depth_chart_snapshot_at_utc": "2026-10-17T11:33:46+00:00",
-      "depth_chart_age_hours": 2.8,
+      "depth_chart_age_hours": 8.8,
       "qb_starter_confirmed": false,
       "injury_report_week": 6,
       "injury_report_rows_in_latest_dataset_week": 17,
@@ -355,7 +355,7 @@
     "NO": {
       "qb_candidates": 3,
       "depth_chart_snapshot_at_utc": "2026-10-17T11:33:46+00:00",
-      "depth_chart_age_hours": 2.8,
+      "depth_chart_age_hours": 8.8,
       "qb_starter_confirmed": false,
       "injury_report_week": 6,
       "injury_report_rows_in_latest_dataset_week": 13,
@@ -371,7 +371,7 @@
     "NYG": {
       "qb_candidates": 4,
       "depth_chart_snapshot_at_utc": "2026-10-17T11:33:46+00:00",
-      "depth_chart_age_hours": 2.8,
+      "depth_chart_age_hours": 8.8,
       "qb_starter_confirmed": false,
       "injury_report_week": 6,
       "injury_report_rows_in_latest_dataset_week": 14,
@@ -387,7 +387,7 @@
     "NYJ": {
       "qb_candidates": 2,
       "depth_chart_snapshot_at_utc": "2026-10-17T11:33:46+00:00",
-      "depth_chart_age_hours": 2.8,
+      "depth_chart_age_hours": 8.8,
       "qb_starter_confirmed": false,
       "injury_report_week": 6,
       "injury_report_rows_in_latest_dataset_week": 8,
@@ -403,7 +403,7 @@
     "PHI": {
       "qb_candidates": 4,
       "depth_chart_snapshot_at_utc": "2026-10-17T11:33:46+00:00",
-      "depth_chart_age_hours": 2.8,
+      "depth_chart_age_hours": 8.8,
       "qb_starter_confirmed": false,
       "injury_report_week": 6,
       "injury_report_rows_in_latest_dataset_week": 25,
@@ -420,7 +420,7 @@
     "PIT": {
       "qb_candidates": 4,
       "depth_chart_snapshot_at_utc": "2026-10-17T11:33:46+00:00",
-      "depth_chart_age_hours": 2.8,
+      "depth_chart_age_hours": 8.8,
       "qb_starter_confirmed": false,
       "injury_report_week": 6,
       "injury_report_rows_in_latest_dataset_week": 10,
@@ -436,7 +436,7 @@
     "SEA": {
       "qb_candidates": 3,
       "depth_chart_snapshot_at_utc": "2026-10-17T11:33:46+00:00",
-      "depth_chart_age_hours": 2.8,
+      "depth_chart_age_hours": 8.8,
       "qb_starter_confirmed": false,
       "injury_report_week": 6,
       "injury_report_rows_in_latest_dataset_week": 9,
@@ -451,7 +451,7 @@
     "SF": {
       "qb_candidates": 3,
       "depth_chart_snapshot_at_utc": "2026-10-17T11:33:46+00:00",
-      "depth_chart_age_hours": 2.8,
+      "depth_chart_age_hours": 8.8,
       "qb_starter_confirmed": false,
       "injury_report_week": 6,
       "injury_report_rows_in_latest_dataset_week": 18,
@@ -465,7 +465,7 @@
     "TB": {
       "qb_candidates": 2,
       "depth_chart_snapshot_at_utc": "2026-10-17T11:33:46+00:00",
-      "depth_chart_age_hours": 2.8,
+      "depth_chart_age_hours": 8.8,
       "qb_starter_confirmed": false,
       "injury_report_week": 6,
       "injury_report_rows_in_latest_dataset_week": 11,
@@ -482,7 +482,7 @@
     "TEN": {
       "qb_candidates": 2,
       "depth_chart_snapshot_at_utc": "2026-10-17T11:33:46+00:00",
-      "depth_chart_age_hours": 2.8,
+      "depth_chart_age_hours": 8.8,
       "qb_starter_confirmed": false,
       "injury_report_week": 6,
       "injury_report_rows_in_latest_dataset_week": 10,
@@ -498,7 +498,7 @@
     "WAS": {
       "qb_candidates": 3,
       "depth_chart_snapshot_at_utc": "2026-10-17T11:33:46+00:00",
-      "depth_chart_age_hours": 2.8,
+      "depth_chart_age_hours": 8.8,
       "qb_starter_confirmed": false,
       "injury_report_week": 6,
       "injury_report_rows_in_latest_dataset_week": 22,
