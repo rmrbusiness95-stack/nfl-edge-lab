@@ -1,5 +1,5 @@
 {
-  "generated_for_date": "2026-10-17",
+  "generated_for_date": "2026-10-18",
   "source": "nflverse nfldata games.csv",
   "trend_sample_start": 2002,
   "methodology": "ATS: margen equipo + puntos del equipo > 0; pushes excluidos del porcentaje; sólo partidos previos; condiciones situacionales históricas",
@@ -1399,7 +1399,7 @@
       "week": 6,
       "home": "IND",
       "away": "TEN",
-      "market_reference_spread_home": 7.0,
+      "market_reference_spread_home": 6.5,
       "market_reference_verified_live": false,
       "teams": [
         {
