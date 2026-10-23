@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-19T16:24:47.398992+00:00",
+  "generated_at_utc": "2026-10-23T22:23:27.403026+00:00",
   "source": "team_week_stats + nflverse games.csv",
   "feature_window": 8,
   "min_prior_games": 4,
@@ -38,16 +38,6 @@
     "baseline_total_mae": 10.873
   },
   "prospective": [
-    {
-      "game_id": "2026_06_WAS_SF",
-      "season": 2026,
-      "week": 6,
-      "home_team": "SF",
-      "away_team": "WAS",
-      "home_margin_projection": 14.21,
-      "game_total_projection": 48.39,
-      "status": "experimental_unvalidated"
-    },
     {
       "game_id": "2026_07_CIN_BAL",
       "season": 2026,
@@ -136,16 +126,6 @@
       "away_team": "MIA",
       "home_margin_projection": 8.92,
       "game_total_projection": 43.27,
-      "status": "experimental_unvalidated"
-    },
-    {
-      "game_id": "2026_07_NE_CHI",
-      "season": 2026,
-      "week": 7,
-      "home_team": "CHI",
-      "away_team": "NE",
-      "home_margin_projection": 3.67,
-      "game_total_projection": 46.13,
       "status": "experimental_unvalidated"
     },
     {
