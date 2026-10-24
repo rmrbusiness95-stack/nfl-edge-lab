@@ -1,5 +1,5 @@
 {
-  "generated_for_date": "2026-10-23",
+  "generated_for_date": "2026-10-24",
   "source": "nflverse nfldata games.csv",
   "trend_sample_start": 2002,
   "methodology": "ATS: margen equipo + puntos del equipo > 0; pushes excluidos del porcentaje; sólo partidos previos; condiciones situacionales históricas",
@@ -16,7 +16,7 @@
       "week": 7,
       "home": "BAL",
       "away": "CIN",
-      "market_reference_spread_home": 1.5,
+      "market_reference_spread_home": -1.5,
       "market_reference_verified_live": false,
       "teams": [
         {
@@ -84,13 +84,13 @@
               "scope": "equipo, desde 2002"
             },
             {
-              "id": "favorite",
-              "label": "Cuando era favorito",
-              "w": 127,
-              "l": 127,
-              "p": 8,
-              "rate": 50.0,
-              "n": 262,
+              "id": "underdog",
+              "label": "Cuando era underdog",
+              "w": 67,
+              "l": 59,
+              "p": 5,
+              "rate": 53.2,
+              "n": 131,
               "scope": "equipo, desde 2002"
             }
           ]
@@ -140,13 +140,13 @@
               "scope": "equipo, desde 2002"
             },
             {
-              "id": "underdog",
-              "label": "Cuando era underdog",
-              "w": 108,
-              "l": 93,
-              "p": 3,
-              "rate": 53.7,
-              "n": 204,
+              "id": "favorite",
+              "label": "Cuando era favorito",
+              "w": 91,
+              "l": 86,
+              "p": 11,
+              "rate": 51.4,
+              "n": 188,
               "scope": "equipo, desde 2002"
             }
           ]
@@ -159,7 +159,7 @@
       "week": 7,
       "home": "TEN",
       "away": "CLE",
-      "market_reference_spread_home": -1.5,
+      "market_reference_spread_home": -2.5,
       "market_reference_verified_live": false,
       "teams": [
         {
@@ -704,7 +704,7 @@
       "week": 7,
       "home": "LV",
       "away": "LA",
-      "market_reference_spread_home": -3.5,
+      "market_reference_spread_home": -3.0,
       "market_reference_verified_live": false,
       "teams": [
         {
@@ -970,7 +970,7 @@
       "week": 7,
       "home": "HOU",
       "away": "NYG",
-      "market_reference_spread_home": 10.5,
+      "market_reference_spread_home": 10.0,
       "market_reference_verified_live": false,
       "teams": [
         {
