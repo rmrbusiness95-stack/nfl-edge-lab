@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-10-26T16:39:10.363649+00:00",
+  "generated_at_utc": "2026-10-30T22:29:39.674253+00:00",
   "source": "team_week_stats + nflverse games.csv",
   "feature_window": 8,
   "min_prior_games": 4,
@@ -39,16 +39,6 @@
   },
   "prospective": [
     {
-      "game_id": "2026_07_DAL_PHI",
-      "season": 2026,
-      "week": 7,
-      "home_team": "PHI",
-      "away_team": "DAL",
-      "home_margin_projection": -5.34,
-      "game_total_projection": 46.63,
-      "status": "experimental_unvalidated"
-    },
-    {
       "game_id": "2026_08_ARI_DAL",
       "season": 2026,
       "week": 8,
@@ -76,16 +66,6 @@
       "away_team": "BAL",
       "home_margin_projection": 2.6,
       "game_total_projection": 51.03,
-      "status": "experimental_unvalidated"
-    },
-    {
-      "game_id": "2026_08_CAR_GB",
-      "season": 2026,
-      "week": 8,
-      "home_team": "GB",
-      "away_team": "CAR",
-      "home_margin_projection": 0.5,
-      "game_total_projection": 46.16,
       "status": "experimental_unvalidated"
     },
     {
