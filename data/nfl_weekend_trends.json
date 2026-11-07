@@ -1,5 +1,5 @@
 {
-  "generated_for_date": "2026-11-06",
+  "generated_for_date": "2026-11-07",
   "source": "nflverse nfldata games.csv",
   "trend_sample_start": 2002,
   "methodology": "ATS: margen equipo + puntos del equipo > 0; pushes excluidos del porcentaje; sólo partidos previos; condiciones situacionales históricas",
@@ -302,7 +302,7 @@
       "week": 9,
       "home": "NO",
       "away": "CLE",
-      "market_reference_spread_home": 3.0,
+      "market_reference_spread_home": 3.5,
       "market_reference_verified_live": false,
       "teams": [
         {
@@ -445,7 +445,7 @@
       "week": 9,
       "home": "IND",
       "away": "DAL",
-      "market_reference_spread_home": -5.5,
+      "market_reference_spread_home": -4.5,
       "market_reference_verified_live": false,
       "teams": [
         {
@@ -588,7 +588,7 @@
       "week": 9,
       "home": "CAR",
       "away": "DEN",
-      "market_reference_spread_home": -2.5,
+      "market_reference_spread_home": -3.0,
       "market_reference_verified_live": false,
       "teams": [
         {
@@ -1306,7 +1306,7 @@
       "week": 9,
       "home": "PHI",
       "away": "NYG",
-      "market_reference_spread_home": -3.5,
+      "market_reference_spread_home": -3.0,
       "market_reference_verified_live": false,
       "teams": [
         {
@@ -1469,7 +1469,7 @@
       "week": 9,
       "home": "KC",
       "away": "NYJ",
-      "market_reference_spread_home": 9.5,
+      "market_reference_spread_home": 8.5,
       "market_reference_verified_live": false,
       "teams": [
         {
