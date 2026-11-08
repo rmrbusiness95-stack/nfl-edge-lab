@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-06T22:32:26.953017+00:00",
+  "generated_at_utc": "2026-11-08T11:31:46.383675+00:00",
   "source": "team_week_stats + nflverse games.csv",
   "feature_window": 8,
   "min_prior_games": 4,
