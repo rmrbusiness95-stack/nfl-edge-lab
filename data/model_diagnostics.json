@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-08T11:31:46.383675+00:00",
+  "generated_at_utc": "2026-11-09T16:55:12.593553+00:00",
   "source": "team_week_stats + nflverse games.csv",
   "feature_window": 8,
   "min_prior_games": 4,
@@ -39,16 +39,6 @@
   },
   "prospective": [
     {
-      "game_id": "2026_09_ARI_SEA",
-      "season": 2026,
-      "week": 9,
-      "home_team": "SEA",
-      "away_team": "ARI",
-      "home_margin_projection": 6.32,
-      "game_total_projection": 43.28,
-      "status": "experimental_unvalidated"
-    },
-    {
       "game_id": "2026_09_BUF_MIN",
       "season": 2026,
       "week": 9,
@@ -59,133 +49,13 @@
       "status": "experimental_unvalidated"
     },
     {
-      "game_id": "2026_09_CIN_ATL",
-      "season": 2026,
-      "week": 9,
-      "home_team": "ATL",
-      "away_team": "CIN",
-      "home_margin_projection": -4.76,
-      "game_total_projection": 47.02,
-      "status": "experimental_unvalidated"
-    },
-    {
-      "game_id": "2026_09_CLE_NO",
-      "season": 2026,
-      "week": 9,
-      "home_team": "NO",
-      "away_team": "CLE",
-      "home_margin_projection": -0.64,
-      "game_total_projection": 44.0,
-      "status": "experimental_unvalidated"
-    },
-    {
-      "game_id": "2026_09_DAL_IND",
-      "season": 2026,
-      "week": 9,
-      "home_team": "IND",
-      "away_team": "DAL",
-      "home_margin_projection": -3.13,
-      "game_total_projection": 46.89,
-      "status": "experimental_unvalidated"
-    },
-    {
-      "game_id": "2026_09_DEN_CAR",
-      "season": 2026,
-      "week": 9,
-      "home_team": "CAR",
-      "away_team": "DEN",
-      "home_margin_projection": 3.77,
-      "game_total_projection": 44.32,
-      "status": "experimental_unvalidated"
-    },
-    {
-      "game_id": "2026_09_DET_MIA",
-      "season": 2026,
-      "week": 9,
-      "home_team": "MIA",
-      "away_team": "DET",
-      "home_margin_projection": -6.81,
-      "game_total_projection": 49.06,
-      "status": "experimental_unvalidated"
-    },
-    {
-      "game_id": "2026_09_GB_NE",
-      "season": 2026,
-      "week": 9,
-      "home_team": "NE",
-      "away_team": "GB",
-      "home_margin_projection": 3.71,
-      "game_total_projection": 45.63,
-      "status": "experimental_unvalidated"
-    },
-    {
-      "game_id": "2026_09_HOU_LAC",
-      "season": 2026,
-      "week": 9,
-      "home_team": "LAC",
-      "away_team": "HOU",
-      "home_margin_projection": -5.87,
-      "game_total_projection": 41.88,
-      "status": "experimental_unvalidated"
-    },
-    {
-      "game_id": "2026_09_LA_WAS",
-      "season": 2026,
-      "week": 9,
-      "home_team": "WAS",
-      "away_team": "LA",
-      "home_margin_projection": -4.39,
-      "game_total_projection": 45.79,
-      "status": "experimental_unvalidated"
-    },
-    {
-      "game_id": "2026_09_LV_SF",
-      "season": 2026,
-      "week": 9,
-      "home_team": "SF",
-      "away_team": "LV",
-      "home_margin_projection": 11.51,
-      "game_total_projection": 49.53,
-      "status": "experimental_unvalidated"
-    },
-    {
-      "game_id": "2026_09_NYG_PHI",
-      "season": 2026,
-      "week": 9,
-      "home_team": "PHI",
-      "away_team": "NYG",
-      "home_margin_projection": -4.01,
-      "game_total_projection": 43.43,
-      "status": "experimental_unvalidated"
-    },
-    {
-      "game_id": "2026_09_NYJ_KC",
-      "season": 2026,
-      "week": 9,
-      "home_team": "KC",
-      "away_team": "NYJ",
-      "home_margin_projection": 5.72,
-      "game_total_projection": 47.8,
-      "status": "experimental_unvalidated"
-    },
-    {
-      "game_id": "2026_09_TB_CHI",
-      "season": 2026,
-      "week": 9,
-      "home_team": "CHI",
-      "away_team": "TB",
-      "home_margin_projection": 4.39,
-      "game_total_projection": 42.9,
-      "status": "experimental_unvalidated"
-    },
-    {
       "game_id": "2026_10_BUF_NYJ",
       "season": 2026,
       "week": 10,
       "home_team": "NYJ",
       "away_team": "BUF",
-      "home_margin_projection": -1.54,
-      "game_total_projection": 50.31,
+      "home_margin_projection": -4.2,
+      "game_total_projection": 49.72,
       "status": "experimental_unvalidated"
     },
     {
@@ -194,7 +64,7 @@
       "week": 10,
       "home_team": "NO",
       "away_team": "CAR",
-      "home_margin_projection": -2.06,
+      "home_margin_projection": -1.57,
       "game_total_projection": 46.1,
       "status": "experimental_unvalidated"
     },
@@ -204,8 +74,8 @@
       "week": 10,
       "home_team": "CLE",
       "away_team": "HOU",
-      "home_margin_projection": 0.17,
-      "game_total_projection": 44.79,
+      "home_margin_projection": 0.04,
+      "game_total_projection": 44.71,
       "status": "experimental_unvalidated"
     },
     {
@@ -214,8 +84,8 @@
       "week": 10,
       "home_team": "TEN",
       "away_team": "JAX",
-      "home_margin_projection": -9.12,
-      "game_total_projection": 47.2,
+      "home_margin_projection": -9.21,
+      "game_total_projection": 46.64,
       "status": "experimental_unvalidated"
     },
     {
@@ -224,8 +94,8 @@
       "week": 10,
       "home_team": "ATL",
       "away_team": "KC",
-      "home_margin_projection": -4.25,
-      "game_total_projection": 45.98,
+      "home_margin_projection": -5.57,
+      "game_total_projection": 47.29,
       "status": "experimental_unvalidated"
     },
     {
@@ -234,8 +104,8 @@
       "week": 10,
       "home_team": "BAL",
       "away_team": "LAC",
-      "home_margin_projection": 9.6,
-      "game_total_projection": 40.15,
+      "home_margin_projection": 6.68,
+      "game_total_projection": 39.52,
       "status": "experimental_unvalidated"
     },
     {
@@ -244,8 +114,8 @@
       "week": 10,
       "home_team": "ARI",
       "away_team": "LA",
-      "home_margin_projection": -4.77,
-      "game_total_projection": 45.31,
+      "home_margin_projection": -8.13,
+      "game_total_projection": 44.99,
       "status": "experimental_unvalidated"
     },
     {
@@ -254,8 +124,8 @@
       "week": 10,
       "home_team": "IND",
       "away_team": "MIA",
-      "home_margin_projection": 2.56,
-      "game_total_projection": 43.69,
+      "home_margin_projection": 3.83,
+      "game_total_projection": 43.0,
       "status": "experimental_unvalidated"
     },
     {
@@ -264,8 +134,8 @@
       "week": 10,
       "home_team": "GB",
       "away_team": "MIN",
-      "home_margin_projection": 3.48,
-      "game_total_projection": 40.99,
+      "home_margin_projection": 5.22,
+      "game_total_projection": 41.88,
       "status": "experimental_unvalidated"
     },
     {
@@ -274,8 +144,8 @@
       "week": 10,
       "home_team": "DET",
       "away_team": "NE",
-      "home_margin_projection": 2.51,
-      "game_total_projection": 49.35,
+      "home_margin_projection": 3.46,
+      "game_total_projection": 48.94,
       "status": "experimental_unvalidated"
     },
     {
@@ -284,8 +154,8 @@
       "week": 10,
       "home_team": "CIN",
       "away_team": "PIT",
-      "home_margin_projection": 6.1,
-      "game_total_projection": 46.82,
+      "home_margin_projection": 6.61,
+      "game_total_projection": 47.29,
       "status": "experimental_unvalidated"
     },
     {
@@ -294,8 +164,8 @@
       "week": 10,
       "home_team": "LV",
       "away_team": "SEA",
-      "home_margin_projection": -0.59,
-      "game_total_projection": 43.9,
+      "home_margin_projection": -1.83,
+      "game_total_projection": 43.74,
       "status": "experimental_unvalidated"
     },
     {
@@ -304,8 +174,8 @@
       "week": 10,
       "home_team": "DAL",
       "away_team": "SF",
-      "home_margin_projection": -5.79,
-      "game_total_projection": 51.78,
+      "home_margin_projection": -4.94,
+      "game_total_projection": 50.93,
       "status": "experimental_unvalidated"
     },
     {
@@ -314,8 +184,8 @@
       "week": 10,
       "home_team": "NYG",
       "away_team": "WAS",
-      "home_margin_projection": 2.55,
-      "game_total_projection": 45.14,
+      "home_margin_projection": 3.45,
+      "game_total_projection": 44.05,
       "status": "experimental_unvalidated"
     },
     {
@@ -324,8 +194,8 @@
       "week": 11,
       "home_team": "KC",
       "away_team": "ARI",
-      "home_margin_projection": 9.44,
-      "game_total_projection": 46.39,
+      "home_margin_projection": 12.31,
+      "game_total_projection": 45.96,
       "status": "experimental_unvalidated"
     },
     {
@@ -334,8 +204,8 @@
       "week": 11,
       "home_team": "CAR",
       "away_team": "BAL",
-      "home_margin_projection": 0.86,
-      "game_total_projection": 46.38,
+      "home_margin_projection": 4.32,
+      "game_total_projection": 45.14,
       "status": "experimental_unvalidated"
     },
     {
@@ -344,8 +214,8 @@
       "week": 11,
       "home_team": "WAS",
       "away_team": "CIN",
-      "home_margin_projection": -4.81,
-      "game_total_projection": 48.41,
+      "home_margin_projection": -5.73,
+      "game_total_projection": 48.72,
       "status": "experimental_unvalidated"
     },
     {
@@ -354,8 +224,8 @@
       "week": 11,
       "home_team": "HOU",
       "away_team": "IND",
-      "home_margin_projection": 6.37,
-      "game_total_projection": 43.54,
+      "home_margin_projection": 7.16,
+      "game_total_projection": 43.73,
       "status": "experimental_unvalidated"
     },
     {
@@ -364,8 +234,8 @@
       "week": 11,
       "home_team": "NYG",
       "away_team": "JAX",
-      "home_margin_projection": -5.38,
-      "game_total_projection": 47.75,
+      "home_margin_projection": -5.02,
+      "game_total_projection": 46.54,
       "status": "experimental_unvalidated"
     },
     {
@@ -374,8 +244,8 @@
       "week": 11,
       "home_team": "DEN",
       "away_team": "LV",
-      "home_margin_projection": 1.82,
-      "game_total_projection": 44.94,
+      "home_margin_projection": 4.84,
+      "game_total_projection": 45.46,
       "status": "experimental_unvalidated"
     },
     {
@@ -384,8 +254,8 @@
       "week": 11,
       "home_team": "BUF",
       "away_team": "MIA",
-      "home_margin_projection": 11.4,
-      "game_total_projection": 48.29,
+      "home_margin_projection": 11.99,
+      "game_total_projection": 47.63,
       "status": "experimental_unvalidated"
     },
     {
@@ -394,8 +264,8 @@
       "week": 11,
       "home_team": "SF",
       "away_team": "MIN",
-      "home_margin_projection": 11.62,
-      "game_total_projection": 44.64,
+      "home_margin_projection": 12.21,
+      "game_total_projection": 44.47,
       "status": "experimental_unvalidated"
     },
     {
@@ -404,8 +274,8 @@
       "week": 11,
       "home_team": "CHI",
       "away_team": "NO",
-      "home_margin_projection": 7.53,
-      "game_total_projection": 45.77,
+      "home_margin_projection": 6.9,
+      "game_total_projection": 44.29,
       "status": "experimental_unvalidated"
     },
     {
@@ -414,8 +284,8 @@
       "week": 11,
       "home_team": "LAC",
       "away_team": "NYJ",
-      "home_margin_projection": -7.45,
-      "game_total_projection": 42.49,
+      "home_margin_projection": -5.73,
+      "game_total_projection": 41.9,
       "status": "experimental_unvalidated"
     },
     {
@@ -424,8 +294,8 @@
       "week": 11,
       "home_team": "PHI",
       "away_team": "PIT",
-      "home_margin_projection": -5.58,
-      "game_total_projection": 42.76,
+      "home_margin_projection": -6.5,
+      "game_total_projection": 41.84,
       "status": "experimental_unvalidated"
     },
     {
@@ -434,8 +304,8 @@
       "week": 11,
       "home_team": "DET",
       "away_team": "TB",
-      "home_margin_projection": 3.99,
-      "game_total_projection": 44.91,
+      "home_margin_projection": 4.42,
+      "game_total_projection": 43.94,
       "status": "experimental_unvalidated"
     },
     {
@@ -444,8 +314,8 @@
       "week": 11,
       "home_team": "DAL",
       "away_team": "TEN",
-      "home_margin_projection": 6.03,
-      "game_total_projection": 46.47,
+      "home_margin_projection": 7.35,
+      "game_total_projection": 45.93,
       "status": "experimental_unvalidated"
     },
     {
@@ -454,8 +324,8 @@
       "week": 12,
       "home_team": "MIN",
       "away_team": "ATL",
-      "home_margin_projection": 3.43,
-      "game_total_projection": 40.37,
+      "home_margin_projection": 3.32,
+      "game_total_projection": 42.1,
       "status": "experimental_unvalidated"
     },
     {
@@ -464,8 +334,8 @@
       "week": 12,
       "home_team": "HOU",
       "away_team": "BAL",
-      "home_margin_projection": 1.81,
-      "game_total_projection": 46.08,
+      "home_margin_projection": 6.19,
+      "game_total_projection": 44.92,
       "status": "experimental_unvalidated"
     },
     {
@@ -474,8 +344,8 @@
       "week": 12,
       "home_team": "TB",
       "away_team": "CAR",
-      "home_margin_projection": 2.97,
-      "game_total_projection": 43.81,
+      "home_margin_projection": 2.83,
+      "game_total_projection": 43.85,
       "status": "experimental_unvalidated"
     },
     {
@@ -484,8 +354,8 @@
       "week": 12,
       "home_team": "DET",
       "away_team": "CHI",
-      "home_margin_projection": 2.01,
-      "game_total_projection": 48.81,
+      "home_margin_projection": 2.89,
+      "game_total_projection": 46.51,
       "status": "experimental_unvalidated"
     },
     {
@@ -494,8 +364,8 @@
       "week": 12,
       "home_team": "PIT",
       "away_team": "DEN",
-      "home_margin_projection": 4.83,
-      "game_total_projection": 43.37,
+      "home_margin_projection": 3.54,
+      "game_total_projection": 44.28,
       "status": "experimental_unvalidated"
     },
     {
@@ -504,8 +374,8 @@
       "week": 12,
       "home_team": "LA",
       "away_team": "GB",
-      "home_margin_projection": 6.61,
-      "game_total_projection": 44.94,
+      "home_margin_projection": 6.83,
+      "game_total_projection": 46.01,
       "status": "experimental_unvalidated"
     },
     {
@@ -514,8 +384,8 @@
       "week": 12,
       "home_team": "BUF",
       "away_team": "KC",
-      "home_margin_projection": 2.44,
-      "game_total_projection": 50.24,
+      "home_margin_projection": 1.36,
+      "game_total_projection": 50.28,
       "status": "experimental_unvalidated"
     },
     {
@@ -524,8 +394,8 @@
       "week": 12,
       "home_team": "CLE",
       "away_team": "LV",
-      "home_margin_projection": 1.22,
-      "game_total_projection": 45.09,
+      "home_margin_projection": 3.84,
+      "game_total_projection": 44.46,
       "status": "experimental_unvalidated"
     },
     {
@@ -534,8 +404,8 @@
       "week": 12,
       "home_team": "LAC",
       "away_team": "NE",
-      "home_margin_projection": -7.7,
-      "game_total_projection": 42.72,
+      "home_margin_projection": -7.71,
+      "game_total_projection": 43.17,
       "status": "experimental_unvalidated"
     },
     {
@@ -544,8 +414,8 @@
       "week": 12,
       "home_team": "CIN",
       "away_team": "NO",
-      "home_margin_projection": 9.53,
-      "game_total_projection": 47.5,
+      "home_margin_projection": 9.57,
+      "game_total_projection": 47.73,
       "status": "experimental_unvalidated"
     },
     {
@@ -554,8 +424,8 @@
       "week": 12,
       "home_team": "IND",
       "away_team": "NYG",
-      "home_margin_projection": -1.1,
-      "game_total_projection": 43.6,
+      "home_margin_projection": -0.29,
+      "game_total_projection": 42.84,
       "status": "experimental_unvalidated"
     },
     {
@@ -564,8 +434,8 @@
       "week": 12,
       "home_team": "MIA",
       "away_team": "NYJ",
-      "home_margin_projection": -5.65,
-      "game_total_projection": 46.67,
+      "home_margin_projection": -3.9,
+      "game_total_projection": 45.31,
       "status": "experimental_unvalidated"
     },
     {
@@ -574,8 +444,8 @@
       "week": 12,
       "home_team": "DAL",
       "away_team": "PHI",
-      "home_margin_projection": 8.92,
-      "game_total_projection": 45.36,
+      "home_margin_projection": 11.38,
+      "game_total_projection": 43.7,
       "status": "experimental_unvalidated"
     },
     {
@@ -584,8 +454,8 @@
       "week": 12,
       "home_team": "SF",
       "away_team": "SEA",
-      "home_margin_projection": 9.6,
-      "game_total_projection": 46.42,
+      "home_margin_projection": 11.22,
+      "game_total_projection": 46.21,
       "status": "experimental_unvalidated"
     },
     {
@@ -594,8 +464,8 @@
       "week": 12,
       "home_team": "JAX",
       "away_team": "TEN",
-      "home_margin_projection": 12.67,
-      "game_total_projection": 46.28,
+      "home_margin_projection": 12.99,
+      "game_total_projection": 45.84,
       "status": "experimental_unvalidated"
     },
     {
@@ -604,8 +474,8 @@
       "week": 12,
       "home_team": "ARI",
       "away_team": "WAS",
-      "home_margin_projection": 1.06,
-      "game_total_projection": 44.94,
+      "home_margin_projection": -0.55,
+      "game_total_projection": 44.04,
       "status": "experimental_unvalidated"
     },
     {
@@ -614,8 +484,8 @@
       "week": 13,
       "home_team": "NE",
       "away_team": "BUF",
-      "home_margin_projection": -0.83,
-      "game_total_projection": 50.33,
+      "home_margin_projection": -1.45,
+      "game_total_projection": 50.47,
       "status": "experimental_unvalidated"
     },
     {
@@ -624,8 +494,8 @@
       "week": 13,
       "home_team": "MIN",
       "away_team": "CAR",
-      "home_margin_projection": 2.28,
-      "game_total_projection": 42.89,
+      "home_margin_projection": 1.9,
+      "game_total_projection": 43.17,
       "status": "experimental_unvalidated"
     },
     {
@@ -634,8 +504,8 @@
       "week": 13,
       "home_team": "CLE",
       "away_team": "CIN",
-      "home_margin_projection": -4.7,
-      "game_total_projection": 47.15,
+      "home_margin_projection": -4.19,
+      "game_total_projection": 47.37,
       "status": "experimental_unvalidated"
     },
     {
@@ -644,8 +514,8 @@
       "week": 13,
       "home_team": "SEA",
       "away_team": "DAL",
-      "home_margin_projection": 3.08,
-      "game_total_projection": 46.65,
+      "home_margin_projection": 0.69,
+      "game_total_projection": 45.93,
       "status": "experimental_unvalidated"
     },
     {
@@ -654,8 +524,8 @@
       "week": 13,
       "home_team": "ATL",
       "away_team": "DET",
-      "home_margin_projection": -2.63,
-      "game_total_projection": 47.66,
+      "home_margin_projection": -2.94,
+      "game_total_projection": 48.21,
       "status": "experimental_unvalidated"
     },
     {
@@ -664,8 +534,8 @@
       "week": 13,
       "home_team": "NO",
       "away_team": "GB",
-      "home_margin_projection": -2.44,
-      "game_total_projection": 44.8,
+      "home_margin_projection": -3.29,
+      "game_total_projection": 45.58,
       "status": "experimental_unvalidated"
     },
     {
@@ -674,8 +544,8 @@
       "week": 13,
       "home_team": "PIT",
       "away_team": "HOU",
-      "home_margin_projection": 2.83,
-      "game_total_projection": 45.42,
+      "home_margin_projection": 1.73,
+      "game_total_projection": 45.76,
       "status": "experimental_unvalidated"
     },
     {
@@ -684,8 +554,8 @@
       "week": 13,
       "home_team": "CHI",
       "away_team": "JAX",
-      "home_margin_projection": -1.81,
-      "game_total_projection": 48.47,
+      "home_margin_projection": -2.06,
+      "game_total_projection": 46.67,
       "status": "experimental_unvalidated"
     },
     {
@@ -694,8 +564,8 @@
       "week": 13,
       "home_team": "LA",
       "away_team": "KC",
-      "home_margin_projection": 2.46,
-      "game_total_projection": 47.58,
+      "home_margin_projection": 3.32,
+      "game_total_projection": 47.63,
       "status": "experimental_unvalidated"
     },
     {
@@ -704,8 +574,8 @@
       "week": 13,
       "home_team": "TB",
       "away_team": "LAC",
-      "home_margin_projection": 9.88,
-      "game_total_projection": 37.52,
+      "home_margin_projection": 10.57,
+      "game_total_projection": 37.75,
       "status": "experimental_unvalidated"
     },
     {
@@ -714,8 +584,8 @@
       "week": 13,
       "home_team": "DEN",
       "away_team": "MIA",
-      "home_margin_projection": 5.37,
-      "game_total_projection": 44.01,
+      "home_margin_projection": 7.34,
+      "game_total_projection": 44.07,
       "status": "experimental_unvalidated"
     },
     {
@@ -724,8 +594,8 @@
       "week": 13,
       "home_team": "ARI",
       "away_team": "PHI",
-      "home_margin_projection": 6.0,
-      "game_total_projection": 42.74,
+      "home_margin_projection": 5.08,
+      "game_total_projection": 41.15,
       "status": "experimental_unvalidated"
     },
     {
@@ -734,8 +604,8 @@
       "week": 13,
       "home_team": "NYG",
       "away_team": "SF",
-      "home_margin_projection": -7.21,
-      "game_total_projection": 49.36,
+      "home_margin_projection": -7.24,
+      "game_total_projection": 48.39,
       "status": "experimental_unvalidated"
     },
     {
@@ -744,8 +614,8 @@
       "week": 13,
       "home_team": "TEN",
       "away_team": "WAS",
-      "home_margin_projection": -1.19,
-      "game_total_projection": 44.59,
+      "home_margin_projection": -0.74,
+      "game_total_projection": 44.15,
       "status": "experimental_unvalidated"
     },
     {
@@ -754,8 +624,8 @@
       "week": 14,
       "home_team": "CLE",
       "away_team": "ATL",
-      "home_margin_projection": 1.48,
-      "game_total_projection": 42.24,
+      "home_margin_projection": 2.35,
+      "game_total_projection": 43.56,
       "status": "experimental_unvalidated"
     },
     {
@@ -764,8 +634,8 @@
       "week": 14,
       "home_team": "GB",
       "away_team": "BUF",
-      "home_margin_projection": -2.43,
-      "game_total_projection": 48.95,
+      "home_margin_projection": -0.69,
+      "game_total_projection": 49.84,
       "status": "experimental_unvalidated"
     },
     {
@@ -774,8 +644,8 @@
       "week": 14,
       "home_team": "MIA",
       "away_team": "CHI",
-      "home_margin_projection": -6.4,
-      "game_total_projection": 46.37,
+      "home_margin_projection": -6.46,
+      "game_total_projection": 44.15,
       "status": "experimental_unvalidated"
     },
     {
@@ -784,8 +654,8 @@
       "week": 14,
       "home_team": "NYJ",
       "away_team": "DEN",
-      "home_margin_projection": 5.22,
-      "game_total_projection": 44.88,
+      "home_margin_projection": 1.26,
+      "game_total_projection": 45.21,
       "status": "experimental_unvalidated"
     },
     {
@@ -794,7 +664,7 @@
       "week": 14,
       "home_team": "WAS",
       "away_team": "HOU",
-      "home_margin_projection": 0.05,
+      "home_margin_projection": -1.5,
       "game_total_projection": 46.05,
       "status": "experimental_unvalidated"
     },
@@ -804,8 +674,8 @@
       "week": 14,
       "home_team": "PHI",
       "away_team": "IND",
-      "home_margin_projection": -1.29,
-      "game_total_projection": 41.63,
+      "home_margin_projection": -2.79,
+      "game_total_projection": 40.64,
       "status": "experimental_unvalidated"
     },
     {
@@ -814,8 +684,8 @@
       "week": 14,
       "home_team": "CIN",
       "away_team": "KC",
-      "home_margin_projection": 2.36,
-      "game_total_projection": 49.54,
+      "home_margin_projection": 1.79,
+      "game_total_projection": 50.04,
       "status": "experimental_unvalidated"
     },
     {
@@ -824,8 +694,8 @@
       "week": 14,
       "home_team": "LV",
       "away_team": "LAC",
-      "home_margin_projection": 7.35,
-      "game_total_projection": 40.39,
+      "home_margin_projection": 5.53,
+      "game_total_projection": 40.75,
       "status": "experimental_unvalidated"
     },
     {
@@ -834,8 +704,8 @@
       "week": 14,
       "home_team": "SF",
       "away_team": "LA",
-      "home_margin_projection": 6.03,
-      "game_total_projection": 48.97,
+      "home_margin_projection": 5.32,
+      "game_total_projection": 48.93,
       "status": "experimental_unvalidated"
     },
     {
@@ -844,8 +714,8 @@
       "week": 14,
       "home_team": "NE",
       "away_team": "MIN",
-      "home_margin_projection": 5.08,
-      "game_total_projection": 42.37,
+      "home_margin_projection": 4.46,
+      "game_total_projection": 42.51,
       "status": "experimental_unvalidated"
     },
     {
@@ -854,8 +724,8 @@
       "week": 14,
       "home_team": "CAR",
       "away_team": "NO",
-      "home_margin_projection": 4.56,
-      "game_total_projection": 45.64,
+      "home_margin_projection": 4.54,
+      "game_total_projection": 45.59,
       "status": "experimental_unvalidated"
     },
     {
@@ -864,8 +734,8 @@
       "week": 14,
       "home_team": "SEA",
       "away_team": "NYG",
-      "home_margin_projection": 5.11,
-      "game_total_projection": 43.37,
+      "home_margin_projection": 3.82,
+      "game_total_projection": 42.68,
       "status": "experimental_unvalidated"
     },
     {
@@ -874,8 +744,8 @@
       "week": 14,
       "home_team": "JAX",
       "away_team": "PIT",
-      "home_margin_projection": 8.6,
-      "game_total_projection": 46.6,
+      "home_margin_projection": 8.93,
+      "game_total_projection": 46.16,
       "status": "experimental_unvalidated"
     },
     {
@@ -884,8 +754,8 @@
       "week": 14,
       "home_team": "BAL",
       "away_team": "TB",
-      "home_margin_projection": 2.18,
-      "game_total_projection": 42.87,
+      "home_margin_projection": -1.28,
+      "game_total_projection": 41.41,
       "status": "experimental_unvalidated"
     },
     {
@@ -894,8 +764,8 @@
       "week": 14,
       "home_team": "DET",
       "away_team": "TEN",
-      "home_margin_projection": 7.78,
-      "game_total_projection": 46.78,
+      "home_margin_projection": 8.29,
+      "game_total_projection": 46.18,
       "status": "experimental_unvalidated"
     },
     {
@@ -904,8 +774,8 @@
       "week": 15,
       "home_team": "WAS",
       "away_team": "ATL",
-      "home_margin_projection": 1.36,
-      "game_total_projection": 43.5,
+      "home_margin_projection": 0.81,
+      "game_total_projection": 44.9,
       "status": "experimental_unvalidated"
     },
     {
@@ -914,8 +784,8 @@
       "week": 15,
       "home_team": "PIT",
       "away_team": "BAL",
-      "home_margin_projection": 1.92,
-      "game_total_projection": 45.44,
+      "home_margin_projection": 4.94,
+      "game_total_projection": 44.01,
       "status": "experimental_unvalidated"
     },
     {
@@ -924,8 +794,8 @@
       "week": 15,
       "home_team": "BUF",
       "away_team": "CHI",
-      "home_margin_projection": 4.47,
-      "game_total_projection": 49.23,
+      "home_margin_projection": 4.84,
+      "game_total_projection": 47.53,
       "status": "experimental_unvalidated"
     },
     {
@@ -934,8 +804,8 @@
       "week": 15,
       "home_team": "CAR",
       "away_team": "CIN",
-      "home_margin_projection": -3.11,
-      "game_total_projection": 48.72,
+      "home_margin_projection": -3.13,
+      "game_total_projection": 49.56,
       "status": "experimental_unvalidated"
     },
     {
@@ -944,8 +814,8 @@
       "week": 15,
       "home_team": "NYG",
       "away_team": "CLE",
-      "home_margin_projection": 2.75,
-      "game_total_projection": 43.65,
+      "home_margin_projection": 2.84,
+      "game_total_projection": 42.52,
       "status": "experimental_unvalidated"
     },
     {
@@ -954,8 +824,8 @@
       "week": 15,
       "home_team": "LA",
       "away_team": "DAL",
-      "home_margin_projection": 5.72,
-      "game_total_projection": 48.83,
+      "home_margin_projection": 6.71,
+      "game_total_projection": 48.07,
       "status": "experimental_unvalidated"
     },
     {
@@ -964,8 +834,8 @@
       "week": 15,
       "home_team": "LV",
       "away_team": "DEN",
-      "home_margin_projection": 2.28,
-      "game_total_projection": 44.66,
+      "home_margin_projection": -1.29,
+      "game_total_projection": 45.46,
       "status": "experimental_unvalidated"
     },
     {
@@ -974,8 +844,8 @@
       "week": 15,
       "home_team": "MIN",
       "away_team": "DET",
-      "home_margin_projection": -0.62,
-      "game_total_projection": 45.91,
+      "home_margin_projection": -0.69,
+      "game_total_projection": 45.19,
       "status": "experimental_unvalidated"
     },
     {
@@ -984,8 +854,8 @@
       "week": 15,
       "home_team": "TEN",
       "away_team": "IND",
-      "home_margin_projection": 1.08,
-      "game_total_projection": 42.69,
+      "home_margin_projection": 0.51,
+      "game_total_projection": 42.62,
       "status": "experimental_unvalidated"
     },
     {
@@ -994,8 +864,8 @@
       "week": 15,
       "home_team": "HOU",
       "away_team": "JAX",
-      "home_margin_projection": -3.83,
-      "game_total_projection": 48.04,
+      "home_margin_projection": -2.56,
+      "game_total_projection": 47.75,
       "status": "experimental_unvalidated"
     },
     {
@@ -1004,8 +874,8 @@
       "week": 15,
       "home_team": "GB",
       "away_team": "MIA",
-      "home_margin_projection": 6.92,
-      "game_total_projection": 44.94,
+      "home_margin_projection": 9.26,
+      "game_total_projection": 45.17,
       "status": "experimental_unvalidated"
     },
     {
@@ -1014,8 +884,8 @@
       "week": 15,
       "home_team": "KC",
       "away_team": "NE",
-      "home_margin_projection": 5.46,
-      "game_total_projection": 48.03,
+      "home_margin_projection": 6.95,
+      "game_total_projection": 48.35,
       "status": "experimental_unvalidated"
     },
     {
@@ -1024,8 +894,8 @@
       "week": 15,
       "home_team": "TB",
       "away_team": "NO",
-      "home_margin_projection": 5.61,
-      "game_total_projection": 43.11,
+      "home_margin_projection": 5.38,
+      "game_total_projection": 42.64,
       "status": "experimental_unvalidated"
     },
     {
@@ -1034,8 +904,8 @@
       "week": 15,
       "home_team": "ARI",
       "away_team": "NYJ",
-      "home_margin_projection": -1.91,
-      "game_total_projection": 46.18,
+      "home_margin_projection": -1.8,
+      "game_total_projection": 44.88,
       "status": "experimental_unvalidated"
     },
     {
@@ -1044,8 +914,8 @@
       "week": 15,
       "home_team": "PHI",
       "away_team": "SEA",
-      "home_margin_projection": -5.81,
-      "game_total_projection": 41.35,
+      "home_margin_projection": -5.71,
+      "game_total_projection": 40.38,
       "status": "experimental_unvalidated"
     },
     {
@@ -1054,8 +924,8 @@
       "week": 15,
       "home_team": "LAC",
       "away_team": "SF",
-      "home_margin_projection": -14.24,
-      "game_total_projection": 45.47,
+      "home_margin_projection": -15.17,
+      "game_total_projection": 45.4,
       "status": "experimental_unvalidated"
     },
     {
@@ -1064,8 +934,8 @@
       "week": 16,
       "home_team": "NO",
       "away_team": "ARI",
-      "home_margin_projection": -0.09,
-      "game_total_projection": 45.32,
+      "home_margin_projection": 2.62,
+      "game_total_projection": 44.5,
       "status": "experimental_unvalidated"
     },
     {
@@ -1074,8 +944,8 @@
       "week": 16,
       "home_team": "DEN",
       "away_team": "BUF",
-      "home_margin_projection": -3.98,
-      "game_total_projection": 48.02,
+      "home_margin_projection": -2.61,
+      "game_total_projection": 48.75,
       "status": "experimental_unvalidated"
     },
     {
@@ -1084,8 +954,8 @@
       "week": 16,
       "home_team": "PIT",
       "away_team": "CAR",
-      "home_margin_projection": 2.99,
-      "game_total_projection": 45.4,
+      "home_margin_projection": 2.61,
+      "game_total_projection": 45.68,
       "status": "experimental_unvalidated"
     },
     {
@@ -1094,8 +964,8 @@
       "week": 16,
       "home_team": "IND",
       "away_team": "CIN",
-      "home_margin_projection": -6.9,
-      "game_total_projection": 46.68,
+      "home_margin_projection": -6.7,
+      "game_total_projection": 47.3,
       "status": "experimental_unvalidated"
     },
     {
@@ -1104,8 +974,8 @@
       "week": 16,
       "home_team": "BAL",
       "away_team": "CLE",
-      "home_margin_projection": 4.12,
-      "game_total_projection": 44.34,
+      "home_margin_projection": 0.38,
+      "game_total_projection": 42.76,
       "status": "experimental_unvalidated"
     },
     {
@@ -1114,8 +984,8 @@
       "week": 16,
       "home_team": "CHI",
       "away_team": "GB",
-      "home_margin_projection": 4.52,
-      "game_total_projection": 45.17,
+      "home_margin_projection": 2.63,
+      "game_total_projection": 44.99,
       "status": "experimental_unvalidated"
     },
     {
@@ -1124,8 +994,8 @@
       "week": 16,
       "home_team": "PHI",
       "away_team": "HOU",
-      "home_margin_projection": -4.95,
-      "game_total_projection": 44.16,
+      "home_margin_projection": -6.98,
+      "game_total_projection": 43.58,
       "status": "experimental_unvalidated"
     },
     {
@@ -1134,8 +1004,8 @@
       "week": 16,
       "home_team": "DAL",
       "away_team": "JAX",
-      "home_margin_projection": -3.95,
-      "game_total_projection": 50.17,
+      "home_margin_projection": -2.72,
+      "game_total_projection": 49.08,
       "status": "experimental_unvalidated"
     },
     {
@@ -1144,8 +1014,8 @@
       "week": 16,
       "home_team": "MIA",
       "away_team": "LAC",
-      "home_margin_projection": 3.0,
-      "game_total_projection": 39.75,
+      "home_margin_projection": 3.03,
+      "game_total_projection": 39.7,
       "status": "experimental_unvalidated"
     },
     {
@@ -1154,8 +1024,8 @@
       "week": 16,
       "home_team": "SEA",
       "away_team": "LA",
-      "home_margin_projection": -0.26,
-      "game_total_projection": 43.84,
+      "home_margin_projection": -2.99,
+      "game_total_projection": 44.01,
       "status": "experimental_unvalidated"
     },
     {
@@ -1164,8 +1034,8 @@
       "week": 16,
       "home_team": "NYJ",
       "away_team": "NE",
-      "home_margin_projection": 1.39,
-      "game_total_projection": 47.77,
+      "home_margin_projection": -0.84,
+      "game_total_projection": 47.39,
       "status": "experimental_unvalidated"
     },
     {
@@ -1174,8 +1044,8 @@
       "week": 16,
       "home_team": "DET",
       "away_team": "NYG",
-      "home_margin_projection": 5.27,
-      "game_total_projection": 47.78,
+      "home_margin_projection": 5.92,
+      "game_total_projection": 46.45,
       "status": "experimental_unvalidated"
     },
     {
@@ -1184,8 +1054,8 @@
       "week": 16,
       "home_team": "KC",
       "away_team": "SF",
-      "home_margin_projection": -1.08,
-      "game_total_projection": 50.78,
+      "home_margin_projection": -0.51,
+      "game_total_projection": 50.58,
       "status": "experimental_unvalidated"
     },
     {
@@ -1194,8 +1064,8 @@
       "week": 16,
       "home_team": "ATL",
       "away_team": "TB",
-      "home_margin_projection": -0.23,
-      "game_total_projection": 41.06,
+      "home_margin_projection": -0.56,
+      "game_total_projection": 41.97,
       "status": "experimental_unvalidated"
     },
     {
@@ -1204,8 +1074,8 @@
       "week": 16,
       "home_team": "LV",
       "away_team": "TEN",
-      "home_margin_projection": 3.72,
-      "game_total_projection": 44.98,
+      "home_margin_projection": 1.45,
+      "game_total_projection": 44.87,
       "status": "experimental_unvalidated"
     },
     {
@@ -1214,8 +1084,8 @@
       "week": 16,
       "home_team": "MIN",
       "away_team": "WAS",
-      "home_margin_projection": 3.51,
-      "game_total_projection": 42.28,
+      "home_margin_projection": 3.96,
+      "game_total_projection": 41.84,
       "status": "experimental_unvalidated"
     },
     {
@@ -1224,8 +1094,8 @@
       "week": 17,
       "home_team": "CIN",
       "away_team": "BAL",
-      "home_margin_projection": 5.82,
-      "game_total_projection": 48.24,
+      "home_margin_projection": 9.35,
+      "game_total_projection": 47.28,
       "status": "experimental_unvalidated"
     },
     {
@@ -1234,8 +1104,8 @@
       "week": 17,
       "home_team": "MIA",
       "away_team": "BUF",
-      "home_margin_projection": -8.83,
-      "game_total_projection": 49.44,
+      "home_margin_projection": -9.25,
+      "game_total_projection": 48.92,
       "status": "experimental_unvalidated"
     },
     {
@@ -1244,8 +1114,8 @@
       "week": 17,
       "home_team": "NE",
       "away_team": "DEN",
-      "home_margin_projection": 5.93,
-      "game_total_projection": 44.91,
+      "home_margin_projection": 4.01,
+      "game_total_projection": 45.95,
       "status": "experimental_unvalidated"
     },
     {
@@ -1254,8 +1124,8 @@
       "week": 17,
       "home_team": "CHI",
       "away_team": "DET",
-      "home_margin_projection": 2.0,
-      "game_total_projection": 49.49,
+      "home_margin_projection": 1.76,
+      "game_total_projection": 47.53,
       "status": "experimental_unvalidated"
     },
     {
@@ -1264,8 +1134,8 @@
       "week": 17,
       "home_team": "GB",
       "away_team": "HOU",
-      "home_margin_projection": 2.33,
-      "game_total_projection": 45.57,
+      "home_margin_projection": 2.96,
+      "game_total_projection": 46.81,
       "status": "experimental_unvalidated"
     },
     {
@@ -1274,8 +1144,8 @@
       "week": 17,
       "home_team": "CLE",
       "away_team": "IND",
-      "home_margin_projection": 3.83,
-      "game_total_projection": 42.26,
+      "home_margin_projection": 4.23,
+      "game_total_projection": 41.76,
       "status": "experimental_unvalidated"
     },
     {
@@ -1284,8 +1154,8 @@
       "week": 17,
       "home_team": "LAC",
       "away_team": "KC",
-      "home_margin_projection": -10.23,
-      "game_total_projection": 43.2,
+      "home_margin_projection": -11.76,
+      "game_total_projection": 43.48,
       "status": "experimental_unvalidated"
     },
     {
@@ -1294,8 +1164,8 @@
       "week": 17,
       "home_team": "TB",
       "away_team": "LA",
-      "home_margin_projection": -1.63,
-      "game_total_projection": 43.58,
+      "home_margin_projection": -2.7,
+      "game_total_projection": 43.47,
       "status": "experimental_unvalidated"
     },
     {
@@ -1304,8 +1174,8 @@
       "week": 17,
       "home_team": "ARI",
       "away_team": "LV",
-      "home_margin_projection": 0.71,
-      "game_total_projection": 45.87,
+      "home_margin_projection": 0.31,
+      "game_total_projection": 45.2,
       "status": "experimental_unvalidated"
     },
     {
@@ -1314,8 +1184,8 @@
       "week": 17,
       "home_team": "NYJ",
       "away_team": "MIN",
-      "home_margin_projection": 4.37,
-      "game_total_projection": 42.34,
+      "home_margin_projection": 1.7,
+      "game_total_projection": 41.76,
       "status": "experimental_unvalidated"
     },
     {
@@ -1324,8 +1194,8 @@
       "week": 17,
       "home_team": "ATL",
       "away_team": "NO",
-      "home_margin_projection": 2.91,
-      "game_total_projection": 43.94,
+      "home_margin_projection": 2.2,
+      "game_total_projection": 44.97,
       "status": "experimental_unvalidated"
     },
     {
@@ -1334,8 +1204,8 @@
       "week": 17,
       "home_team": "DAL",
       "away_team": "NYG",
-      "home_margin_projection": 3.52,
-      "game_total_projection": 47.47,
+      "home_margin_projection": 4.98,
+      "game_total_projection": 46.2,
       "status": "experimental_unvalidated"
     },
     {
@@ -1344,8 +1214,8 @@
       "week": 17,
       "home_team": "SF",
       "away_team": "PHI",
-      "home_margin_projection": 16.8,
-      "game_total_projection": 46.4,
+      "home_margin_projection": 18.52,
+      "game_total_projection": 45.1,
       "status": "experimental_unvalidated"
     },
     {
@@ -1364,8 +1234,8 @@
       "week": 17,
       "home_team": "CAR",
       "away_team": "SEA",
-      "home_margin_projection": 0.9,
-      "game_total_projection": 43.56,
+      "home_margin_projection": 2.37,
+      "game_total_projection": 43.7,
       "status": "experimental_unvalidated"
     },
     {
@@ -1374,8 +1244,8 @@
       "week": 17,
       "home_team": "JAX",
       "away_team": "WAS",
-      "home_margin_projection": 10.62,
-      "game_total_projection": 47.37,
+      "home_margin_projection": 11.39,
+      "game_total_projection": 46.49,
       "status": "experimental_unvalidated"
     },
     {
@@ -1384,8 +1254,8 @@
       "week": 18,
       "home_team": "CAR",
       "away_team": "ATL",
-      "home_margin_projection": 3.07,
-      "game_total_projection": 43.82,
+      "home_margin_projection": 3.41,
+      "game_total_projection": 45.74,
       "status": "experimental_unvalidated"
     },
     {
@@ -1394,8 +1264,8 @@
       "week": 18,
       "home_team": "MIN",
       "away_team": "CHI",
-      "home_margin_projection": -0.21,
-      "game_total_projection": 43.22,
+      "home_margin_projection": 0.15,
+      "game_total_projection": 41.52,
       "status": "experimental_unvalidated"
     },
     {
@@ -1404,8 +1274,8 @@
       "week": 18,
       "home_team": "CIN",
       "away_team": "CLE",
-      "home_margin_projection": 8.32,
-      "game_total_projection": 46.1,
+      "home_margin_projection": 8.46,
+      "game_total_projection": 46.09,
       "status": "experimental_unvalidated"
     },
     {
@@ -1414,8 +1284,8 @@
       "week": 18,
       "home_team": "WAS",
       "away_team": "DAL",
-      "home_margin_projection": -1.04,
-      "game_total_projection": 48.61,
+      "home_margin_projection": -2.45,
+      "game_total_projection": 47.5,
       "status": "experimental_unvalidated"
     },
     {
@@ -1424,8 +1294,8 @@
       "week": 18,
       "home_team": "GB",
       "away_team": "DET",
-      "home_margin_projection": -0.41,
-      "game_total_projection": 48.57,
+      "home_margin_projection": 1.26,
+      "game_total_projection": 48.74,
       "status": "experimental_unvalidated"
     },
     {
@@ -1434,8 +1304,8 @@
       "week": 18,
       "home_team": "IND",
       "away_team": "JAX",
-      "home_margin_projection": -8.57,
-      "game_total_projection": 46.3,
+      "home_margin_projection": -7.99,
+      "game_total_projection": 45.71,
       "status": "experimental_unvalidated"
     },
     {
@@ -1444,8 +1314,8 @@
       "week": 18,
       "home_team": "DEN",
       "away_team": "LAC",
-      "home_margin_projection": 7.85,
-      "game_total_projection": 38.33,
+      "home_margin_projection": 9.67,
+      "game_total_projection": 39.52,
       "status": "experimental_unvalidated"
     },
     {
@@ -1454,8 +1324,8 @@
       "week": 18,
       "home_team": "KC",
       "away_team": "LV",
-      "home_margin_projection": 8.34,
-      "game_total_projection": 47.49,
+      "home_margin_projection": 11.04,
+      "game_total_projection": 47.4,
       "status": "experimental_unvalidated"
     },
     {
@@ -1464,8 +1334,8 @@
       "week": 18,
       "home_team": "NE",
       "away_team": "MIA",
-      "home_margin_projection": 8.52,
-      "game_total_projection": 46.32,
+      "home_margin_projection": 8.5,
+      "game_total_projection": 45.8,
       "status": "experimental_unvalidated"
     },
     {
@@ -1474,8 +1344,8 @@
       "week": 18,
       "home_team": "BUF",
       "away_team": "NYJ",
-      "home_margin_projection": 5.22,
-      "game_total_projection": 49.53,
+      "home_margin_projection": 7.39,
+      "game_total_projection": 48.69,
       "status": "experimental_unvalidated"
     },
     {
@@ -1484,8 +1354,8 @@
       "week": 18,
       "home_team": "NYG",
       "away_team": "PHI",
-      "home_margin_projection": 7.5,
-      "game_total_projection": 42.95,
+      "home_margin_projection": 9.08,
+      "game_total_projection": 41.16,
       "status": "experimental_unvalidated"
     },
     {
@@ -1494,8 +1364,8 @@
       "week": 18,
       "home_team": "BAL",
       "away_team": "PIT",
-      "home_margin_projection": 1.9,
-      "game_total_projection": 45.07,
+      "home_margin_projection": -1.47,
+      "game_total_projection": 43.97,
       "status": "experimental_unvalidated"
     },
     {
@@ -1504,8 +1374,8 @@
       "week": 18,
       "home_team": "LA",
       "away_team": "SEA",
-      "home_margin_projection": 5.96,
-      "game_total_projection": 43.46,
+      "home_margin_projection": 8.93,
+      "game_total_projection": 43.43,
       "status": "experimental_unvalidated"
     },
     {
@@ -1514,8 +1384,8 @@
       "week": 18,
       "home_team": "ARI",
       "away_team": "SF",
-      "home_margin_projection": -8.7,
-      "game_total_projection": 49.16,
+      "home_margin_projection": -11.24,
+      "game_total_projection": 48.38,
       "status": "experimental_unvalidated"
     },
     {
@@ -1524,8 +1394,8 @@
       "week": 18,
       "home_team": "NO",
       "away_team": "TB",
-      "home_margin_projection": -2.57,
-      "game_total_projection": 42.52,
+      "home_margin_projection": -1.78,
+      "game_total_projection": 41.89,
       "status": "experimental_unvalidated"
     },
     {
@@ -1534,8 +1404,8 @@
       "week": 18,
       "home_team": "HOU",
       "away_team": "TEN",
-      "home_margin_projection": 6.16,
-      "game_total_projection": 44.34,
+      "home_margin_projection": 7.52,
+      "game_total_projection": 44.61,
       "status": "experimental_unvalidated"
     }
   ],
