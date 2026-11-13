@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-09T16:55:12.593553+00:00",
+  "generated_at_utc": "2026-11-13T22:37:55.574438+00:00",
   "source": "team_week_stats + nflverse games.csv",
   "feature_window": 8,
   "min_prior_games": 4,
@@ -38,16 +38,6 @@
     "baseline_total_mae": 10.873
   },
   "prospective": [
-    {
-      "game_id": "2026_09_BUF_MIN",
-      "season": 2026,
-      "week": 9,
-      "home_team": "MIN",
-      "away_team": "BUF",
-      "home_margin_projection": -2.64,
-      "game_total_projection": 46.29,
-      "status": "experimental_unvalidated"
-    },
     {
       "game_id": "2026_10_BUF_NYJ",
       "season": 2026,
@@ -176,16 +166,6 @@
       "away_team": "SF",
       "home_margin_projection": -4.94,
       "game_total_projection": 50.93,
-      "status": "experimental_unvalidated"
-    },
-    {
-      "game_id": "2026_10_WAS_NYG",
-      "season": 2026,
-      "week": 10,
-      "home_team": "NYG",
-      "away_team": "WAS",
-      "home_margin_projection": 3.45,
-      "game_total_projection": 44.05,
       "status": "experimental_unvalidated"
     },
     {
