@@ -1,5 +1,5 @@
 {
-  "generated_for_date": "2026-11-08",
+  "generated_for_date": "2026-11-13",
   "source": "nflverse nfldata games.csv",
   "trend_sample_start": 2002,
   "methodology": "ATS: margen equipo + puntos del equipo > 0; pushes excluidos del porcentaje; sólo partidos previos; condiciones situacionales históricas",
@@ -11,121 +11,121 @@
   ],
   "games": [
     {
-      "game_id": "2026_09_ARI_SEA",
-      "date": "2026-11-08",
-      "week": 9,
-      "home": "SEA",
-      "away": "ARI",
-      "market_reference_spread_home": 8.5,
+      "game_id": "2026_10_BUF_NYJ",
+      "date": "2026-11-15",
+      "week": 10,
+      "home": "NYJ",
+      "away": "BUF",
+      "market_reference_spread_home": -8.5,
       "market_reference_verified_live": false,
       "teams": [
         {
-          "team": "SEA",
+          "team": "NYJ",
           "side": "home",
           "trends": [
             {
               "id": "recent12",
               "label": "Últimos 12 partidos (ATS)",
               "w": 4,
-              "l": 6,
-              "p": 2,
-              "rate": 40.0,
+              "l": 7,
+              "p": 1,
+              "rate": 36.4,
               "n": 12,
               "scope": "equipo, 2002–presente"
             },
             {
               "id": "home_away",
               "label": "En esta condición de local/visitante",
-              "w": 102,
-              "l": 89,
-              "p": 8,
-              "rate": 53.4,
+              "w": 97,
+              "l": 100,
+              "p": 2,
+              "rate": 49.2,
               "n": 199,
               "scope": "equipo, desde 2002"
             },
             {
               "id": "divisional",
               "label": "En partidos divisionales",
-              "w": 76,
-              "l": 68,
-              "p": 2,
-              "rate": 52.8,
+              "w": 63,
+              "l": 79,
+              "p": 4,
+              "rate": 44.4,
               "n": 146,
               "scope": "equipo, desde 2002"
             },
             {
               "id": "prior_loss",
               "label": "Después de perder",
-              "w": 89,
-              "l": 67,
-              "p": 7,
-              "rate": 57.1,
-              "n": 163,
+              "w": 107,
+              "l": 127,
+              "p": 4,
+              "rate": 45.7,
+              "n": 238,
               "scope": "equipo, desde 2002"
             },
             {
               "id": "prior_ats_loss",
               "label": "Después de no cubrir el spread",
-              "w": 94,
-              "l": 84,
-              "p": 7,
-              "rate": 52.8,
-              "n": 185,
+              "w": 97,
+              "l": 108,
+              "p": 2,
+              "rate": 47.3,
+              "n": 207,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "prior_two_ats_losses",
+              "label": "Después de 2 partidos sin cubrir",
+              "w": 52,
+              "l": 54,
+              "p": 1,
+              "rate": 49.1,
+              "n": 107,
               "scope": "equipo, desde 2002"
             },
             {
               "id": "prior_big_loss",
               "label": "Después de perder por 14+ puntos",
-              "w": 21,
-              "l": 24,
+              "w": 42,
+              "l": 53,
+              "p": 0,
+              "rate": 44.2,
+              "n": 95,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "home_after_away_loss",
+              "label": "Local después de perder de visitante",
+              "w": 43,
+              "l": 46,
               "p": 1,
-              "rate": 46.7,
-              "n": 46,
+              "rate": 48.3,
+              "n": 90,
               "scope": "equipo, desde 2002"
             },
             {
-              "id": "previous_mnf",
-              "label": "Después de jugar Monday Night",
-              "w": 13,
-              "l": 11,
-              "p": 2,
-              "rate": 54.2,
-              "n": 26,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "short_rest",
-              "label": "Con descanso corto (≤6 días)",
-              "w": 22,
-              "l": 21,
-              "p": 4,
-              "rate": 51.2,
-              "n": 47,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "favorite",
-              "label": "Cuando era favorito",
-              "w": 115,
-              "l": 116,
-              "p": 10,
-              "rate": 49.8,
-              "n": 241,
+              "id": "underdog",
+              "label": "Cuando era underdog",
+              "w": 108,
+              "l": 130,
+              "p": 9,
+              "rate": 45.4,
+              "n": 247,
               "scope": "equipo, desde 2002"
             }
           ]
         },
         {
-          "team": "ARI",
+          "team": "BUF",
           "side": "away",
           "trends": [
             {
               "id": "recent12",
               "label": "Últimos 12 partidos (ATS)",
-              "w": 4,
-              "l": 8,
+              "w": 8,
+              "l": 4,
               "p": 0,
-              "rate": 33.3,
+              "rate": 66.7,
               "n": 12,
               "scope": "equipo, 2002–presente"
             },
@@ -133,163 +133,50 @@
               "id": "home_away",
               "label": "En esta condición de local/visitante",
               "w": 101,
-              "l": 94,
-              "p": 5,
-              "rate": 51.8,
-              "n": 200,
+              "l": 89,
+              "p": 7,
+              "rate": 53.2,
+              "n": 197,
               "scope": "equipo, desde 2002"
             },
             {
               "id": "divisional",
               "label": "En partidos divisionales",
-              "w": 69,
-              "l": 75,
+              "w": 71,
+              "l": 71,
               "p": 3,
-              "rate": 47.9,
-              "n": 147,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "underdog",
-              "label": "Cuando era underdog",
-              "w": 136,
-              "l": 120,
-              "p": 5,
-              "rate": 53.1,
-              "n": 261,
-              "scope": "equipo, desde 2002"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "game_id": "2026_09_CIN_ATL",
-      "date": "2026-11-08",
-      "week": 9,
-      "home": "ATL",
-      "away": "CIN",
-      "market_reference_spread_home": -3.0,
-      "market_reference_verified_live": false,
-      "teams": [
-        {
-          "team": "ATL",
-          "side": "home",
-          "trends": [
-            {
-              "id": "recent12",
-              "label": "Últimos 12 partidos (ATS)",
-              "w": 6,
-              "l": 6,
-              "p": 0,
               "rate": 50.0,
-              "n": 12,
-              "scope": "equipo, 2002–presente"
-            },
-            {
-              "id": "home_away",
-              "label": "En esta condición de local/visitante",
-              "w": 87,
-              "l": 108,
-              "p": 3,
-              "rate": 44.6,
-              "n": 198,
+              "n": 145,
               "scope": "equipo, desde 2002"
             },
             {
-              "id": "prior_loss",
-              "label": "Después de perder",
-              "w": 97,
-              "l": 97,
-              "p": 4,
-              "rate": 50.0,
-              "n": 198,
+              "id": "previous_mnf",
+              "label": "Después de jugar Monday Night",
+              "w": 11,
+              "l": 7,
+              "p": 1,
+              "rate": 61.1,
+              "n": 19,
               "scope": "equipo, desde 2002"
             },
             {
-              "id": "prior_ats_loss",
-              "label": "Después de no cubrir el spread",
-              "w": 99,
-              "l": 98,
-              "p": 6,
-              "rate": 50.3,
-              "n": 203,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "prior_big_loss",
-              "label": "Después de perder por 14+ puntos",
-              "w": 35,
-              "l": 31,
+              "id": "short_rest",
+              "label": "Con descanso corto (≤6 días)",
+              "w": 17,
+              "l": 22,
               "p": 0,
-              "rate": 53.0,
-              "n": 66,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "home_after_away_loss",
-              "label": "Local después de perder de visitante",
-              "w": 32,
-              "l": 43,
-              "p": 1,
-              "rate": 42.7,
-              "n": 76,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "underdog",
-              "label": "Cuando era underdog",
-              "w": 96,
-              "l": 95,
-              "p": 3,
-              "rate": 50.3,
-              "n": 194,
-              "scope": "equipo, desde 2002"
-            }
-          ]
-        },
-        {
-          "team": "CIN",
-          "side": "away",
-          "trends": [
-            {
-              "id": "recent12",
-              "label": "Últimos 12 partidos (ATS)",
-              "w": 6,
-              "l": 5,
-              "p": 1,
-              "rate": 54.5,
-              "n": 12,
-              "scope": "equipo, 2002–presente"
-            },
-            {
-              "id": "home_away",
-              "label": "En esta condición de local/visitante",
-              "w": 112,
-              "l": 81,
-              "p": 5,
-              "rate": 58.0,
-              "n": 198,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "prior_ats_loss",
-              "label": "Después de no cubrir el spread",
-              "w": 87,
-              "l": 83,
-              "p": 9,
-              "rate": 51.2,
-              "n": 179,
+              "rate": 43.6,
+              "n": 39,
               "scope": "equipo, desde 2002"
             },
             {
               "id": "favorite",
               "label": "Cuando era favorito",
-              "w": 92,
-              "l": 87,
-              "p": 11,
-              "rate": 51.4,
-              "n": 190,
+              "w": 105,
+              "l": 88,
+              "p": 5,
+              "rate": 54.4,
+              "n": 198,
               "scope": "equipo, desde 2002"
             }
           ]
@@ -297,12 +184,12 @@
       ]
     },
     {
-      "game_id": "2026_09_CLE_NO",
-      "date": "2026-11-08",
-      "week": 9,
+      "game_id": "2026_10_CAR_NO",
+      "date": "2026-11-15",
+      "week": 10,
       "home": "NO",
-      "away": "CLE",
-      "market_reference_spread_home": 3.0,
+      "away": "CAR",
+      "market_reference_spread_home": 2.5,
       "market_reference_verified_live": false,
       "teams": [
         {
@@ -312,10 +199,10 @@
             {
               "id": "recent12",
               "label": "Últimos 12 partidos (ATS)",
-              "w": 8,
-              "l": 4,
+              "w": 7,
+              "l": 5,
               "p": 0,
-              "rate": 66.7,
+              "rate": 58.3,
               "n": 12,
               "scope": "equipo, 2002–presente"
             },
@@ -323,598 +210,126 @@
               "id": "home_away",
               "label": "En esta condición de local/visitante",
               "w": 93,
-              "l": 103,
+              "l": 104,
               "p": 2,
-              "rate": 47.4,
-              "n": 198,
+              "rate": 47.2,
+              "n": 199,
               "scope": "equipo, desde 2002"
             },
             {
-              "id": "prior_loss",
-              "label": "Después de perder",
-              "w": 98,
-              "l": 80,
+              "id": "divisional",
+              "label": "En partidos divisionales",
+              "w": 77,
+              "l": 67,
               "p": 1,
-              "rate": 55.1,
-              "n": 179,
+              "rate": 53.5,
+              "n": 145,
               "scope": "equipo, desde 2002"
             },
             {
               "id": "prior_ats_loss",
               "label": "Después de no cubrir el spread",
               "w": 95,
-              "l": 90,
+              "l": 91,
               "p": 2,
-              "rate": 51.4,
-              "n": 187,
+              "rate": 51.1,
+              "n": 188,
               "scope": "equipo, desde 2002"
             },
             {
-              "id": "long_rest",
-              "label": "Con descanso largo (≥9 días)",
-              "w": 21,
-              "l": 22,
-              "p": 0,
-              "rate": 48.8,
-              "n": 43,
+              "id": "prior_two_ats_losses",
+              "label": "Después de 2 partidos sin cubrir",
+              "w": 50,
+              "l": 39,
+              "p": 1,
+              "rate": 56.2,
+              "n": 90,
               "scope": "equipo, desde 2002"
             },
             {
               "id": "favorite",
               "label": "Cuando era favorito",
               "w": 117,
-              "l": 112,
+              "l": 113,
               "p": 3,
-              "rate": 51.1,
-              "n": 232,
-              "scope": "equipo, desde 2002"
-            }
-          ]
-        },
-        {
-          "team": "CLE",
-          "side": "away",
-          "trends": [
-            {
-              "id": "recent12",
-              "label": "Últimos 12 partidos (ATS)",
-              "w": 8,
-              "l": 4,
-              "p": 0,
-              "rate": 66.7,
-              "n": 12,
-              "scope": "equipo, 2002–presente"
-            },
-            {
-              "id": "home_away",
-              "label": "En esta condición de local/visitante",
-              "w": 88,
-              "l": 108,
-              "p": 3,
-              "rate": 44.9,
-              "n": 199,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "prior_loss",
-              "label": "Después de perder",
-              "w": 118,
-              "l": 133,
-              "p": 5,
-              "rate": 47.0,
-              "n": 256,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "prior_ats_loss",
-              "label": "Después de no cubrir el spread",
-              "w": 97,
-              "l": 108,
-              "p": 4,
-              "rate": 47.3,
-              "n": 209,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "prior_big_loss",
-              "label": "Después de perder por 14+ puntos",
-              "w": 50,
-              "l": 57,
-              "p": 0,
-              "rate": 46.7,
-              "n": 107,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "underdog",
-              "label": "Cuando era underdog",
-              "w": 124,
-              "l": 146,
-              "p": 5,
-              "rate": 45.9,
-              "n": 275,
-              "scope": "equipo, desde 2002"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "game_id": "2026_09_DAL_IND",
-      "date": "2026-11-08",
-      "week": 9,
-      "home": "IND",
-      "away": "DAL",
-      "market_reference_spread_home": -5.5,
-      "market_reference_verified_live": false,
-      "teams": [
-        {
-          "team": "IND",
-          "side": "home",
-          "trends": [
-            {
-              "id": "recent12",
-              "label": "Últimos 12 partidos (ATS)",
-              "w": 6,
-              "l": 6,
-              "p": 0,
-              "rate": 50.0,
-              "n": 12,
-              "scope": "equipo, 2002–presente"
-            },
-            {
-              "id": "home_away",
-              "label": "En esta condición de local/visitante",
-              "w": 97,
-              "l": 98,
-              "p": 3,
-              "rate": 49.7,
-              "n": 198,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "prior_loss",
-              "label": "Después de perder",
-              "w": 82,
-              "l": 79,
-              "p": 2,
               "rate": 50.9,
-              "n": 163,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "prior_ats_loss",
-              "label": "Después de no cubrir el spread",
-              "w": 95,
-              "l": 79,
-              "p": 5,
-              "rate": 54.6,
-              "n": 179,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "prior_big_loss",
-              "label": "Después de perder por 14+ puntos",
-              "w": 30,
-              "l": 25,
-              "p": 1,
-              "rate": 54.5,
-              "n": 56,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "home_after_away_loss",
-              "label": "Local después de perder de visitante",
-              "w": 29,
-              "l": 33,
-              "p": 0,
-              "rate": 46.8,
-              "n": 62,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "underdog",
-              "label": "Cuando era underdog",
-              "w": 82,
-              "l": 71,
-              "p": 4,
-              "rate": 53.6,
-              "n": 157,
-              "scope": "equipo, desde 2002"
-            }
-          ]
-        },
-        {
-          "team": "DAL",
-          "side": "away",
-          "trends": [
-            {
-              "id": "recent12",
-              "label": "Últimos 12 partidos (ATS)",
-              "w": 3,
-              "l": 8,
-              "p": 1,
-              "rate": 27.3,
-              "n": 12,
-              "scope": "equipo, 2002–presente"
-            },
-            {
-              "id": "home_away",
-              "label": "En esta condición de local/visitante",
-              "w": 98,
-              "l": 96,
-              "p": 5,
-              "rate": 50.5,
-              "n": 199,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "prior_loss",
-              "label": "Después de perder",
-              "w": 92,
-              "l": 82,
-              "p": 4,
-              "rate": 52.9,
-              "n": 178,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "prior_ats_loss",
-              "label": "Después de no cubrir el spread",
-              "w": 97,
-              "l": 92,
-              "p": 4,
-              "rate": 51.3,
-              "n": 193,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "favorite",
-              "label": "Cuando era favorito",
-              "w": 111,
-              "l": 126,
-              "p": 7,
-              "rate": 46.8,
-              "n": 244,
-              "scope": "equipo, desde 2002"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "game_id": "2026_09_DEN_CAR",
-      "date": "2026-11-08",
-      "week": 9,
-      "home": "CAR",
-      "away": "DEN",
-      "market_reference_spread_home": -2.5,
-      "market_reference_verified_live": false,
-      "teams": [
-        {
-          "team": "CAR",
-          "side": "home",
-          "trends": [
-            {
-              "id": "recent12",
-              "label": "Últimos 12 partidos (ATS)",
-              "w": 6,
-              "l": 6,
-              "p": 0,
-              "rate": 50.0,
-              "n": 12,
-              "scope": "equipo, 2002–presente"
-            },
-            {
-              "id": "home_away",
-              "label": "En esta condición de local/visitante",
-              "w": 92,
-              "l": 100,
-              "p": 5,
-              "rate": 47.9,
-              "n": 197,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "prior_loss",
-              "label": "Después de perder",
-              "w": 102,
-              "l": 102,
-              "p": 6,
-              "rate": 50.0,
-              "n": 210,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "prior_ats_loss",
-              "label": "Después de no cubrir el spread",
-              "w": 102,
-              "l": 85,
-              "p": 6,
-              "rate": 54.5,
-              "n": 193,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "prior_two_ats_losses",
-              "label": "Después de 2 partidos sin cubrir",
-              "w": 40,
-              "l": 43,
-              "p": 1,
-              "rate": 48.2,
-              "n": 84,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "long_rest",
-              "label": "Con descanso largo (≥9 días)",
-              "w": 19,
-              "l": 21,
-              "p": 0,
-              "rate": 47.5,
-              "n": 40,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "home_after_away_loss",
-              "label": "Local después de perder de visitante",
-              "w": 39,
-              "l": 35,
-              "p": 4,
-              "rate": 52.7,
-              "n": 78,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "underdog",
-              "label": "Cuando era underdog",
-              "w": 116,
-              "l": 102,
-              "p": 4,
-              "rate": 53.2,
-              "n": 222,
-              "scope": "equipo, desde 2002"
-            }
-          ]
-        },
-        {
-          "team": "DEN",
-          "side": "away",
-          "trends": [
-            {
-              "id": "recent12",
-              "label": "Últimos 12 partidos (ATS)",
-              "w": 8,
-              "l": 4,
-              "p": 0,
-              "rate": 66.7,
-              "n": 12,
-              "scope": "equipo, 2002–presente"
-            },
-            {
-              "id": "home_away",
-              "label": "En esta condición de local/visitante",
-              "w": 95,
-              "l": 99,
-              "p": 4,
-              "rate": 49.0,
-              "n": 198,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "favorite",
-              "label": "Cuando era favorito",
-              "w": 102,
-              "l": 123,
-              "p": 8,
-              "rate": 45.3,
               "n": 233,
               "scope": "equipo, desde 2002"
             }
           ]
-        }
-      ]
-    },
-    {
-      "game_id": "2026_09_DET_MIA",
-      "date": "2026-11-08",
-      "week": 9,
-      "home": "MIA",
-      "away": "DET",
-      "market_reference_spread_home": -6.5,
-      "market_reference_verified_live": false,
-      "teams": [
+        },
         {
-          "team": "MIA",
-          "side": "home",
+          "team": "CAR",
+          "side": "away",
           "trends": [
             {
               "id": "recent12",
               "label": "Últimos 12 partidos (ATS)",
               "w": 5,
-              "l": 6,
-              "p": 1,
-              "rate": 45.5,
+              "l": 7,
+              "p": 0,
+              "rate": 41.7,
               "n": 12,
               "scope": "equipo, 2002–presente"
             },
             {
               "id": "home_away",
               "label": "En esta condición de local/visitante",
-              "w": 92,
-              "l": 101,
-              "p": 5,
-              "rate": 47.7,
-              "n": 198,
+              "w": 101,
+              "l": 94,
+              "p": 4,
+              "rate": 51.8,
+              "n": 199,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "divisional",
+              "label": "En partidos divisionales",
+              "w": 75,
+              "l": 70,
+              "p": 1,
+              "rate": 51.7,
+              "n": 146,
               "scope": "equipo, desde 2002"
             },
             {
               "id": "prior_loss",
               "label": "Después de perder",
-              "w": 99,
-              "l": 109,
-              "p": 5,
-              "rate": 47.6,
-              "n": 213,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "underdog",
-              "label": "Cuando era underdog",
-              "w": 116,
-              "l": 116,
+              "w": 102,
+              "l": 103,
               "p": 6,
-              "rate": 50.0,
-              "n": 238,
-              "scope": "equipo, desde 2002"
-            }
-          ]
-        },
-        {
-          "team": "DET",
-          "side": "away",
-          "trends": [
-            {
-              "id": "recent12",
-              "label": "Últimos 12 partidos (ATS)",
-              "w": 4,
-              "l": 7,
-              "p": 1,
-              "rate": 36.4,
-              "n": 12,
-              "scope": "equipo, 2002–presente"
-            },
-            {
-              "id": "home_away",
-              "label": "En esta condición de local/visitante",
-              "w": 95,
-              "l": 98,
-              "p": 5,
-              "rate": 49.2,
-              "n": 198,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "favorite",
-              "label": "Cuando era favorito",
-              "w": 75,
-              "l": 73,
-              "p": 7,
-              "rate": 50.7,
-              "n": 155,
-              "scope": "equipo, desde 2002"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "game_id": "2026_09_GB_NE",
-      "date": "2026-11-08",
-      "week": 9,
-      "home": "NE",
-      "away": "GB",
-      "market_reference_spread_home": 3.0,
-      "market_reference_verified_live": false,
-      "teams": [
-        {
-          "team": "NE",
-          "side": "home",
-          "trends": [
-            {
-              "id": "recent12",
-              "label": "Últimos 12 partidos (ATS)",
-              "w": 6,
-              "l": 5,
-              "p": 1,
-              "rate": 54.5,
-              "n": 12,
-              "scope": "equipo, 2002–presente"
-            },
-            {
-              "id": "home_away",
-              "label": "En esta condición de local/visitante",
-              "w": 106,
-              "l": 85,
-              "p": 7,
-              "rate": 55.5,
-              "n": 198,
+              "rate": 49.8,
+              "n": 211,
               "scope": "equipo, desde 2002"
             },
             {
               "id": "prior_ats_loss",
               "label": "Después de no cubrir el spread",
-              "w": 91,
-              "l": 70,
-              "p": 4,
-              "rate": 56.5,
-              "n": 165,
+              "w": 102,
+              "l": 86,
+              "p": 6,
+              "rate": 54.3,
+              "n": 194,
               "scope": "equipo, desde 2002"
             },
             {
               "id": "prior_two_ats_losses",
               "label": "Después de 2 partidos sin cubrir",
               "w": 40,
-              "l": 28,
+              "l": 44,
               "p": 1,
-              "rate": 58.8,
-              "n": 69,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "favorite",
-              "label": "Cuando era favorito",
-              "w": 163,
-              "l": 122,
-              "p": 8,
-              "rate": 57.2,
-              "n": 293,
-              "scope": "equipo, desde 2002"
-            }
-          ]
-        },
-        {
-          "team": "GB",
-          "side": "away",
-          "trends": [
-            {
-              "id": "recent12",
-              "label": "Últimos 12 partidos (ATS)",
-              "w": 4,
-              "l": 7,
-              "p": 1,
-              "rate": 36.4,
-              "n": 12,
-              "scope": "equipo, 2002–presente"
-            },
-            {
-              "id": "home_away",
-              "label": "En esta condición de local/visitante",
-              "w": 99,
-              "l": 93,
-              "p": 7,
-              "rate": 51.6,
-              "n": 199,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "long_rest",
-              "label": "Con descanso largo (≥9 días)",
-              "w": 30,
-              "l": 18,
-              "p": 3,
-              "rate": 62.5,
-              "n": 51,
+              "rate": 47.6,
+              "n": 85,
               "scope": "equipo, desde 2002"
             },
             {
               "id": "underdog",
               "label": "Cuando era underdog",
-              "w": 68,
-              "l": 58,
-              "p": 6,
-              "rate": 54.0,
-              "n": 132,
+              "w": 116,
+              "l": 103,
+              "p": 4,
+              "rate": 53.0,
+              "n": 223,
               "scope": "equipo, desde 2002"
             }
           ]
@@ -922,96 +337,66 @@
       ]
     },
     {
-      "game_id": "2026_09_HOU_LAC",
-      "date": "2026-11-08",
-      "week": 9,
-      "home": "LAC",
+      "game_id": "2026_10_HOU_CLE",
+      "date": "2026-11-15",
+      "week": 10,
+      "home": "CLE",
       "away": "HOU",
-      "market_reference_spread_home": -6.0,
+      "market_reference_spread_home": -4.5,
       "market_reference_verified_live": false,
       "teams": [
         {
-          "team": "LAC",
+          "team": "CLE",
           "side": "home",
           "trends": [
             {
               "id": "recent12",
               "label": "Últimos 12 partidos (ATS)",
-              "w": 3,
-              "l": 8,
-              "p": 1,
-              "rate": 27.3,
+              "w": 9,
+              "l": 3,
+              "p": 0,
+              "rate": 75.0,
               "n": 12,
               "scope": "equipo, 2002–presente"
             },
             {
               "id": "home_away",
               "label": "En esta condición de local/visitante",
-              "w": 33,
-              "l": 42,
-              "p": 3,
-              "rate": 44.0,
-              "n": 78,
+              "w": 90,
+              "l": 102,
+              "p": 6,
+              "rate": 46.9,
+              "n": 198,
               "scope": "equipo, desde 2002"
             },
             {
               "id": "prior_loss",
               "label": "Después de perder",
-              "w": 35,
-              "l": 38,
-              "p": 3,
-              "rate": 47.9,
-              "n": 76,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "prior_ats_loss",
-              "label": "Después de no cubrir el spread",
-              "w": 34,
-              "l": 35,
-              "p": 3,
-              "rate": 49.3,
-              "n": 72,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "prior_two_ats_losses",
-              "label": "Después de 2 partidos sin cubrir",
-              "w": 17,
-              "l": 14,
-              "p": 3,
-              "rate": 54.8,
-              "n": 34,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "prior_big_loss",
-              "label": "Después de perder por 14+ puntos",
-              "w": 9,
-              "l": 8,
-              "p": 0,
-              "rate": 52.9,
-              "n": 17,
+              "w": 119,
+              "l": 133,
+              "p": 5,
+              "rate": 47.2,
+              "n": 257,
               "scope": "equipo, desde 2002"
             },
             {
               "id": "home_after_away_loss",
               "label": "Local después de perder de visitante",
-              "w": 11,
-              "l": 16,
-              "p": 0,
-              "rate": 40.7,
-              "n": 27,
+              "w": 45,
+              "l": 51,
+              "p": 2,
+              "rate": 46.9,
+              "n": 98,
               "scope": "equipo, desde 2002"
             },
             {
               "id": "underdog",
               "label": "Cuando era underdog",
-              "w": 30,
-              "l": 25,
-              "p": 4,
-              "rate": 54.5,
-              "n": 59,
+              "w": 125,
+              "l": 146,
+              "p": 5,
+              "rate": 46.1,
+              "n": 276,
               "scope": "equipo, desde 2002"
             }
           ]
@@ -1033,51 +418,21 @@
             {
               "id": "home_away",
               "label": "En esta condición de local/visitante",
-              "w": 94,
+              "w": 95,
               "l": 99,
               "p": 4,
-              "rate": 48.7,
-              "n": 197,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "prior_loss",
-              "label": "Después de perder",
-              "w": 105,
-              "l": 106,
-              "p": 7,
-              "rate": 49.8,
-              "n": 218,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "prior_ats_loss",
-              "label": "Después de no cubrir el spread",
-              "w": 96,
-              "l": 99,
-              "p": 5,
-              "rate": 49.2,
-              "n": 200,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "long_rest",
-              "label": "Con descanso largo (≥9 días)",
-              "w": 20,
-              "l": 20,
-              "p": 2,
-              "rate": 50.0,
-              "n": 42,
+              "rate": 49.0,
+              "n": 198,
               "scope": "equipo, desde 2002"
             },
             {
               "id": "favorite",
               "label": "Cuando era favorito",
-              "w": 68,
+              "w": 69,
               "l": 82,
               "p": 6,
-              "rate": 45.3,
-              "n": 156,
+              "rate": 45.7,
+              "n": 157,
               "scope": "equipo, desde 2002"
             }
           ]
@@ -1085,46 +440,362 @@
       ]
     },
     {
-      "game_id": "2026_09_LA_WAS",
-      "date": "2026-11-08",
-      "week": 9,
-      "home": "WAS",
-      "away": "LA",
-      "market_reference_spread_home": -4.5,
+      "game_id": "2026_10_JAX_TEN",
+      "date": "2026-11-15",
+      "week": 10,
+      "home": "TEN",
+      "away": "JAX",
+      "market_reference_spread_home": -10.5,
       "market_reference_verified_live": false,
       "teams": [
         {
-          "team": "WAS",
+          "team": "TEN",
           "side": "home",
           "trends": [
             {
               "id": "recent12",
               "label": "Últimos 12 partidos (ATS)",
-              "w": 7,
-              "l": 5,
+              "w": 5,
+              "l": 7,
               "p": 0,
-              "rate": 58.3,
+              "rate": 41.7,
               "n": 12,
               "scope": "equipo, 2002–presente"
             },
             {
               "id": "home_away",
               "label": "En esta condición de local/visitante",
-              "w": 85,
+              "w": 87,
+              "l": 103,
+              "p": 9,
+              "rate": 45.8,
+              "n": 199,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "divisional",
+              "label": "En partidos divisionales",
+              "w": 62,
+              "l": 81,
+              "p": 3,
+              "rate": 43.4,
+              "n": 146,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "prior_loss",
+              "label": "Después de perder",
+              "w": 97,
               "l": 106,
-              "p": 7,
-              "rate": 44.5,
-              "n": 198,
+              "p": 10,
+              "rate": 47.8,
+              "n": 213,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "long_rest",
+              "label": "Con descanso largo (≥9 días)",
+              "w": 25,
+              "l": 15,
+              "p": 1,
+              "rate": 62.5,
+              "n": 41,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "home_after_away_loss",
+              "label": "Local después de perder de visitante",
+              "w": 35,
+              "l": 37,
+              "p": 5,
+              "rate": 48.6,
+              "n": 77,
               "scope": "equipo, desde 2002"
             },
             {
               "id": "underdog",
               "label": "Cuando era underdog",
-              "w": 128,
-              "l": 124,
-              "p": 11,
-              "rate": 50.8,
-              "n": 263,
+              "w": 104,
+              "l": 117,
+              "p": 6,
+              "rate": 47.1,
+              "n": 227,
+              "scope": "equipo, desde 2002"
+            }
+          ]
+        },
+        {
+          "team": "JAX",
+          "side": "away",
+          "trends": [
+            {
+              "id": "recent12",
+              "label": "Últimos 12 partidos (ATS)",
+              "w": 9,
+              "l": 3,
+              "p": 0,
+              "rate": 75.0,
+              "n": 12,
+              "scope": "equipo, 2002–presente"
+            },
+            {
+              "id": "home_away",
+              "label": "En esta condición de local/visitante",
+              "w": 95,
+              "l": 96,
+              "p": 6,
+              "rate": 49.7,
+              "n": 197,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "divisional",
+              "label": "En partidos divisionales",
+              "w": 75,
+              "l": 67,
+              "p": 4,
+              "rate": 52.8,
+              "n": 146,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "long_rest",
+              "label": "Con descanso largo (≥9 días)",
+              "w": 21,
+              "l": 17,
+              "p": 1,
+              "rate": 55.3,
+              "n": 39,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "favorite",
+              "label": "Cuando era favorito",
+              "w": 64,
+              "l": 73,
+              "p": 1,
+              "rate": 46.7,
+              "n": 138,
+              "scope": "equipo, desde 2002"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game_id": "2026_10_KC_ATL",
+      "date": "2026-11-15",
+      "week": 10,
+      "home": "ATL",
+      "away": "KC",
+      "market_reference_spread_home": -3.0,
+      "market_reference_verified_live": false,
+      "teams": [
+        {
+          "team": "ATL",
+          "side": "home",
+          "trends": [
+            {
+              "id": "recent12",
+              "label": "Últimos 12 partidos (ATS)",
+              "w": 5,
+              "l": 7,
+              "p": 0,
+              "rate": 41.7,
+              "n": 12,
+              "scope": "equipo, 2002–presente"
+            },
+            {
+              "id": "home_away",
+              "label": "En esta condición de local/visitante",
+              "w": 87,
+              "l": 109,
+              "p": 3,
+              "rate": 44.4,
+              "n": 199,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "prior_loss",
+              "label": "Después de perder",
+              "w": 97,
+              "l": 98,
+              "p": 4,
+              "rate": 49.7,
+              "n": 199,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "prior_ats_loss",
+              "label": "Después de no cubrir el spread",
+              "w": 99,
+              "l": 99,
+              "p": 6,
+              "rate": 50.0,
+              "n": 204,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "prior_two_ats_losses",
+              "label": "Después de 2 partidos sin cubrir",
+              "w": 46,
+              "l": 48,
+              "p": 4,
+              "rate": 48.9,
+              "n": 98,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "prior_big_loss",
+              "label": "Después de perder por 14+ puntos",
+              "w": 35,
+              "l": 32,
+              "p": 0,
+              "rate": 52.2,
+              "n": 67,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "underdog",
+              "label": "Cuando era underdog",
+              "w": 96,
+              "l": 96,
+              "p": 3,
+              "rate": 50.0,
+              "n": 195,
+              "scope": "equipo, desde 2002"
+            }
+          ]
+        },
+        {
+          "team": "KC",
+          "side": "away",
+          "trends": [
+            {
+              "id": "recent12",
+              "label": "Últimos 12 partidos (ATS)",
+              "w": 5,
+              "l": 7,
+              "p": 0,
+              "rate": 41.7,
+              "n": 12,
+              "scope": "equipo, 2002–presente"
+            },
+            {
+              "id": "home_away",
+              "label": "En esta condición de local/visitante",
+              "w": 104,
+              "l": 91,
+              "p": 3,
+              "rate": 53.3,
+              "n": 198,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "favorite",
+              "label": "Cuando era favorito",
+              "w": 119,
+              "l": 126,
+              "p": 5,
+              "rate": 48.6,
+              "n": 250,
+              "scope": "equipo, desde 2002"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game_id": "2026_10_LA_ARI",
+      "date": "2026-11-15",
+      "week": 10,
+      "home": "ARI",
+      "away": "LA",
+      "market_reference_spread_home": -9.5,
+      "market_reference_verified_live": false,
+      "teams": [
+        {
+          "team": "ARI",
+          "side": "home",
+          "trends": [
+            {
+              "id": "recent12",
+              "label": "Últimos 12 partidos (ATS)",
+              "w": 4,
+              "l": 8,
+              "p": 0,
+              "rate": 33.3,
+              "n": 12,
+              "scope": "equipo, 2002–presente"
+            },
+            {
+              "id": "home_away",
+              "label": "En esta condición de local/visitante",
+              "w": 95,
+              "l": 101,
+              "p": 1,
+              "rate": 48.5,
+              "n": 197,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "divisional",
+              "label": "En partidos divisionales",
+              "w": 69,
+              "l": 76,
+              "p": 3,
+              "rate": 47.6,
+              "n": 148,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "prior_loss",
+              "label": "Después de perder",
+              "w": 120,
+              "l": 105,
+              "p": 2,
+              "rate": 53.3,
+              "n": 227,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "prior_ats_loss",
+              "label": "Después de no cubrir el spread",
+              "w": 103,
+              "l": 91,
+              "p": 1,
+              "rate": 53.1,
+              "n": 195,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "prior_big_loss",
+              "label": "Después de perder por 14+ puntos",
+              "w": 49,
+              "l": 43,
+              "p": 0,
+              "rate": 53.3,
+              "n": 92,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "home_after_away_loss",
+              "label": "Local después de perder de visitante",
+              "w": 45,
+              "l": 43,
+              "p": 0,
+              "rate": 51.1,
+              "n": 88,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "underdog",
+              "label": "Cuando era underdog",
+              "w": 136,
+              "l": 121,
+              "p": 5,
+              "rate": 52.9,
+              "n": 262,
               "scope": "equipo, desde 2002"
             }
           ]
@@ -1146,21 +817,31 @@
             {
               "id": "home_away",
               "label": "En esta condición de local/visitante",
-              "w": 47,
+              "w": 48,
               "l": 37,
               "p": 2,
-              "rate": 56.0,
-              "n": 86,
+              "rate": 56.5,
+              "n": 87,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "divisional",
+              "label": "En partidos divisionales",
+              "w": 35,
+              "l": 26,
+              "p": 1,
+              "rate": 57.4,
+              "n": 62,
               "scope": "equipo, desde 2002"
             },
             {
               "id": "favorite",
               "label": "Cuando era favorito",
-              "w": 63,
+              "w": 64,
               "l": 50,
               "p": 2,
-              "rate": 55.8,
-              "n": 115,
+              "rate": 56.1,
+              "n": 116,
               "scope": "equipo, desde 2002"
             }
           ]
@@ -1168,388 +849,62 @@
       ]
     },
     {
-      "game_id": "2026_09_LV_SF",
-      "date": "2026-11-08",
-      "week": 9,
-      "home": "SF",
-      "away": "LV",
-      "market_reference_spread_home": 9.5,
+      "game_id": "2026_10_MIA_IND",
+      "date": "2026-11-15",
+      "week": 10,
+      "home": "IND",
+      "away": "MIA",
+      "market_reference_spread_home": 3.5,
       "market_reference_verified_live": false,
       "teams": [
         {
-          "team": "SF",
+          "team": "IND",
           "side": "home",
           "trends": [
             {
               "id": "recent12",
               "label": "Últimos 12 partidos (ATS)",
-              "w": 8,
-              "l": 4,
+              "w": 6,
+              "l": 6,
               "p": 0,
-              "rate": 66.7,
+              "rate": 50.0,
               "n": 12,
               "scope": "equipo, 2002–presente"
             },
             {
               "id": "home_away",
               "label": "En esta condición de local/visitante",
-              "w": 93,
-              "l": 101,
-              "p": 4,
-              "rate": 47.9,
-              "n": 198,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "prior_loss",
-              "label": "Después de perder",
-              "w": 95,
+              "w": 98,
               "l": 98,
-              "p": 6,
-              "rate": 49.2,
+              "p": 3,
+              "rate": 50.0,
               "n": 199,
               "scope": "equipo, desde 2002"
             },
             {
-              "id": "prior_ats_loss",
-              "label": "Después de no cubrir el spread",
-              "w": 98,
-              "l": 91,
-              "p": 6,
-              "rate": 51.9,
-              "n": 195,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "prior_two_ats_losses",
-              "label": "Después de 2 partidos sin cubrir",
-              "w": 46,
-              "l": 41,
-              "p": 3,
-              "rate": 52.9,
-              "n": 90,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "long_rest",
-              "label": "Con descanso largo (≥9 días)",
-              "w": 17,
-              "l": 28,
-              "p": 2,
-              "rate": 37.8,
-              "n": 47,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "home_after_away_loss",
-              "label": "Local después de perder de visitante",
-              "w": 37,
-              "l": 38,
-              "p": 1,
-              "rate": 49.3,
-              "n": 76,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "favorite",
-              "label": "Cuando era favorito",
-              "w": 101,
-              "l": 102,
-              "p": 3,
-              "rate": 49.8,
-              "n": 206,
-              "scope": "equipo, desde 2002"
-            }
-          ]
-        },
-        {
-          "team": "LV",
-          "side": "away",
-          "trends": [
-            {
-              "id": "recent12",
-              "label": "Últimos 12 partidos (ATS)",
-              "w": 8,
-              "l": 4,
-              "p": 0,
-              "rate": 66.7,
-              "n": 12,
-              "scope": "equipo, 2002–presente"
-            },
-            {
-              "id": "home_away",
-              "label": "En esta condición de local/visitante",
-              "w": 25,
-              "l": 28,
-              "p": 1,
-              "rate": 47.2,
-              "n": 54,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "underdog",
-              "label": "Cuando era underdog",
-              "w": 38,
-              "l": 32,
-              "p": 2,
-              "rate": 54.3,
-              "n": 72,
-              "scope": "equipo, desde 2002"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "game_id": "2026_09_NYG_PHI",
-      "date": "2026-11-08",
-      "week": 9,
-      "home": "PHI",
-      "away": "NYG",
-      "market_reference_spread_home": -3.0,
-      "market_reference_verified_live": false,
-      "teams": [
-        {
-          "team": "PHI",
-          "side": "home",
-          "trends": [
-            {
-              "id": "recent12",
-              "label": "Últimos 12 partidos (ATS)",
-              "w": 4,
-              "l": 8,
-              "p": 0,
-              "rate": 33.3,
-              "n": 12,
-              "scope": "equipo, 2002–presente"
-            },
-            {
-              "id": "home_away",
-              "label": "En esta condición de local/visitante",
-              "w": 95,
-              "l": 99,
-              "p": 4,
-              "rate": 49.0,
-              "n": 198,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "divisional",
-              "label": "En partidos divisionales",
-              "w": 70,
-              "l": 73,
-              "p": 4,
-              "rate": 49.0,
-              "n": 147,
-              "scope": "equipo, desde 2002"
-            },
-            {
               "id": "prior_loss",
               "label": "Después de perder",
-              "w": 76,
-              "l": 84,
-              "p": 1,
-              "rate": 47.5,
-              "n": 161,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "prior_ats_loss",
-              "label": "Después de no cubrir el spread",
-              "w": 92,
-              "l": 101,
-              "p": 1,
-              "rate": 47.7,
-              "n": 194,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "prior_two_ats_losses",
-              "label": "Después de 2 partidos sin cubrir",
-              "w": 52,
-              "l": 48,
-              "p": 0,
-              "rate": 52.0,
-              "n": 100,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "prior_big_loss",
-              "label": "Después de perder por 14+ puntos",
-              "w": 21,
-              "l": 27,
-              "p": 1,
-              "rate": 43.8,
-              "n": 49,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "home_after_away_loss",
-              "label": "Local después de perder de visitante",
-              "w": 24,
-              "l": 32,
-              "p": 0,
-              "rate": 42.9,
-              "n": 56,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "underdog",
-              "label": "Cuando era underdog",
-              "w": 61,
-              "l": 64,
-              "p": 1,
-              "rate": 48.8,
-              "n": 126,
-              "scope": "equipo, desde 2002"
-            }
-          ]
-        },
-        {
-          "team": "NYG",
-          "side": "away",
-          "trends": [
-            {
-              "id": "recent12",
-              "label": "Últimos 12 partidos (ATS)",
-              "w": 7,
-              "l": 5,
-              "p": 0,
-              "rate": 58.3,
-              "n": 12,
-              "scope": "equipo, 2002–presente"
-            },
-            {
-              "id": "home_away",
-              "label": "En esta condición de local/visitante",
-              "w": 108,
-              "l": 86,
-              "p": 4,
-              "rate": 55.7,
-              "n": 198,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "divisional",
-              "label": "En partidos divisionales",
-              "w": 75,
-              "l": 68,
-              "p": 3,
-              "rate": 52.4,
-              "n": 146,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "long_rest",
-              "label": "Con descanso largo (≥9 días)",
-              "w": 24,
-              "l": 19,
-              "p": 0,
-              "rate": 55.8,
-              "n": 43,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "favorite",
-              "label": "Cuando era favorito",
-              "w": 77,
+              "w": 83,
               "l": 79,
-              "p": 4,
-              "rate": 49.4,
-              "n": 160,
-              "scope": "equipo, desde 2002"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "game_id": "2026_09_NYJ_KC",
-      "date": "2026-11-08",
-      "week": 9,
-      "home": "KC",
-      "away": "NYJ",
-      "market_reference_spread_home": 9.5,
-      "market_reference_verified_live": false,
-      "teams": [
-        {
-          "team": "KC",
-          "side": "home",
-          "trends": [
-            {
-              "id": "recent12",
-              "label": "Últimos 12 partidos (ATS)",
-              "w": 4,
-              "l": 8,
-              "p": 0,
-              "rate": 33.3,
-              "n": 12,
-              "scope": "equipo, 2002–presente"
-            },
-            {
-              "id": "home_away",
-              "label": "En esta condición de local/visitante",
-              "w": 94,
-              "l": 99,
-              "p": 5,
-              "rate": 48.7,
-              "n": 198,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "prior_loss",
-              "label": "Después de perder",
-              "w": 85,
-              "l": 77,
-              "p": 3,
-              "rate": 52.5,
-              "n": 165,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "prior_ats_loss",
-              "label": "Después de no cubrir el spread",
-              "w": 87,
-              "l": 99,
-              "p": 3,
-              "rate": 46.8,
-              "n": 189,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "prior_two_ats_losses",
-              "label": "Después de 2 partidos sin cubrir",
-              "w": 43,
-              "l": 54,
-              "p": 1,
-              "rate": 44.3,
-              "n": 98,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "home_after_away_loss",
-              "label": "Local después de perder de visitante",
-              "w": 31,
-              "l": 30,
               "p": 2,
-              "rate": 50.8,
-              "n": 63,
+              "rate": 51.2,
+              "n": 164,
               "scope": "equipo, desde 2002"
             },
             {
               "id": "favorite",
               "label": "Cuando era favorito",
-              "w": 118,
-              "l": 126,
-              "p": 5,
-              "rate": 48.4,
-              "n": 249,
+              "w": 124,
+              "l": 108,
+              "p": 7,
+              "rate": 53.4,
+              "n": 239,
               "scope": "equipo, desde 2002"
             }
           ]
         },
         {
-          "team": "NYJ",
+          "team": "MIA",
           "side": "away",
           "trends": [
             {
@@ -1565,51 +920,41 @@
             {
               "id": "home_away",
               "label": "En esta condición de local/visitante",
-              "w": 80,
-              "l": 107,
-              "p": 11,
-              "rate": 42.8,
+              "w": 98,
+              "l": 97,
+              "p": 3,
+              "rate": 50.3,
               "n": 198,
               "scope": "equipo, desde 2002"
             },
             {
               "id": "prior_loss",
               "label": "Después de perder",
-              "w": 107,
-              "l": 126,
-              "p": 4,
-              "rate": 45.9,
-              "n": 237,
+              "w": 99,
+              "l": 110,
+              "p": 5,
+              "rate": 47.4,
+              "n": 214,
               "scope": "equipo, desde 2002"
             },
             {
               "id": "prior_ats_loss",
               "label": "Después de no cubrir el spread",
-              "w": 97,
-              "l": 107,
-              "p": 2,
-              "rate": 47.5,
-              "n": 206,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "prior_two_ats_losses",
-              "label": "Después de 2 partidos sin cubrir",
-              "w": 52,
-              "l": 53,
-              "p": 1,
-              "rate": 49.5,
-              "n": 106,
+              "w": 92,
+              "l": 103,
+              "p": 3,
+              "rate": 47.2,
+              "n": 198,
               "scope": "equipo, desde 2002"
             },
             {
               "id": "underdog",
               "label": "Cuando era underdog",
-              "w": 108,
-              "l": 129,
-              "p": 9,
-              "rate": 45.6,
-              "n": 246,
+              "w": 116,
+              "l": 117,
+              "p": 6,
+              "rate": 49.8,
+              "n": 239,
               "scope": "equipo, desde 2002"
             }
           ]
@@ -1617,16 +962,415 @@
       ]
     },
     {
-      "game_id": "2026_09_TB_CHI",
-      "date": "2026-11-08",
-      "week": 9,
-      "home": "CHI",
-      "away": "TB",
-      "market_reference_spread_home": 6.0,
+      "game_id": "2026_10_MIN_GB",
+      "date": "2026-11-15",
+      "week": 10,
+      "home": "GB",
+      "away": "MIN",
+      "market_reference_spread_home": 3.0,
       "market_reference_verified_live": false,
       "teams": [
         {
-          "team": "CHI",
+          "team": "GB",
+          "side": "home",
+          "trends": [
+            {
+              "id": "recent12",
+              "label": "Últimos 12 partidos (ATS)",
+              "w": 5,
+              "l": 6,
+              "p": 1,
+              "rate": 45.5,
+              "n": 12,
+              "scope": "equipo, 2002–presente"
+            },
+            {
+              "id": "home_away",
+              "label": "En esta condición de local/visitante",
+              "w": 111,
+              "l": 82,
+              "p": 5,
+              "rate": 57.5,
+              "n": 198,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "divisional",
+              "label": "En partidos divisionales",
+              "w": 81,
+              "l": 64,
+              "p": 2,
+              "rate": 55.9,
+              "n": 147,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "favorite",
+              "label": "Cuando era favorito",
+              "w": 142,
+              "l": 117,
+              "p": 6,
+              "rate": 54.8,
+              "n": 265,
+              "scope": "equipo, desde 2002"
+            }
+          ]
+        },
+        {
+          "team": "MIN",
+          "side": "away",
+          "trends": [
+            {
+              "id": "recent12",
+              "label": "Últimos 12 partidos (ATS)",
+              "w": 8,
+              "l": 4,
+              "p": 0,
+              "rate": 66.7,
+              "n": 12,
+              "scope": "equipo, 2002–presente"
+            },
+            {
+              "id": "home_away",
+              "label": "En esta condición de local/visitante",
+              "w": 98,
+              "l": 93,
+              "p": 8,
+              "rate": 51.3,
+              "n": 199,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "divisional",
+              "label": "En partidos divisionales",
+              "w": 73,
+              "l": 70,
+              "p": 4,
+              "rate": 51.0,
+              "n": 147,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "prior_loss",
+              "label": "Después de perder",
+              "w": 96,
+              "l": 79,
+              "p": 6,
+              "rate": 54.9,
+              "n": 181,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "prior_ats_loss",
+              "label": "Después de no cubrir el spread",
+              "w": 94,
+              "l": 83,
+              "p": 5,
+              "rate": 53.1,
+              "n": 182,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "prior_two_ats_losses",
+              "label": "Después de 2 partidos sin cubrir",
+              "w": 43,
+              "l": 38,
+              "p": 1,
+              "rate": 53.1,
+              "n": 82,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "prior_big_loss",
+              "label": "Después de perder por 14+ puntos",
+              "w": 31,
+              "l": 21,
+              "p": 0,
+              "rate": 59.6,
+              "n": 52,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "previous_mnf",
+              "label": "Después de jugar Monday Night",
+              "w": 15,
+              "l": 14,
+              "p": 1,
+              "rate": 51.7,
+              "n": 30,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "short_rest",
+              "label": "Con descanso corto (≤6 días)",
+              "w": 26,
+              "l": 24,
+              "p": 2,
+              "rate": 52.0,
+              "n": 52,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "underdog",
+              "label": "Cuando era underdog",
+              "w": 93,
+              "l": 85,
+              "p": 6,
+              "rate": 52.2,
+              "n": 184,
+              "scope": "equipo, desde 2002"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game_id": "2026_10_NE_DET",
+      "date": "2026-11-15",
+      "week": 10,
+      "home": "DET",
+      "away": "NE",
+      "market_reference_spread_home": 2.5,
+      "market_reference_verified_live": false,
+      "teams": [
+        {
+          "team": "DET",
+          "side": "home",
+          "trends": [
+            {
+              "id": "recent12",
+              "label": "Últimos 12 partidos (ATS)",
+              "w": 4,
+              "l": 7,
+              "p": 1,
+              "rate": 36.4,
+              "n": 12,
+              "scope": "equipo, 2002–presente"
+            },
+            {
+              "id": "home_away",
+              "label": "En esta condición de local/visitante",
+              "w": 99,
+              "l": 94,
+              "p": 5,
+              "rate": 51.3,
+              "n": 198,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "favorite",
+              "label": "Cuando era favorito",
+              "w": 76,
+              "l": 73,
+              "p": 7,
+              "rate": 51.0,
+              "n": 156,
+              "scope": "equipo, desde 2002"
+            }
+          ]
+        },
+        {
+          "team": "NE",
+          "side": "away",
+          "trends": [
+            {
+              "id": "recent12",
+              "label": "Últimos 12 partidos (ATS)",
+              "w": 6,
+              "l": 5,
+              "p": 1,
+              "rate": 54.5,
+              "n": 12,
+              "scope": "equipo, 2002–presente"
+            },
+            {
+              "id": "home_away",
+              "label": "En esta condición de local/visitante",
+              "w": 113,
+              "l": 81,
+              "p": 5,
+              "rate": 58.2,
+              "n": 199,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "prior_loss",
+              "label": "Después de perder",
+              "w": 72,
+              "l": 51,
+              "p": 1,
+              "rate": 58.5,
+              "n": 124,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "prior_ats_loss",
+              "label": "Después de no cubrir el spread",
+              "w": 91,
+              "l": 71,
+              "p": 4,
+              "rate": 56.2,
+              "n": 166,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "prior_two_ats_losses",
+              "label": "Después de 2 partidos sin cubrir",
+              "w": 40,
+              "l": 29,
+              "p": 1,
+              "rate": 58.0,
+              "n": 70,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "prior_big_loss",
+              "label": "Después de perder por 14+ puntos",
+              "w": 24,
+              "l": 13,
+              "p": 0,
+              "rate": 64.9,
+              "n": 37,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "underdog",
+              "label": "Cuando era underdog",
+              "w": 55,
+              "l": 44,
+              "p": 4,
+              "rate": 55.6,
+              "n": 103,
+              "scope": "equipo, desde 2002"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game_id": "2026_10_PIT_CIN",
+      "date": "2026-11-15",
+      "week": 10,
+      "home": "CIN",
+      "away": "PIT",
+      "market_reference_spread_home": 3.5,
+      "market_reference_verified_live": false,
+      "teams": [
+        {
+          "team": "CIN",
+          "side": "home",
+          "trends": [
+            {
+              "id": "recent12",
+              "label": "Últimos 12 partidos (ATS)",
+              "w": 6,
+              "l": 5,
+              "p": 1,
+              "rate": 54.5,
+              "n": 12,
+              "scope": "equipo, 2002–presente"
+            },
+            {
+              "id": "home_away",
+              "label": "En esta condición de local/visitante",
+              "w": 89,
+              "l": 99,
+              "p": 9,
+              "rate": 47.3,
+              "n": 197,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "divisional",
+              "label": "En partidos divisionales",
+              "w": 69,
+              "l": 74,
+              "p": 3,
+              "rate": 48.3,
+              "n": 146,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "favorite",
+              "label": "Cuando era favorito",
+              "w": 93,
+              "l": 87,
+              "p": 11,
+              "rate": 51.7,
+              "n": 191,
+              "scope": "equipo, desde 2002"
+            }
+          ]
+        },
+        {
+          "team": "PIT",
+          "side": "away",
+          "trends": [
+            {
+              "id": "recent12",
+              "label": "Últimos 12 partidos (ATS)",
+              "w": 9,
+              "l": 3,
+              "p": 0,
+              "rate": 75.0,
+              "n": 12,
+              "scope": "equipo, 2002–presente"
+            },
+            {
+              "id": "home_away",
+              "label": "En esta condición de local/visitante",
+              "w": 101,
+              "l": 93,
+              "p": 4,
+              "rate": 52.1,
+              "n": 198,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "divisional",
+              "label": "En partidos divisionales",
+              "w": 84,
+              "l": 59,
+              "p": 4,
+              "rate": 58.7,
+              "n": 147,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "long_rest",
+              "label": "Con descanso largo (≥9 días)",
+              "w": 27,
+              "l": 22,
+              "p": 1,
+              "rate": 55.1,
+              "n": 50,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "underdog",
+              "label": "Cuando era underdog",
+              "w": 81,
+              "l": 46,
+              "p": 5,
+              "rate": 63.8,
+              "n": 132,
+              "scope": "equipo, desde 2002"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game_id": "2026_10_SEA_LV",
+      "date": "2026-11-15",
+      "week": 10,
+      "home": "LV",
+      "away": "SEA",
+      "market_reference_spread_home": -6.5,
+      "market_reference_verified_live": false,
+      "teams": [
+        {
+          "team": "LV",
           "side": "home",
           "trends": [
             {
@@ -1642,48 +1386,115 @@
             {
               "id": "home_away",
               "label": "En esta condición de local/visitante",
-              "w": 96,
-              "l": 94,
-              "p": 8,
-              "rate": 50.5,
-              "n": 198,
+              "w": 30,
+              "l": 24,
+              "p": 1,
+              "rate": 55.6,
+              "n": 55,
               "scope": "equipo, desde 2002"
             },
             {
-              "id": "previous_mnf",
-              "label": "Después de jugar Monday Night",
-              "w": 21,
+              "id": "prior_loss",
+              "label": "Después de perder",
+              "w": 31,
+              "l": 33,
+              "p": 2,
+              "rate": 48.4,
+              "n": 66,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "prior_ats_loss",
+              "label": "Después de no cubrir el spread",
+              "w": 26,
+              "l": 24,
+              "p": 2,
+              "rate": 52.0,
+              "n": 52,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "prior_big_loss",
+              "label": "Después de perder por 14+ puntos",
+              "w": 14,
               "l": 15,
+              "p": 1,
+              "rate": 48.3,
+              "n": 30,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "home_after_away_loss",
+              "label": "Local después de perder de visitante",
+              "w": 13,
+              "l": 12,
               "p": 0,
-              "rate": 58.3,
-              "n": 36,
+              "rate": 52.0,
+              "n": 25,
               "scope": "equipo, desde 2002"
             },
             {
-              "id": "short_rest",
-              "label": "Con descanso corto (≤6 días)",
-              "w": 28,
-              "l": 25,
-              "p": 3,
-              "rate": 52.8,
-              "n": 56,
-              "scope": "equipo, desde 2002"
-            },
-            {
-              "id": "favorite",
-              "label": "Cuando era favorito",
-              "w": 74,
-              "l": 75,
-              "p": 8,
-              "rate": 49.7,
-              "n": 157,
+              "id": "underdog",
+              "label": "Cuando era underdog",
+              "w": 38,
+              "l": 33,
+              "p": 2,
+              "rate": 53.5,
+              "n": 73,
               "scope": "equipo, desde 2002"
             }
           ]
         },
         {
-          "team": "TB",
+          "team": "SEA",
           "side": "away",
+          "trends": [
+            {
+              "id": "recent12",
+              "label": "Últimos 12 partidos (ATS)",
+              "w": 5,
+              "l": 5,
+              "p": 2,
+              "rate": 50.0,
+              "n": 12,
+              "scope": "equipo, 2002–presente"
+            },
+            {
+              "id": "home_away",
+              "label": "En esta condición de local/visitante",
+              "w": 94,
+              "l": 97,
+              "p": 7,
+              "rate": 49.2,
+              "n": 198,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "favorite",
+              "label": "Cuando era favorito",
+              "w": 116,
+              "l": 116,
+              "p": 10,
+              "rate": 50.0,
+              "n": 242,
+              "scope": "equipo, desde 2002"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "game_id": "2026_10_SF_DAL",
+      "date": "2026-11-15",
+      "week": 10,
+      "home": "DAL",
+      "away": "SF",
+      "market_reference_spread_home": -3.5,
+      "market_reference_verified_live": false,
+      "teams": [
+        {
+          "team": "DAL",
+          "side": "home",
           "trends": [
             {
               "id": "recent12",
@@ -1698,21 +1509,77 @@
             {
               "id": "home_away",
               "label": "En esta condición de local/visitante",
-              "w": 99,
-              "l": 95,
-              "p": 4,
-              "rate": 51.0,
+              "w": 95,
+              "l": 98,
+              "p": 5,
+              "rate": 49.2,
               "n": 198,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "prior_ats_loss",
+              "label": "Después de no cubrir el spread",
+              "w": 97,
+              "l": 93,
+              "p": 4,
+              "rate": 51.1,
+              "n": 194,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "prior_two_ats_losses",
+              "label": "Después de 2 partidos sin cubrir",
+              "w": 52,
+              "l": 39,
+              "p": 1,
+              "rate": 57.1,
+              "n": 92,
               "scope": "equipo, desde 2002"
             },
             {
               "id": "underdog",
               "label": "Cuando era underdog",
-              "w": 100,
-              "l": 101,
-              "p": 7,
-              "rate": 49.8,
-              "n": 208,
+              "w": 82,
+              "l": 67,
+              "p": 3,
+              "rate": 55.0,
+              "n": 152,
+              "scope": "equipo, desde 2002"
+            }
+          ]
+        },
+        {
+          "team": "SF",
+          "side": "away",
+          "trends": [
+            {
+              "id": "recent12",
+              "label": "Últimos 12 partidos (ATS)",
+              "w": 8,
+              "l": 4,
+              "p": 0,
+              "rate": 66.7,
+              "n": 12,
+              "scope": "equipo, 2002–presente"
+            },
+            {
+              "id": "home_away",
+              "label": "En esta condición de local/visitante",
+              "w": 97,
+              "l": 95,
+              "p": 6,
+              "rate": 50.5,
+              "n": 198,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "favorite",
+              "label": "Cuando era favorito",
+              "w": 102,
+              "l": 102,
+              "p": 3,
+              "rate": 50.0,
+              "n": 207,
               "scope": "equipo, desde 2002"
             }
           ]
@@ -1720,122 +1587,172 @@
       ]
     },
     {
-      "game_id": "2026_09_BUF_MIN",
-      "date": "2026-11-09",
-      "week": 9,
-      "home": "MIN",
-      "away": "BUF",
-      "market_reference_spread_home": -3.0,
+      "game_id": "2026_10_LAC_BAL",
+      "date": "2026-11-16",
+      "week": 10,
+      "home": "BAL",
+      "away": "LAC",
+      "market_reference_spread_home": 4.5,
       "market_reference_verified_live": false,
       "teams": [
         {
-          "team": "MIN",
+          "team": "BAL",
           "side": "home",
           "trends": [
             {
               "id": "recent12",
               "label": "Últimos 12 partidos (ATS)",
-              "w": 9,
-              "l": 3,
-              "p": 0,
-              "rate": 75.0,
+              "w": 3,
+              "l": 8,
+              "p": 1,
+              "rate": 27.3,
               "n": 12,
               "scope": "equipo, 2002–presente"
             },
             {
               "id": "home_away",
               "label": "En esta condición de local/visitante",
-              "w": 104,
-              "l": 89,
-              "p": 4,
-              "rate": 53.9,
-              "n": 197,
+              "w": 95,
+              "l": 99,
+              "p": 5,
+              "rate": 49.0,
+              "n": 199,
               "scope": "equipo, desde 2002"
             },
             {
               "id": "prior_loss",
               "label": "Después de perder",
-              "w": 96,
-              "l": 78,
+              "w": 82,
+              "l": 75,
               "p": 6,
-              "rate": 55.2,
-              "n": 180,
+              "rate": 52.2,
+              "n": 163,
               "scope": "equipo, desde 2002"
             },
             {
               "id": "prior_ats_loss",
               "label": "Después de no cubrir el spread",
-              "w": 94,
-              "l": 82,
+              "w": 98,
+              "l": 86,
               "p": 5,
-              "rate": 53.4,
-              "n": 181,
+              "rate": 53.3,
+              "n": 189,
               "scope": "equipo, desde 2002"
             },
             {
               "id": "prior_two_ats_losses",
               "label": "Después de 2 partidos sin cubrir",
               "w": 43,
-              "l": 37,
-              "p": 1,
-              "rate": 53.8,
-              "n": 81,
+              "l": 40,
+              "p": 2,
+              "rate": 51.8,
+              "n": 85,
               "scope": "equipo, desde 2002"
             },
             {
-              "id": "home_after_away_loss",
-              "label": "Local después de perder de visitante",
-              "w": 43,
-              "l": 33,
-              "p": 1,
-              "rate": 56.6,
-              "n": 77,
+              "id": "prior_big_loss",
+              "label": "Después de perder por 14+ puntos",
+              "w": 20,
+              "l": 20,
+              "p": 0,
+              "rate": 50.0,
+              "n": 40,
               "scope": "equipo, desde 2002"
             },
             {
-              "id": "underdog",
-              "label": "Cuando era underdog",
-              "w": 93,
-              "l": 84,
-              "p": 6,
-              "rate": 52.5,
-              "n": 183,
+              "id": "long_rest",
+              "label": "Con descanso largo (≥9 días)",
+              "w": 27,
+              "l": 16,
+              "p": 2,
+              "rate": 62.8,
+              "n": 45,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "favorite",
+              "label": "Cuando era favorito",
+              "w": 127,
+              "l": 127,
+              "p": 8,
+              "rate": 50.0,
+              "n": 262,
               "scope": "equipo, desde 2002"
             }
           ]
         },
         {
-          "team": "BUF",
+          "team": "LAC",
           "side": "away",
           "trends": [
             {
               "id": "recent12",
               "label": "Últimos 12 partidos (ATS)",
-              "w": 7,
-              "l": 5,
-              "p": 0,
-              "rate": 58.3,
+              "w": 2,
+              "l": 9,
+              "p": 1,
+              "rate": 18.2,
               "n": 12,
               "scope": "equipo, 2002–presente"
             },
             {
               "id": "home_away",
               "label": "En esta condición de local/visitante",
-              "w": 100,
-              "l": 89,
-              "p": 7,
-              "rate": 52.9,
-              "n": 196,
+              "w": 43,
+              "l": 31,
+              "p": 4,
+              "rate": 58.1,
+              "n": 78,
               "scope": "equipo, desde 2002"
             },
             {
-              "id": "favorite",
-              "label": "Cuando era favorito",
-              "w": 104,
-              "l": 88,
-              "p": 5,
-              "rate": 54.2,
-              "n": 197,
+              "id": "prior_loss",
+              "label": "Después de perder",
+              "w": 35,
+              "l": 39,
+              "p": 3,
+              "rate": 47.3,
+              "n": 77,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "prior_ats_loss",
+              "label": "Después de no cubrir el spread",
+              "w": 34,
+              "l": 36,
+              "p": 3,
+              "rate": 48.6,
+              "n": 73,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "prior_two_ats_losses",
+              "label": "Después de 2 partidos sin cubrir",
+              "w": 17,
+              "l": 15,
+              "p": 3,
+              "rate": 53.1,
+              "n": 35,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "prior_big_loss",
+              "label": "Después de perder por 14+ puntos",
+              "w": 9,
+              "l": 9,
+              "p": 0,
+              "rate": 50.0,
+              "n": 18,
+              "scope": "equipo, desde 2002"
+            },
+            {
+              "id": "underdog",
+              "label": "Cuando era underdog",
+              "w": 30,
+              "l": 26,
+              "p": 4,
+              "rate": 53.6,
+              "n": 60,
               "scope": "equipo, desde 2002"
             }
           ]
@@ -1844,10 +1761,10 @@
     }
   ],
   "audit": {
-    "games": 14,
-    "trend_records": 151,
+    "games": 13,
+    "trend_records": 145,
     "historical_seasons": 25,
-    "historical_played_games_with_spreads": 6345,
+    "historical_played_games_with_spreads": 6360,
     "passed": true
   }
 }
