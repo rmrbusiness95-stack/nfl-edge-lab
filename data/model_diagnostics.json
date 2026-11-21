@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-16T23:57:58.687364+00:00",
+  "generated_at_utc": "2026-11-21T02:59:23.520359+00:00",
   "source": "team_week_stats + nflverse games.csv",
   "feature_window": 8,
   "min_prior_games": 4,
@@ -39,16 +39,6 @@
   },
   "prospective": [
     {
-      "game_id": "2026_10_LAC_BAL",
-      "season": 2026,
-      "week": 10,
-      "home_team": "BAL",
-      "away_team": "LAC",
-      "home_margin_projection": 6.68,
-      "game_total_projection": 39.52,
-      "status": "experimental_unvalidated"
-    },
-    {
       "game_id": "2026_11_ARI_KC",
       "season": 2026,
       "week": 11,
@@ -76,16 +66,6 @@
       "away_team": "CIN",
       "home_margin_projection": -6.73,
       "game_total_projection": 50.21,
-      "status": "experimental_unvalidated"
-    },
-    {
-      "game_id": "2026_11_IND_HOU",
-      "season": 2026,
-      "week": 11,
-      "home_team": "HOU",
-      "away_team": "IND",
-      "home_margin_projection": 7.45,
-      "game_total_projection": 41.73,
       "status": "experimental_unvalidated"
     },
     {
