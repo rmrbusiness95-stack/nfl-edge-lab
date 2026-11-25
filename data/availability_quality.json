@@ -1,40 +1,36 @@
 {
   "season": 2026,
-  "checked_at_utc": "2026-11-24T23:26:46.033126+00:00",
-  "input_generated_at_utc": "2026-11-24T23:26:45.645454+00:00",
+  "checked_at_utc": "2026-11-25T23:01:41.680505+00:00",
+  "input_generated_at_utc": "2026-11-25T23:01:41.298635+00:00",
   "qb_teams": 32,
-  "qb_candidate_records": 95,
-  "latest_injury_week_in_dataset": 11,
-  "latest_week_injury_records": 313,
+  "qb_candidate_records": 96,
+  "latest_injury_week_in_dataset": 12,
+  "latest_week_injury_records": 104,
   "latest_week_injury_teams": 32,
-  "latest_week_rows_without_verifiable_report_date": 313,
+  "latest_week_rows_without_verifiable_report_date": 104,
   "injury_dataset_week_is_next_game_week": "unknown",
   "starter_confirmation_available": false,
   "ready_for_betting_model": false,
   "warnings": [
-    "313 reportes de la última semana disponible no tienen fecha verificable."
+    "104 reportes de la última semana disponible no tienen fecha verificable."
   ],
   "teams": {
     "ARI": {
       "qb_candidates": 4,
-      "depth_chart_snapshot_at_utc": "2026-11-24T18:50:30+00:00",
-      "depth_chart_age_hours": 4.6,
+      "depth_chart_snapshot_at_utc": "2026-11-25T17:56:34+00:00",
+      "depth_chart_age_hours": 5.1,
       "qb_starter_confirmed": false,
-      "injury_report_week": 11,
-      "injury_report_rows_in_latest_dataset_week": 13,
-      "game_designations_in_latest_dataset_week": {
-        "no designation": 10,
-        "Out": 2,
-        "Questionable": 1
-      },
+      "injury_report_week": null,
+      "injury_report_rows_in_latest_dataset_week": 0,
+      "game_designations_in_latest_dataset_week": {},
       "injury_report_date_known": false,
       "current_game_status_confirmed": false,
       "safe_to_adjust_betting_lines": false
     },
     "ATL": {
       "qb_candidates": 4,
-      "depth_chart_snapshot_at_utc": "2026-11-24T18:50:30+00:00",
-      "depth_chart_age_hours": 4.6,
+      "depth_chart_snapshot_at_utc": "2026-11-25T17:56:34+00:00",
+      "depth_chart_age_hours": 5.1,
       "qb_starter_confirmed": false,
       "injury_report_week": null,
       "injury_report_rows_in_latest_dataset_week": 0,
@@ -45,31 +41,25 @@
     },
     "BAL": {
       "qb_candidates": 5,
-      "depth_chart_snapshot_at_utc": "2026-11-24T18:50:30+00:00",
-      "depth_chart_age_hours": 4.6,
+      "depth_chart_snapshot_at_utc": "2026-11-25T17:56:34+00:00",
+      "depth_chart_age_hours": 5.1,
       "qb_starter_confirmed": false,
-      "injury_report_week": 11,
-      "injury_report_rows_in_latest_dataset_week": 10,
-      "game_designations_in_latest_dataset_week": {
-        "no designation": 7,
-        "Out": 3
-      },
+      "injury_report_week": null,
+      "injury_report_rows_in_latest_dataset_week": 0,
+      "game_designations_in_latest_dataset_week": {},
       "injury_report_date_known": false,
       "current_game_status_confirmed": false,
       "safe_to_adjust_betting_lines": false
     },
     "BUF": {
       "qb_candidates": 2,
-      "depth_chart_snapshot_at_utc": "2026-11-24T18:50:30+00:00",
-      "depth_chart_age_hours": 4.6,
+      "depth_chart_snapshot_at_utc": "2026-11-25T17:56:34+00:00",
+      "depth_chart_age_hours": 5.1,
       "qb_starter_confirmed": false,
-      "injury_report_week": 11,
-      "injury_report_rows_in_latest_dataset_week": 16,
+      "injury_report_week": 12,
+      "injury_report_rows_in_latest_dataset_week": 14,
       "game_designations_in_latest_dataset_week": {
-        "no designation": 10,
-        "Questionable": 3,
-        "Out": 2,
-        "Doubtful": 1
+        "no designation": 14
       },
       "injury_report_date_known": false,
       "current_game_status_confirmed": false,
@@ -77,31 +67,25 @@
     },
     "CAR": {
       "qb_candidates": 3,
-      "depth_chart_snapshot_at_utc": "2026-11-24T18:50:30+00:00",
-      "depth_chart_age_hours": 4.6,
+      "depth_chart_snapshot_at_utc": "2026-11-25T17:56:34+00:00",
+      "depth_chart_age_hours": 5.1,
       "qb_starter_confirmed": false,
-      "injury_report_week": 11,
-      "injury_report_rows_in_latest_dataset_week": 13,
-      "game_designations_in_latest_dataset_week": {
-        "Questionable": 5,
-        "Out": 2,
-        "no designation": 6
-      },
+      "injury_report_week": null,
+      "injury_report_rows_in_latest_dataset_week": 0,
+      "game_designations_in_latest_dataset_week": {},
       "injury_report_date_known": false,
       "current_game_status_confirmed": false,
       "safe_to_adjust_betting_lines": false
     },
     "CHI": {
       "qb_candidates": 3,
-      "depth_chart_snapshot_at_utc": "2026-11-24T18:50:30+00:00",
-      "depth_chart_age_hours": 4.6,
+      "depth_chart_snapshot_at_utc": "2026-11-25T17:56:34+00:00",
+      "depth_chart_age_hours": 5.1,
       "qb_starter_confirmed": false,
-      "injury_report_week": 11,
-      "injury_report_rows_in_latest_dataset_week": 6,
+      "injury_report_week": 12,
+      "injury_report_rows_in_latest_dataset_week": 5,
       "game_designations_in_latest_dataset_week": {
-        "no designation": 4,
-        "Out": 1,
-        "Questionable": 1
+        "no designation": 5
       },
       "injury_report_date_known": false,
       "current_game_status_confirmed": false,
@@ -109,25 +93,20 @@
     },
     "CIN": {
       "qb_candidates": 2,
-      "depth_chart_snapshot_at_utc": "2026-11-24T18:50:30+00:00",
-      "depth_chart_age_hours": 4.6,
+      "depth_chart_snapshot_at_utc": "2026-11-25T17:56:34+00:00",
+      "depth_chart_age_hours": 5.1,
       "qb_starter_confirmed": false,
-      "injury_report_week": 11,
-      "injury_report_rows_in_latest_dataset_week": 16,
-      "game_designations_in_latest_dataset_week": {
-        "no designation": 7,
-        "Doubtful": 2,
-        "Out": 2,
-        "Questionable": 5
-      },
+      "injury_report_week": null,
+      "injury_report_rows_in_latest_dataset_week": 0,
+      "game_designations_in_latest_dataset_week": {},
       "injury_report_date_known": false,
       "current_game_status_confirmed": false,
       "safe_to_adjust_betting_lines": false
     },
     "CLE": {
       "qb_candidates": 4,
-      "depth_chart_snapshot_at_utc": "2026-11-24T18:50:30+00:00",
-      "depth_chart_age_hours": 4.6,
+      "depth_chart_snapshot_at_utc": "2026-11-25T17:56:34+00:00",
+      "depth_chart_age_hours": 5.1,
       "qb_starter_confirmed": false,
       "injury_report_week": null,
       "injury_report_rows_in_latest_dataset_week": 0,
@@ -138,15 +117,13 @@
     },
     "DAL": {
       "qb_candidates": 2,
-      "depth_chart_snapshot_at_utc": "2026-11-24T18:50:30+00:00",
-      "depth_chart_age_hours": 4.6,
+      "depth_chart_snapshot_at_utc": "2026-11-25T17:56:34+00:00",
+      "depth_chart_age_hours": 5.1,
       "qb_starter_confirmed": false,
-      "injury_report_week": 11,
-      "injury_report_rows_in_latest_dataset_week": 17,
+      "injury_report_week": 12,
+      "injury_report_rows_in_latest_dataset_week": 13,
       "game_designations_in_latest_dataset_week": {
-        "no designation": 8,
-        "Out": 5,
-        "Questionable": 4
+        "no designation": 13
       },
       "injury_report_date_known": false,
       "current_game_status_confirmed": false,
@@ -154,15 +131,13 @@
     },
     "DEN": {
       "qb_candidates": 3,
-      "depth_chart_snapshot_at_utc": "2026-11-24T18:50:30+00:00",
-      "depth_chart_age_hours": 4.6,
+      "depth_chart_snapshot_at_utc": "2026-11-25T17:56:34+00:00",
+      "depth_chart_age_hours": 5.1,
       "qb_starter_confirmed": false,
-      "injury_report_week": 11,
-      "injury_report_rows_in_latest_dataset_week": 9,
+      "injury_report_week": 12,
+      "injury_report_rows_in_latest_dataset_week": 8,
       "game_designations_in_latest_dataset_week": {
-        "no designation": 7,
-        "Questionable": 1,
-        "Out": 1
+        "no designation": 8
       },
       "injury_report_date_known": false,
       "current_game_status_confirmed": false,
@@ -170,15 +145,13 @@
     },
     "DET": {
       "qb_candidates": 2,
-      "depth_chart_snapshot_at_utc": "2026-11-24T18:50:30+00:00",
-      "depth_chart_age_hours": 4.6,
+      "depth_chart_snapshot_at_utc": "2026-11-25T17:56:34+00:00",
+      "depth_chart_age_hours": 5.1,
       "qb_starter_confirmed": false,
-      "injury_report_week": 11,
-      "injury_report_rows_in_latest_dataset_week": 9,
+      "injury_report_week": 12,
+      "injury_report_rows_in_latest_dataset_week": 7,
       "game_designations_in_latest_dataset_week": {
-        "Questionable": 6,
-        "Out": 1,
-        "no designation": 2
+        "no designation": 7
       },
       "injury_report_date_known": false,
       "current_game_status_confirmed": false,
@@ -186,8 +159,23 @@
     },
     "GB": {
       "qb_candidates": 2,
-      "depth_chart_snapshot_at_utc": "2026-11-24T18:50:30+00:00",
-      "depth_chart_age_hours": 4.6,
+      "depth_chart_snapshot_at_utc": "2026-11-25T17:56:34+00:00",
+      "depth_chart_age_hours": 5.1,
+      "qb_starter_confirmed": false,
+      "injury_report_week": 12,
+      "injury_report_rows_in_latest_dataset_week": 11,
+      "game_designations_in_latest_dataset_week": {
+        "Questionable": 8,
+        "no designation": 3
+      },
+      "injury_report_date_known": false,
+      "current_game_status_confirmed": false,
+      "safe_to_adjust_betting_lines": false
+    },
+    "HOU": {
+      "qb_candidates": 3,
+      "depth_chart_snapshot_at_utc": "2026-11-25T17:56:34+00:00",
+      "depth_chart_age_hours": 5.1,
       "qb_starter_confirmed": false,
       "injury_report_week": null,
       "injury_report_rows_in_latest_dataset_week": 0,
@@ -196,65 +184,39 @@
       "current_game_status_confirmed": false,
       "safe_to_adjust_betting_lines": false
     },
-    "HOU": {
-      "qb_candidates": 3,
-      "depth_chart_snapshot_at_utc": "2026-11-24T18:50:30+00:00",
-      "depth_chart_age_hours": 4.6,
-      "qb_starter_confirmed": false,
-      "injury_report_week": 11,
-      "injury_report_rows_in_latest_dataset_week": 15,
-      "game_designations_in_latest_dataset_week": {
-        "Out": 4,
-        "Questionable": 3,
-        "no designation": 8
-      },
-      "injury_report_date_known": false,
-      "current_game_status_confirmed": false,
-      "safe_to_adjust_betting_lines": false
-    },
     "IND": {
-      "qb_candidates": 2,
-      "depth_chart_snapshot_at_utc": "2026-11-24T18:50:30+00:00",
-      "depth_chart_age_hours": 4.6,
+      "qb_candidates": 3,
+      "depth_chart_snapshot_at_utc": "2026-11-25T17:56:34+00:00",
+      "depth_chart_age_hours": 5.1,
       "qb_starter_confirmed": false,
-      "injury_report_week": 11,
-      "injury_report_rows_in_latest_dataset_week": 11,
-      "game_designations_in_latest_dataset_week": {
-        "Questionable": 3,
-        "Out": 5,
-        "no designation": 3
-      },
+      "injury_report_week": null,
+      "injury_report_rows_in_latest_dataset_week": 0,
+      "game_designations_in_latest_dataset_week": {},
       "injury_report_date_known": false,
       "current_game_status_confirmed": false,
       "safe_to_adjust_betting_lines": false
     },
     "JAX": {
       "qb_candidates": 2,
-      "depth_chart_snapshot_at_utc": "2026-11-24T18:50:30+00:00",
-      "depth_chart_age_hours": 4.6,
+      "depth_chart_snapshot_at_utc": "2026-11-25T17:56:34+00:00",
+      "depth_chart_age_hours": 5.1,
       "qb_starter_confirmed": false,
-      "injury_report_week": 11,
-      "injury_report_rows_in_latest_dataset_week": 14,
-      "game_designations_in_latest_dataset_week": {
-        "no designation": 10,
-        "Questionable": 2,
-        "Out": 2
-      },
+      "injury_report_week": null,
+      "injury_report_rows_in_latest_dataset_week": 0,
+      "game_designations_in_latest_dataset_week": {},
       "injury_report_date_known": false,
       "current_game_status_confirmed": false,
       "safe_to_adjust_betting_lines": false
     },
     "KC": {
       "qb_candidates": 3,
-      "depth_chart_snapshot_at_utc": "2026-11-24T18:50:30+00:00",
-      "depth_chart_age_hours": 4.6,
+      "depth_chart_snapshot_at_utc": "2026-11-25T17:56:34+00:00",
+      "depth_chart_age_hours": 5.1,
       "qb_starter_confirmed": false,
-      "injury_report_week": 11,
-      "injury_report_rows_in_latest_dataset_week": 15,
+      "injury_report_week": 12,
+      "injury_report_rows_in_latest_dataset_week": 10,
       "game_designations_in_latest_dataset_week": {
-        "no designation": 10,
-        "Out": 3,
-        "Questionable": 2
+        "no designation": 10
       },
       "injury_report_date_known": false,
       "current_game_status_confirmed": false,
@@ -262,8 +224,23 @@
     },
     "LA": {
       "qb_candidates": 4,
-      "depth_chart_snapshot_at_utc": "2026-11-24T18:50:30+00:00",
-      "depth_chart_age_hours": 4.6,
+      "depth_chart_snapshot_at_utc": "2026-11-25T17:56:34+00:00",
+      "depth_chart_age_hours": 5.1,
+      "qb_starter_confirmed": false,
+      "injury_report_week": 12,
+      "injury_report_rows_in_latest_dataset_week": 17,
+      "game_designations_in_latest_dataset_week": {
+        "no designation": 14,
+        "Out": 3
+      },
+      "injury_report_date_known": false,
+      "current_game_status_confirmed": false,
+      "safe_to_adjust_betting_lines": false
+    },
+    "LAC": {
+      "qb_candidates": 3,
+      "depth_chart_snapshot_at_utc": "2026-11-25T17:56:34+00:00",
+      "depth_chart_age_hours": 5.1,
       "qb_starter_confirmed": false,
       "injury_report_week": null,
       "injury_report_rows_in_latest_dataset_week": 0,
@@ -272,76 +249,46 @@
       "current_game_status_confirmed": false,
       "safe_to_adjust_betting_lines": false
     },
-    "LAC": {
-      "qb_candidates": 3,
-      "depth_chart_snapshot_at_utc": "2026-11-24T18:50:30+00:00",
-      "depth_chart_age_hours": 4.6,
-      "qb_starter_confirmed": false,
-      "injury_report_week": 11,
-      "injury_report_rows_in_latest_dataset_week": 14,
-      "game_designations_in_latest_dataset_week": {
-        "no designation": 5,
-        "Questionable": 5,
-        "Out": 3,
-        "Doubtful": 1
-      },
-      "injury_report_date_known": false,
-      "current_game_status_confirmed": false,
-      "safe_to_adjust_betting_lines": false
-    },
     "LV": {
       "qb_candidates": 2,
-      "depth_chart_snapshot_at_utc": "2026-11-24T18:50:30+00:00",
-      "depth_chart_age_hours": 4.6,
+      "depth_chart_snapshot_at_utc": "2026-11-25T17:56:34+00:00",
+      "depth_chart_age_hours": 5.1,
       "qb_starter_confirmed": false,
-      "injury_report_week": 11,
-      "injury_report_rows_in_latest_dataset_week": 7,
-      "game_designations_in_latest_dataset_week": {
-        "Questionable": 3,
-        "no designation": 3,
-        "Out": 1
-      },
+      "injury_report_week": null,
+      "injury_report_rows_in_latest_dataset_week": 0,
+      "game_designations_in_latest_dataset_week": {},
       "injury_report_date_known": false,
       "current_game_status_confirmed": false,
       "safe_to_adjust_betting_lines": false
     },
     "MIA": {
       "qb_candidates": 3,
-      "depth_chart_snapshot_at_utc": "2026-11-24T18:50:30+00:00",
-      "depth_chart_age_hours": 4.6,
+      "depth_chart_snapshot_at_utc": "2026-11-25T17:56:34+00:00",
+      "depth_chart_age_hours": 5.1,
       "qb_starter_confirmed": false,
-      "injury_report_week": 11,
-      "injury_report_rows_in_latest_dataset_week": 12,
-      "game_designations_in_latest_dataset_week": {
-        "Out": 2,
-        "Questionable": 3,
-        "no designation": 5,
-        "Doubtful": 2
-      },
+      "injury_report_week": null,
+      "injury_report_rows_in_latest_dataset_week": 0,
+      "game_designations_in_latest_dataset_week": {},
       "injury_report_date_known": false,
       "current_game_status_confirmed": false,
       "safe_to_adjust_betting_lines": false
     },
     "MIN": {
       "qb_candidates": 4,
-      "depth_chart_snapshot_at_utc": "2026-11-24T18:50:30+00:00",
-      "depth_chart_age_hours": 4.6,
+      "depth_chart_snapshot_at_utc": "2026-11-25T17:56:34+00:00",
+      "depth_chart_age_hours": 5.1,
       "qb_starter_confirmed": false,
-      "injury_report_week": 11,
-      "injury_report_rows_in_latest_dataset_week": 13,
-      "game_designations_in_latest_dataset_week": {
-        "no designation": 9,
-        "Out": 2,
-        "Questionable": 2
-      },
+      "injury_report_week": null,
+      "injury_report_rows_in_latest_dataset_week": 0,
+      "game_designations_in_latest_dataset_week": {},
       "injury_report_date_known": false,
       "current_game_status_confirmed": false,
       "safe_to_adjust_betting_lines": false
     },
     "NE": {
       "qb_candidates": 3,
-      "depth_chart_snapshot_at_utc": "2026-11-24T18:50:30+00:00",
-      "depth_chart_age_hours": 4.6,
+      "depth_chart_snapshot_at_utc": "2026-11-25T17:56:34+00:00",
+      "depth_chart_age_hours": 5.1,
       "qb_starter_confirmed": false,
       "injury_report_week": null,
       "injury_report_rows_in_latest_dataset_week": 0,
@@ -352,62 +299,49 @@
     },
     "NO": {
       "qb_candidates": 3,
-      "depth_chart_snapshot_at_utc": "2026-11-24T18:50:30+00:00",
-      "depth_chart_age_hours": 4.6,
+      "depth_chart_snapshot_at_utc": "2026-11-25T17:56:34+00:00",
+      "depth_chart_age_hours": 5.1,
       "qb_starter_confirmed": false,
-      "injury_report_week": 11,
-      "injury_report_rows_in_latest_dataset_week": 11,
-      "game_designations_in_latest_dataset_week": {
-        "no designation": 4,
-        "Out": 5,
-        "Questionable": 2
-      },
+      "injury_report_week": null,
+      "injury_report_rows_in_latest_dataset_week": 0,
+      "game_designations_in_latest_dataset_week": {},
       "injury_report_date_known": false,
       "current_game_status_confirmed": false,
       "safe_to_adjust_betting_lines": false
     },
     "NYG": {
       "qb_candidates": 3,
-      "depth_chart_snapshot_at_utc": "2026-11-24T18:50:30+00:00",
-      "depth_chart_age_hours": 4.6,
+      "depth_chart_snapshot_at_utc": "2026-11-25T17:56:34+00:00",
+      "depth_chart_age_hours": 5.1,
       "qb_starter_confirmed": false,
-      "injury_report_week": 11,
-      "injury_report_rows_in_latest_dataset_week": 8,
-      "game_designations_in_latest_dataset_week": {
-        "no designation": 8
-      },
+      "injury_report_week": null,
+      "injury_report_rows_in_latest_dataset_week": 0,
+      "game_designations_in_latest_dataset_week": {},
       "injury_report_date_known": false,
       "current_game_status_confirmed": false,
       "safe_to_adjust_betting_lines": false
     },
     "NYJ": {
       "qb_candidates": 2,
-      "depth_chart_snapshot_at_utc": "2026-11-24T18:50:30+00:00",
-      "depth_chart_age_hours": 4.6,
+      "depth_chart_snapshot_at_utc": "2026-11-25T17:56:34+00:00",
+      "depth_chart_age_hours": 5.1,
       "qb_starter_confirmed": false,
-      "injury_report_week": 11,
-      "injury_report_rows_in_latest_dataset_week": 8,
-      "game_designations_in_latest_dataset_week": {
-        "no designation": 1,
-        "Out": 3,
-        "Questionable": 4
-      },
+      "injury_report_week": null,
+      "injury_report_rows_in_latest_dataset_week": 0,
+      "game_designations_in_latest_dataset_week": {},
       "injury_report_date_known": false,
       "current_game_status_confirmed": false,
       "safe_to_adjust_betting_lines": false
     },
     "PHI": {
       "qb_candidates": 4,
-      "depth_chart_snapshot_at_utc": "2026-11-24T18:50:30+00:00",
-      "depth_chart_age_hours": 4.6,
+      "depth_chart_snapshot_at_utc": "2026-11-25T17:56:34+00:00",
+      "depth_chart_age_hours": 5.1,
       "qb_starter_confirmed": false,
-      "injury_report_week": 11,
-      "injury_report_rows_in_latest_dataset_week": 15,
+      "injury_report_week": 12,
+      "injury_report_rows_in_latest_dataset_week": 14,
       "game_designations_in_latest_dataset_week": {
-        "no designation": 11,
-        "Out": 2,
-        "Questionable": 1,
-        "Doubtful": 1
+        "no designation": 14
       },
       "injury_report_date_known": false,
       "current_game_status_confirmed": false,
@@ -415,14 +349,13 @@
     },
     "PIT": {
       "qb_candidates": 4,
-      "depth_chart_snapshot_at_utc": "2026-11-24T18:50:30+00:00",
-      "depth_chart_age_hours": 4.6,
+      "depth_chart_snapshot_at_utc": "2026-11-25T17:56:34+00:00",
+      "depth_chart_age_hours": 5.1,
       "qb_starter_confirmed": false,
-      "injury_report_week": 11,
-      "injury_report_rows_in_latest_dataset_week": 10,
+      "injury_report_week": 12,
+      "injury_report_rows_in_latest_dataset_week": 5,
       "game_designations_in_latest_dataset_week": {
-        "no designation": 4,
-        "Questionable": 6
+        "no designation": 5
       },
       "injury_report_date_known": false,
       "current_game_status_confirmed": false,
@@ -430,8 +363,8 @@
     },
     "SEA": {
       "qb_candidates": 3,
-      "depth_chart_snapshot_at_utc": "2026-11-24T18:50:30+00:00",
-      "depth_chart_age_hours": 4.6,
+      "depth_chart_snapshot_at_utc": "2026-11-25T17:56:34+00:00",
+      "depth_chart_age_hours": 5.1,
       "qb_starter_confirmed": false,
       "injury_report_week": null,
       "injury_report_rows_in_latest_dataset_week": 0,
@@ -442,62 +375,48 @@
     },
     "SF": {
       "qb_candidates": 3,
-      "depth_chart_snapshot_at_utc": "2026-11-24T18:50:30+00:00",
-      "depth_chart_age_hours": 4.6,
+      "depth_chart_snapshot_at_utc": "2026-11-25T17:56:34+00:00",
+      "depth_chart_age_hours": 5.1,
       "qb_starter_confirmed": false,
-      "injury_report_week": 11,
-      "injury_report_rows_in_latest_dataset_week": 16,
-      "game_designations_in_latest_dataset_week": {
-        "no designation": 7,
-        "Questionable": 9
-      },
+      "injury_report_week": null,
+      "injury_report_rows_in_latest_dataset_week": 0,
+      "game_designations_in_latest_dataset_week": {},
       "injury_report_date_known": false,
       "current_game_status_confirmed": false,
       "safe_to_adjust_betting_lines": false
     },
     "TB": {
       "qb_candidates": 3,
-      "depth_chart_snapshot_at_utc": "2026-11-24T18:50:30+00:00",
-      "depth_chart_age_hours": 4.6,
+      "depth_chart_snapshot_at_utc": "2026-11-25T17:56:34+00:00",
+      "depth_chart_age_hours": 5.1,
       "qb_starter_confirmed": false,
-      "injury_report_week": 11,
-      "injury_report_rows_in_latest_dataset_week": 9,
-      "game_designations_in_latest_dataset_week": {
-        "no designation": 5,
-        "Questionable": 2,
-        "Out": 2
-      },
+      "injury_report_week": null,
+      "injury_report_rows_in_latest_dataset_week": 0,
+      "game_designations_in_latest_dataset_week": {},
       "injury_report_date_known": false,
       "current_game_status_confirmed": false,
       "safe_to_adjust_betting_lines": false
     },
     "TEN": {
       "qb_candidates": 2,
-      "depth_chart_snapshot_at_utc": "2026-11-24T18:50:30+00:00",
-      "depth_chart_age_hours": 4.6,
+      "depth_chart_snapshot_at_utc": "2026-11-25T17:56:34+00:00",
+      "depth_chart_age_hours": 5.1,
       "qb_starter_confirmed": false,
-      "injury_report_week": 11,
-      "injury_report_rows_in_latest_dataset_week": 11,
-      "game_designations_in_latest_dataset_week": {
-        "no designation": 5,
-        "Questionable": 5,
-        "Out": 1
-      },
+      "injury_report_week": null,
+      "injury_report_rows_in_latest_dataset_week": 0,
+      "game_designations_in_latest_dataset_week": {},
       "injury_report_date_known": false,
       "current_game_status_confirmed": false,
       "safe_to_adjust_betting_lines": false
     },
     "WAS": {
       "qb_candidates": 3,
-      "depth_chart_snapshot_at_utc": "2026-11-24T18:50:30+00:00",
-      "depth_chart_age_hours": 4.6,
+      "depth_chart_snapshot_at_utc": "2026-11-25T17:56:34+00:00",
+      "depth_chart_age_hours": 5.1,
       "qb_starter_confirmed": false,
-      "injury_report_week": 11,
-      "injury_report_rows_in_latest_dataset_week": 15,
-      "game_designations_in_latest_dataset_week": {
-        "no designation": 11,
-        "Questionable": 4
-      },
+      "injury_report_week": null,
+      "injury_report_rows_in_latest_dataset_week": 0,
+      "game_designations_in_latest_dataset_week": {},
       "injury_report_date_known": false,
       "current_game_status_confirmed": false,
       "safe_to_adjust_betting_lines": false
