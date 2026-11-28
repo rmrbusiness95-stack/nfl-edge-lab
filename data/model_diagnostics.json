@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-11-24T02:44:13.322293+00:00",
+  "generated_at_utc": "2026-11-28T03:44:35.191326+00:00",
   "source": "team_week_stats + nflverse games.csv",
   "feature_window": 8,
   "min_prior_games": 4,
@@ -39,16 +39,6 @@
   },
   "prospective": [
     {
-      "game_id": "2026_11_CIN_WAS",
-      "season": 2026,
-      "week": 11,
-      "home_team": "WAS",
-      "away_team": "CIN",
-      "home_margin_projection": -6.49,
-      "game_total_projection": 50.4,
-      "status": "experimental_unvalidated"
-    },
-    {
       "game_id": "2026_12_ATL_MIN",
       "season": 2026,
       "week": 12,
@@ -76,46 +66,6 @@
       "away_team": "CAR",
       "home_margin_projection": 2.67,
       "game_total_projection": 44.29,
-      "status": "experimental_unvalidated"
-    },
-    {
-      "game_id": "2026_12_CHI_DET",
-      "season": 2026,
-      "week": 12,
-      "home_team": "DET",
-      "away_team": "CHI",
-      "home_margin_projection": 5.78,
-      "game_total_projection": 47.6,
-      "status": "experimental_unvalidated"
-    },
-    {
-      "game_id": "2026_12_DEN_PIT",
-      "season": 2026,
-      "week": 12,
-      "home_team": "PIT",
-      "away_team": "DEN",
-      "home_margin_projection": 3.79,
-      "game_total_projection": 45.92,
-      "status": "experimental_unvalidated"
-    },
-    {
-      "game_id": "2026_12_GB_LA",
-      "season": 2026,
-      "week": 12,
-      "home_team": "LA",
-      "away_team": "GB",
-      "home_margin_projection": 7.89,
-      "game_total_projection": 46.62,
-      "status": "experimental_unvalidated"
-    },
-    {
-      "game_id": "2026_12_KC_BUF",
-      "season": 2026,
-      "week": 12,
-      "home_team": "BUF",
-      "away_team": "KC",
-      "home_margin_projection": 1.98,
-      "game_total_projection": 48.54,
       "status": "experimental_unvalidated"
     },
     {
@@ -166,16 +116,6 @@
       "away_team": "NYJ",
       "home_margin_projection": -3.49,
       "game_total_projection": 45.82,
-      "status": "experimental_unvalidated"
-    },
-    {
-      "game_id": "2026_12_PHI_DAL",
-      "season": 2026,
-      "week": 12,
-      "home_team": "DAL",
-      "away_team": "PHI",
-      "home_margin_projection": 11.52,
-      "game_total_projection": 44.61,
       "status": "experimental_unvalidated"
     },
     {
